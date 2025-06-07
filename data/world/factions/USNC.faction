@@ -47,17 +47,19 @@
   "knownShips": {
     "tags": ["USNC"],
 		"hulls":[
-			"on_fletcher",
 			"on_liberty",
-
+			"on_lst",
+			"on_butler",
+			"on_fletcher",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
     "tags": ["USNC"],
     "hulls": [
-			"on_fletcher",
+			"on_lst",
 			"on_butler",
+			"on_fletcher",
 			
       ],		
   },

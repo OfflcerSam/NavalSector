@@ -25,7 +25,7 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
-
+			"on_lst_support":2,
 	},
 	"combatFreighterMedium":{
 
@@ -36,7 +36,8 @@
 
 	# carriers
 	"carrierSmall":{
-			"on_liberty_standard":2,
+			"on_liberty_standard":1,
+			"on_lst_support":5,
 	},
 	"carrierMedium":{
 
@@ -47,10 +48,16 @@
 
 	# phase ships
 	"phaseSmall":{
+
 	},
-	"personnelSmall":{	
-	},		
-	"personnelMedium":{
+	"phaseMedium":{
+
+	},
+	"phaseLarge":{
+
+	},
+	"phaseCapital":{
+
 	},
 	
 	# utility ships
@@ -64,9 +71,10 @@
 			"on_liberty_standard":10,
 	},
 	
-	# freighters and such
+	# freighters
 	"freighterSmall":{
 			"on_liberty_standard":10,
+			"on_lst_support":5,
 	},
 	"freighterMedium":{
 
@@ -75,6 +83,7 @@
 		
 	},
 	
+	#tankers
 	"tankerSmall":{
 			"on_liberty_standard":10,
 	},
@@ -84,6 +93,29 @@
 	"tankerLarge":{
 		
 	},
+	
+	#liner
+	"linerSmall":{
+		"on_lst_support":10,
+	},
+	"linerMedium":{
+
+	},
+	"linerLarge":{
+
+	},
+	
+	#personnel
+	"personnelSmall":{
+
+	},
+	"personnelMedium":{
+
+	},
+	"personnelLarge":{
+
+	},
+
 	
 	
 }
