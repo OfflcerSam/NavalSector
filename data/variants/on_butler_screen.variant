@@ -55,8 +55,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-	  "Torpedo": "hammer_single"
-	  }
+        "Torpedo": "hammer_single"
+      }
     }
   ],
   "modules": [],
