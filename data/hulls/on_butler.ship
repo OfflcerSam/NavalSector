@@ -12,7 +12,9 @@
   "shieldRadius": 97.5,
   "viewOffset": 0,
   "builtInMods": [
-    "armoredweapons"
+    "pointdefenseai",
+	"armoredweapons",
+    "escort_package"
   ],
   "builtInWeapons": {
     "50CL1": "on_Twin50cal",
