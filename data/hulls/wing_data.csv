@@ -1,4 +1,2 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-#on_example,on_example,"support1, bomber, independent_of_carrier, no_drop, rapid_reform, usncaw_package, USNC",1,,1,1,V,2000,900,0,3,SUPPORT,Support Craft,6,250,,,,,,,,,,,,,
-#on_example,on_example,"bomber1, bomber, independent_of_carrier, no_drop, rapid_reform, usncaw_package, USNC",1,,2,2,V,3000,600,0,4,BOMBER,Bomber Craft,4,300,,,,,,,,,,,,,
-#on_example,on_example,"interceptor1, interceptor, independent_of_carrier, no_drop, rapid_reform, usncaw_package, USNC",1,,0,0,V,2000,500,0,6,INTERCEPTOR,Interceptor Craft,3,200,,,,,,,,,,,,,
+on_elcopt,on_elcopt_boat,"bomber10, bomber, independent_of_carrier, rapid_reform, attack_at_an_angle, usncaw_package, USNC",1,,5,15,V,6500,1000,0,2,BOMBER,Torpedo Boat,30,4500,,,,,,,,,,,,,

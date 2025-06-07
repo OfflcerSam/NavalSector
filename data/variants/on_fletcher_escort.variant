@@ -14,7 +14,9 @@
       "mode": "LINKED",
       "weapons": {
         "FrontDeck": "on_5inch",
-        "FrontTop": "on_5inch"
+        "FrontTop": "on_5inch",
+        "TorpedoL": "on_21Mk15_rack",
+        "TorpedoR": "on_21Mk15_rack"
       }
     },
     {
@@ -59,10 +61,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "TorpedoL": "hammer_single",
-        "TorpedoR": "hammer_single"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

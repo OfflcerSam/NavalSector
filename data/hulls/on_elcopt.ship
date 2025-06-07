@@ -1,0 +1,111 @@
+{
+  "hullName": "Elco PT",
+  "hullId": "on_elcopt",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/USNC/ElcoPTBoat.png",
+  "style": "MIDLINE",
+  "height": 50,
+  "width": 14,
+  "center": [7, 25],
+  "collisionRadius": 26,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "50L": "on_Twin50cal",
+    "50R": "on_Twin50cal",
+    "OerRC": "on_Oer20mm",
+    "WS0001": "on_21Mk15_single",
+    "WS0002": "on_21Mk15_single",
+    "WS0003": "on_21Mk15_single",
+    "WS0004": "on_21Mk15_single"
+  },
+  "weaponSlots": [
+    {
+      "id": "OerRC",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 303,
+      "angle": 180,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "50R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [5, -2]
+    },
+    {
+      "id": "50L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-2, 2]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -5,
+      "locations": [9, -5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 5,
+      "locations": [9, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -5,
+      "locations": [-4.5, -5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 5,
+      "locations": [-4.5, 5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -22, 3,
+    -18, 4,
+    -10, 5,
+    11.5, 5,
+    18, 4,
+    24, -0,
+    18, -4,
+    11.5, -5,
+    -10, -5,
+    -18, -4,
+    -22, -3
+  ]
+}

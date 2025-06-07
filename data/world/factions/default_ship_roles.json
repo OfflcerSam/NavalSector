@@ -36,7 +36,7 @@
 
 	# carriers
 	"carrierSmall":{
-
+			"on_liberty_standard":2,
 	},
 	"carrierMedium":{
 

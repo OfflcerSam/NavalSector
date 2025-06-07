@@ -1,0 +1,37 @@
+{
+  "id": "on_21Mk15_single",
+  "specClass": "projectile",
+  "projectileSpecId": "on_21inch_torp",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/USNC/21inchTube.png",
+  "renderHints":[RENDER_LOADED_MISSILES],
+  "hardpointSprite": "",
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec":{"particleSizeMin":12.0,
+				 "particleSizeRange":12.0,
+				 "cloudParticleCount":6,
+				 "cloudDuration":1.5,
+				 "cloudRadius":10.0,
+				 "blowbackParticleCount":4,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":22.0,
+				 "blowbackSpread":15.0,
+				 "particleColor":[125,75,25,105]},
+  "fireSoundTwo": "atropos_fire"
+}
