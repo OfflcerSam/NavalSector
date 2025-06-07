@@ -249,18 +249,6 @@
       "locations": [-48.5, -0]
     },
     {
-      "id": "LB 1",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        82.5, -0,
-        94.5, -0
-      ]
-    },
-    {
       "id": "LB 2",
       "size": "LARGE",
       "type": "LAUNCH_BAY",

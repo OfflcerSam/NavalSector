@@ -2,7 +2,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 #USNC General Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #River,on_river,Frigate,Naval Maritime Commission,,10,5000,200,500,,100,30,,500,300,900,120,360,80,NONE,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usncg_bp, USNC",,0.6,1,4,,1941
 Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,9,6500,90,1000,,200,65,1,121,40,100,5,2,3500,NONE,,,,,,,30,105,700,300,2,40,9,25000,10,20,240,0.25,3,3,,,,,,,"CARRIER, CIVILIAN, TANKER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
-"Landing Ship, Tank",on_lst,Military Transport,Naval Maritime Commission,,12,7000,150,1000,,200,70,3,114,35,100,5,2,2500,NONE,,,,,,,30,300,350,50,2,40,9,27500,10,15,480,0.25,3,3,,,,,,,"CARRIER, LINER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1942
+"Landing Ship, Tank",on_lst,Military Transport,Naval Maritime Commission,,12,7000,150,1000,,200,70,2,114,35,100,5,2,2500,NONE,,,,,,,30,300,350,50,2,40,9,27500,10,15,480,0.25,3,3,,,,,,,"CARRIER, LINER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1942
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC System Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,15,9850,300,3000,,300,90,,128,45,100,6,2,1600,NONE,,,,,,,85,195,15,40,1,20,9,24500,15,10,720,0.25,6,6,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1943
@@ -16,4 +16,4 @@ Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,20,13900,650,3000,,300
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNSC Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Elco PTB,on_elcopt,,Naval Maritime Commission,,,850,80,500,,100,50,,247,83,100,9,3,60,NONE,,,,,,,15,15,,,,,,,,,,,,,,,,,,,,,,0.5,1,4,,1942
+Elco PTB,on_elcopt,,Naval Maritime Commission,,,850,80,500,,100,50,,247,83,100,45,45,60,NONE,,,,,,,15,15,,,,,,,,,,,,,,,,,,,,,,0.5,1,4,,1942

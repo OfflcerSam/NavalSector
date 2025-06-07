@@ -5,6 +5,7 @@ USNC,FACTION,"A faction cut off from the rest of their nation due to unfortante 
 #Ships,,,,,
 on_elcopt,SHIP,A patrol torpedo boat.,,,
 on_liberty,SHIP,A standard cargo merchant vessel.,,,
+on_lst,SHIP,"A military transport ship, designed for naval landing invasions.",,,
 on_fletcher,SHIP,A decent all rounder in terms of destroyers in USNC lineup.,,,
 on_butler,SHIP,A destroyer that escorts destroyers or something.,,,
 ,,,,,
