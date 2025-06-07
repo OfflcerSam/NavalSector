@@ -49,38 +49,38 @@
       "locations": [-2, 2]
     },
     {
-      "id": "WS0001",
+      "id": "Torpedo1",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 5,
+      "arc": 3,
       "angle": -5,
       "locations": [9, -5]
     },
     {
-      "id": "WS0002",
+      "id": "Torpedo2",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 5,
+      "arc": 3,
       "angle": 5,
       "locations": [9, 5]
     },
     {
-      "id": "WS0003",
+      "id": "Torpedo3",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 5,
+      "arc": 3,
       "angle": -5,
       "locations": [-4.5, -5]
     },
     {
-      "id": "WS0004",
+      "id": "Torpedo4",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 5,
+      "arc": 3,
       "angle": 5,
       "locations": [-4.5, 5]
     }

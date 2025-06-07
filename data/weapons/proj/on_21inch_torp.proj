@@ -4,8 +4,8 @@
 	"missileType":"ROCKET",
 	"sprite":"graphics/missiles/21InchTorpedo.png",
 	"size":[2,12],	
-	"center":[2,6],
-	"collisionRadius":15,
+	"center":[1,6],
+	"collisionRadius":6.5,
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":250, # purely visual
@@ -28,7 +28,7 @@
 				  "acc":100,
 				  "dec":50},
 	"engineSlots":[{"id":"ES1",
-					"loc":[-10, 0],
+					"loc":[-6, 0],
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used

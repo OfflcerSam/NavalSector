@@ -64,14 +64,14 @@
 	"knownFighters":{
 		"tags":["USNC"],
 		"fighters":[
-			"on_elcopt_boat",
+			"on_elcopt",
 			
 		],
 	},
 	"priorityFighters":{
 		"tags":["USNC"],
        "fighters":[
-			"on_elcopt_boat",
+			"on_elcopt",
 		],
   },
   "knownWeapons": {
@@ -169,13 +169,13 @@
 		"organs",
 	],
 		"music":{
-		"theme":"music_usnc_market_neutral",
-		"market_neutral":"music_usnc_market_neutral",
-		"market_hostile":"music_usnc_market_hostile",
-		"market_friendly":"music_usnc_market_friendly",
-		"encounter_neutral":"music_usnc_encounter_neutral",
-		"encounter_hostile":"music_usnc_encounter_hostile",
-		"encounter_friendly":"music_usnc_encounter_friendly",
+			"theme":"music_usnc_market_neutral",
+			"market_neutral":"music_usnc_market_neutral",
+			"market_hostile":"music_usnc_market_hostile",
+			"market_friendly":"music_usnc_market_friendly",
+			"encounter_neutral":"music_usnc_encounter_neutral",
+			"encounter_hostile":"music_usnc_encounter_hostile",
+			"encounter_friendly":"music_usnc_encounter_friendly",
 	},
 
 	"internalComms":"usnc_internal",
