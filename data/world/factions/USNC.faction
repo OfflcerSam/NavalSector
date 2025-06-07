@@ -64,13 +64,14 @@
 	"knownFighters":{
 		"tags":["USNC"],
 		"fighters":[
-			#"ex",
+			"on_elcopt_boat",
 			
 		],
 	},
 	"priorityFighters":{
 		"tags":["USNC"],
        "fighters":[
+			"on_elcopt_boat",
 		],
   },
   "knownWeapons": {
@@ -125,7 +126,7 @@
 
 	},
 	"fighterSellFrequency":{
-			#"on_example":5,
+			"on_elcopt_boat":2,
 			
 	},
 	"hullmodSellFrequency":{
