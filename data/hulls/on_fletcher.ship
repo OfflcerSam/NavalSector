@@ -187,7 +187,7 @@
     {
       "id": "TorpedoR",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 90,
       "angle": -90,
@@ -196,7 +196,7 @@
     {
       "id": "TorpedoL",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 90,
       "angle": 90,

@@ -1,17 +1,17 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #USNC General Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#River,on_river,Frigate,Naval Maritime Commission,,10,5000,200,500,,100,30,,500,300,900,120,360,80,FRONT,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usncg_bp, USNC",,0.6,1,4,,1941
-Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,10,5000,100,2500,,200,65,,121,40,100,5,1,3500,OMNI,,,,,,,30,105,700,300,2,40,9,25000,10,20,240,0.25,3,3,,,,,,,"CIVILIAN, TANKER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
+#River,on_river,Frigate,Naval Maritime Commission,,10,5000,200,500,,100,30,,500,300,900,120,360,80,,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usncg_bp, USNC",,0.6,1,4,,1941
+Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,10,5000,100,2500,,200,65,,121,40,100,5,1,3500,,,,,,,,30,105,700,300,2,40,9,25000,10,20,240,0.25,3,3,,,,,,,"CIVILIAN, TANKER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC System Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,15,9850,300,5000,,400,90,,128,42,100,5,1,1600,FRONT,,,,,,,45,195,15,40,1,20,9,22500,15,10,720,0.25,6,6,,,,,,,,"usncs_bp, USNC",,0.5,1,5,,1943
-Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,20,13900,650,5000,,400,170,,142,47,100,5,1,2450,FRONT,,,,,,,80,330,20,50,2,25,9,32500,20,15,720,0.25,8,8,,,,,,,,"usncs_bp, USNC",,0.5,1,5,,1941
+Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,15,9850,300,5000,,400,90,,128,42,100,5,1,1600,,,,,,,,45,195,15,40,1,20,9,22500,15,10,720,0.25,6,6,,,,,,,,"usncs_bp, USNC",,0.5,1,5,,1943
+Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,20,13900,650,5000,,400,170,,142,47,100,5,1,2450,,,,,,,,80,330,20,50,2,25,9,32500,20,15,720,0.25,8,8,,,,,,,,"usncs_bp, USNC",,0.5,1,5,,1941
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#placeholder,on_example,Cruiser,Naval Maritime Commission,,2,250,1500,10000,,600,30,,500,300,900,30,60,80,FRONT,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usnci_bp, USNC",,0.3,1,8,,1941
+#placeholder,on_example,Cruiser,Naval Maritime Commission,,2,250,1500,10000,,600,30,,500,300,900,30,60,80,,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usnci_bp, USNC",,0.3,1,8,,1941
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

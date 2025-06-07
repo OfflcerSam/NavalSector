@@ -47,7 +47,7 @@
     {
       "id": "Torpedo",
       "size": "SMALL",
-      "type": "HYBRID",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 90,
       "angle": -90,
