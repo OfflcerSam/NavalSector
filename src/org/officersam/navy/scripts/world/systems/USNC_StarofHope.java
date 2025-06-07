@@ -281,8 +281,51 @@ public class USNC_StarofHope {
 
         // ice
         PlanetAPI ice = system.addPlanet("u_ice", hopeStar, "Icrocoko", "ice_giant", 360f * (float) Math.random(), 375f, iceDist, 600f);
-        //rocky.setCustomDescriptionId(""); //reference descriptions.csv
-        PlanetConditionGenerator.generateConditionsForPlanet(ice, StarAge.AVERAGE);
+        ice.setCustomDescriptionId("usnc_starofhope_ice");
+        MarketAPI ice_market = addMarketplace("USNC", ice, null,
+                "USNC Volatiles Industry",
+                4,
+                Arrays.asList(
+                        Conditions.POPULATION_4,
+                        Conditions.VERY_COLD,
+                        Conditions.HIGH_GRAVITY,
+                        Conditions.OUTPOST,
+
+                        Conditions.VOLATILES_PLENTIFUL,
+
+                        Conditions.AI_CORE_ADMIN
+                ),
+                Arrays.asList(
+                        Submarkets.GENERIC_MILITARY,
+                        Submarkets.SUBMARKET_OPEN,
+                        Submarkets.SUBMARKET_STORAGE,
+                        Submarkets.SUBMARKET_BLACK
+                ),
+                Arrays.asList(
+                        Industries.POPULATION,
+                        Industries.MEGAPORT,
+                        Industries.WAYSTATION,
+
+                        Industries.MINING,
+                        Industries.FUELPROD,
+
+                        Industries.HEAVYBATTERIES,
+                        Industries.PATROLHQ
+                ),
+                0.15f,
+                true,
+                false);
+
+        ice_market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.BETA_CORE);
+        ice_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.BETA_CORE);
+        ice_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.BETA_CORE);
+
+        ice_market.getIndustry(Industries.MINING).setAICoreId(Commodities.BETA_CORE);
+        ice_market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.BETA_CORE);
+
+        ice_market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.BETA_CORE);
+        ice_market.getIndustry(Industries.PATROLHQ).setAICoreId(Commodities.BETA_CORE);
+
 
         // Asteroid Field
         SectorEntityToken asteroidF1 = system.addTerrain(Terrain.ASTEROID_FIELD,
@@ -302,9 +345,6 @@ public class USNC_StarofHope {
                         Conditions.LOW_GRAVITY,
                         Conditions.OUTPOST,
 
-                        Conditions.ORE_MODERATE,
-                        Conditions.VOLATILES_ABUNDANT,
-
                         Conditions.AI_CORE_ADMIN
                 ),
                 Arrays.asList(
@@ -318,8 +358,6 @@ public class USNC_StarofHope {
                         Industries.MEGAPORT,
                         Industries.WAYSTATION,
 
-                        Industries.MINING,
-                        Industries.FUELPROD,
                         Industries.ORBITALWORKS,
 
                         Industries.HEAVYBATTERIES,
@@ -333,8 +371,6 @@ public class USNC_StarofHope {
         usncc_market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.BETA_CORE);
         usncc_market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.BETA_CORE);
 
-        usncc_market.getIndustry(Industries.MINING).setAICoreId(Commodities.BETA_CORE);
-        usncc_market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.BETA_CORE);
         usncc_market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.BETA_CORE);
 
         usncc_market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.BETA_CORE);
