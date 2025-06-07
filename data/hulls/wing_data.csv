@@ -1,2 +1,2 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-on_elcopt,on_elcopt_boat,"bomber10, bomber, independent_of_carrier, rapid_reform, usncaw_package, USNC",1,,5,15,V,7000,1500,0,2,BOMBER,Torpedo Boat,30,4500,,,,,,,,,,,,,
+on_elcopt,on_elcopt_boat,"bomber10, bomber, independent_of_carrier, rapid_reform, usncaw_package, USNC",1,,5,15,V,7000,1500,0,1,BOMBER,Torpedo Boat,30,4500,,,,,,,,,,,,,
