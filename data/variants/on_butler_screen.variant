@@ -11,7 +11,7 @@
   "weaponGroups": [
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "MainFront": "on_5inch",
         "RearMain": "on_5inch_flak"
@@ -19,7 +19,7 @@
     },
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "BoforFC": "on_BofD40mm",
         "BoforRC": "on_BofD40mm"

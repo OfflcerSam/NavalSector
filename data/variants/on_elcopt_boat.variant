@@ -11,7 +11,7 @@
   "weaponGroups": [
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "TorpedoL1": "on_21Mk15_single",
         "TorpedoL2": "on_21Mk15_single",

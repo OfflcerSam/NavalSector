@@ -11,7 +11,7 @@
   "weaponGroups": [
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "FrontDeck": "on_5inch",
         "FrontTop": "on_5inch"
@@ -19,7 +19,7 @@
     },
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "RearCenter": "on_5inch_flak",
         "RearDeck": "on_5inch_flak",
@@ -28,7 +28,7 @@
     },
     {
       "autofire": true,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "BofCL": "on_Bof40mm",
         "BofCR": "on_Bof40mm",
