@@ -15,6 +15,7 @@
       "weapons": {
         "FrontDeck": "on_5inch",
         "FrontTop": "on_5inch",
+        "RearCenter": "on_5inch",
         "RearDeck": "on_5inch",
         "RearT": "on_5inch"
       }
@@ -22,9 +23,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "RearCenter": "on_5inch"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

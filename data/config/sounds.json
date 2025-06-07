@@ -13,14 +13,14 @@
 	
 	#USNCWeapons
 	"ot_sound_30cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_1.ogg","pitch":1,"volume":0.01},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_2.ogg","pitch":1,"volume":0.01},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_3.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_1.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_2.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_3.ogg","pitch":1,"volume":0.05},
 	],
 	"ot_sound_50cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_1.ogg","pitch":1,"volume":0.01},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_2.ogg","pitch":1,"volume":0.01},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_3.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_1.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_2.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_3.ogg","pitch":1,"volume":0.05},
 	], 
 	
 	"ot_sound_us20mm_fire":[
