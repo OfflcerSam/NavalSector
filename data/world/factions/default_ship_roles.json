@@ -96,7 +96,7 @@
 	
 	#liner
 	"linerSmall":{
-		"on_lst_support":10,
+			"on_lst_support":10,
 	},
 	"linerMedium":{
 
@@ -107,7 +107,8 @@
 	
 	#personnel
 	"personnelSmall":{
-
+			"on_lst_support":2,
+			"on_liberty_standard":2,
 	},
 	"personnelMedium":{
 

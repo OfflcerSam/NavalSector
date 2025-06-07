@@ -15,10 +15,10 @@
     "50L": "on_Twin50cal",
     "50R": "on_Twin50cal",
     "OerRC": "on_Oer20mm",
-    "WS0001": "on_21Mk15_single",
-    "WS0002": "on_21Mk15_single",
-    "WS0003": "on_21Mk15_single",
-    "WS0004": "on_21Mk15_single"
+    "TorpedoL1": "on_21Mk15_single",
+    "TorpedoL2": "on_21Mk15_single",
+    "TorpedoR1": "on_21Mk15_single",
+    "TorpedoR2": "on_21Mk15_single"
   },
   "weaponSlots": [
     {
@@ -49,7 +49,7 @@
       "locations": [-2, 2]
     },
     {
-      "id": "Torpedo1",
+      "id": "TorpedoR1",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
@@ -58,7 +58,7 @@
       "locations": [9, -5]
     },
     {
-      "id": "Torpedo2",
+      "id": "TorpedoL1",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
@@ -67,7 +67,7 @@
       "locations": [9, 5]
     },
     {
-      "id": "Torpedo3",
+      "id": "TorpedoR2",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
@@ -76,7 +76,7 @@
       "locations": [-4.5, -5]
     },
     {
-      "id": "Torpedo4",
+      "id": "TorpedoL2",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",

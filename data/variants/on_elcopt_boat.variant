@@ -12,7 +12,12 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "TorpedoL1": "on_21Mk15_single",
+        "TorpedoL2": "on_21Mk15_single",
+        "TorpedoR1": "on_21Mk15_single",
+        "TorpedoR2": "on_21Mk15_single"
+      }
     },
     {
       "autofire": true,
@@ -32,18 +37,12 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "Torpedo1": "on_21Mk15_single",
-        "Torpedo3": "on_21Mk15_single"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "Torpedo2": "on_21Mk15_single",
-        "Torpedo4": "on_21Mk15_single"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
