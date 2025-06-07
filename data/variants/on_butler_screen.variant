@@ -3,8 +3,8 @@
   "hullId": "on_butler",
   "displayName": "Screen",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 5,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -54,7 +54,9 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+	  "Torpedo": "hammer_single"
+	  }
     }
   ],
   "modules": [],
