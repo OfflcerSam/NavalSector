@@ -13,40 +13,40 @@
 	
 	#USNCWeapons
 	"ot_sound_30cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_3.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_1.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_2.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_3.ogg","pitch":1,"volume":0.01},
 	],
 	"ot_sound_50cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_3.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_1.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_2.ogg","pitch":1,"volume":0.01},
+		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_3.ogg","pitch":1,"volume":0.01},
 	], 
 	
 	"ot_sound_us20mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_3.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_1.ogg","pitch":1,"volume":0.02},
+		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_2.ogg","pitch":1,"volume":0.02},
+		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_3.ogg","pitch":1,"volume":0.02},
 	],
 	"ot_sound_us37mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_3.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_1.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_2.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_3.ogg","pitch":1,"volume":0.05},
 	],
 	"ot_sound_us75mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_1.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_2.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_3.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_1.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_2.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_3.ogg","pitch":1,"volume":0.05},
 	],
 	"ot_sound_us76mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_1.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_2.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_3.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_1.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_2.ogg","pitch":1,"volume":0.05},
+		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_3.ogg","pitch":1,"volume":0.05},
 	],
 	"ot_sound_us90mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_1.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_2.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_3.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_1.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_2.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_3.ogg","pitch":1,"volume":0.1},
 	],
 	"ot_sound_us105mmH_fire":[
 		{"file":"sounds/sfx_wpn_guns/usnc/105mm_m4_1.ogg","pitch":1,"volume":0.2},
