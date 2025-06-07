@@ -1,0 +1,135 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Confederate Rebels",
+    
+    "marketSpawnWeight":1.0,
+
+	"startRelationships":{
+		"independent":0.5,
+		"pirates":-1.0,
+		"tritachyon":0.2,
+		"hegemony":0.0,
+		"luddic_church":-0.3,	
+		"luddic_path":-1.0,
+		"persean": 0.3,
+		"lions_guard":-0.1,			
+	    "sindrian_diktat":-0.1,	
+		"remnant":-0.4,		
+	},
+    "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5, "sindrian_diktat":0.1 },
+    "diplomacyPositiveChance":{ "persean":0.5, "hegemony": 0.2 },
+    "diplomacyNegativeChance":{ "luddic_path":1.5, "luddic_church":0.9 },
+    "dispositions":{
+    },
+    
+	"alignments":{
+		"corporate":0.2,
+		"technocratic":0.5,
+		"militarist":0.8,
+		"diplomatic":0.5,
+		"ideological":0.2,
+	},
+	"diplomacyTraits":["stalwart", "likes_ai", "neutralist", "helps_allies"],
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.25,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":0.9,
+    },
+    
+    #"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
+    
+	# Number of entries must equal number of vengeance tiers (0-3)
+	"vengeanceLevelNames":["Local System Warrant", "Naval Police Warrant", "Designated Security Threat"],
+	"vengeanceFleetNamesSingle":["Naval Police group", "Naval Detachment group", "Naval Strike group"],
+	"vengeanceFleetNames":["Naval Police Fleet", "Naval Detachment Fleet", "Naval Strike Fleet"],
+	"vengeanceFleetSizeMult":1.4,
+	
+	
+	"asteroidMiningFleetName":"Commercial Mining Fleet",
+	"invasionFleetname":"Naval Invasion Command Fleet",
+	"invasionSupportFleetname":"Naval Invasion Support Fleet",
+	"responseFleetname":"Naval Detachment Fleet",
+	"defenceFleetname":"Naval Defence Force Fleet",
+	"suppressionFleetname":"Naval Police Support Fleet",
+
+	
+    "startShipsSolo":[
+		["on_fletcher_light"],
+		["on_fletcher_escort"],
+		["on_liberty_standard"]
+	],
+    "startShipsCombatSmall":[
+		["on_fletcher_light","on_butler_screen","on_fletcher_escort"],
+		["on_fletcher_light","on_fletcher_escort","on_fletcher_escort"]
+    ],
+    "startShipsCombatLarge":[
+		["on_fletcher_light"],
+		["on_fletcher_light"]
+    ],
+	"startShipsTradeSmall":[
+		["on_butler_screen", "on_liberty_standard", "on_liberty_standard"],
+		["on_fletcher_escort", "on_liberty_standard", "on_liberty_standard"]
+    ],
+	
+	"startShipsGrandFleet":[
+ 		["on_fletcher_light"],
+		["on_fletcher_light"]
+    ],
+    "startShipsTradeLarge":[
+		["on_fletcher_light"],
+		["on_fletcher_light"]
+    ],
+	
+    "startShipsExplorerLarge":[
+		["on_fletcher_light", "on_liberty_standard"],
+		["on_fletcher_light", "on_liberty_standard"]
+    ],
+	
+    "startShipsCarrierSmall":[
+		["on_fletcher_light"],
+		["on_fletcher_light"]
+    ],
+    "startShipsCarrierLarge":[
+		["on_fletcher_light"],
+		["on_fletcher_light"]
+    ],
+	
+    
+    
+	"startSpecialItems":[
+        [["usncg_package",""]],
+		[["usncs_package",""]],
+		[["usnci_package",""]],
+		
+		[["usncws_package",""]],
+		[["usncwm_package",""]],
+		[["usncwl_package",""]],
+		
+		[["usncaw_package",""]],
+		
+		[["modspec","heavyarmor"],["modspec","ballistic_rangefinder"],["modspec","magazines"],["modspec","turretgyros"]]
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.6},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.8},
+        {"id":"fuelprod", "mult":1.2},
+        {"id":"lightindustry", "mult":0.8},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1, "mult":1.2},
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_any", "count":1, "mult":1.5},
+    ],
+}

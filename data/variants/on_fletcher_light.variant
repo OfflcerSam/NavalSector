@@ -1,0 +1,70 @@
+{
+  "variantId": "on_fletcher_light",
+  "hullId": "on_fletcher",
+  "displayName": "Light",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "FrontDeck": "on_5inch",
+        "FrontTop": "on_5inch",
+        "RearDeck": "on_5inch",
+        "RearT": "on_5inch"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "RearCenter": "on_5inch"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BofCL": "on_Bof40mm",
+        "BofCR": "on_Bof40mm",
+        "BofFL": "on_Bof40mm",
+        "BofFR": "on_Bof40mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerCL1": "on_Oer20mm",
+        "OerCL2": "on_Oer20mm",
+        "OerFL": "on_Oer20mm",
+        "OerRL": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerCR1": "on_Oer20mm",
+        "OerCR2": "on_Oer20mm",
+        "OerFR": "on_Oer20mm",
+        "OerRR": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TorpedoL": "hammer_single",
+        "TorpedoR": "hammer_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

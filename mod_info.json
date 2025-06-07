@@ -1,0 +1,24 @@
+{
+	"id": "officersam_naval",
+	"name": "NavalSector",
+	"author": "Officer_Sam",
+
+	"version": {"major":1, "minor":0, "patch":0},
+  
+	"description": "Adds in naval ships to the sector.",
+	"gameVersion": "0.98a-RC8",
+  
+	"jars": [ "jars/Navy.jar" ],
+	"modPlugin": "org.officersam.navy.scripts.NavalmodPlugin",
+  
+	"totalConversion": "false",
+	"utility": "false",
+ 
+	"dependencies": [
+    	{"id": "lw_lazylib", "name": "LazyLib"},
+		{"id": "MagicLib", "name": "MagicLib"},
+		{"id": "nexerelin", "name": "Nexerelin"},
+		#{"id": "shaderLib", "name": "GraphicsLib"},
+		#{"id": "battle_music", "name": "Battle Music"},
+  ],
+}

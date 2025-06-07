@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaProjectCodeInsightSettings">
+    <included-static-names>
+      <name>data.scripts.world.systems.ucdi_addmarket.addMarketplace</name>
+    </included-static-names>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+{
+	"designTypeColors":{
+		"USNC":[0,43,108,200],
+		"Naval Ordnance Department":[108,160,220,200],
+		"Naval Maritime Commission":[108,160,220,200],
+    	},
+	"graphics":{
+			
+		"blueprint_packages":{
+			"usncg_package":"graphics/icons/cargo/general_usnc.png",
+			"usncs_package":"graphics/icons/cargo/system_usnc.png",
+			"usnci_package":"graphics/icons/cargo/interstellar_usnc.png",
+			
+			"usncws_package":"graphics/icons/cargo/small_usnc.png",
+			"usncwm_package":"graphics/icons/cargo/medium_usnc.png",
+			"usncwl_package":"graphics/icons/cargo/large_usnc.png",
+			
+			"usncaw_package":"graphics/icons/cargo/air_usnc.png",
+
+		},
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"id":"ot_mediumHE",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":55.0,
+	"hitGlowRadius":125,
+	"width":10.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,165,30,175],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,165,30,105],
+	"glowRadius":45,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png",
+	
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":20, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+
+}

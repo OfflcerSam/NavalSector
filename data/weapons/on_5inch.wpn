@@ -1,0 +1,44 @@
+{
+  "id": "on_5inch",
+  "specClass": "projectile",
+  "projectileSpecId": "on_smallHE",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/USNC/5inch_Turret.PNG",
+  "turretGunSprite": "graphics/weapons/USNC/5inch_Gun.PNG",
+  "turretUnderSprite": "graphics/weapons/USNC/5inch_TurretUnder.PNG",
+  "hardpointSprite": "",
+  "visualRecoil": 4,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 8,
+    "particleSizeMin": 8,
+    "particleSizeRange": 15,
+    "particleDuration": 0.05,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_us75mm_fire"
+}

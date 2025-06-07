@@ -1,0 +1,324 @@
+{
+	id:"USNC",
+	"color":[0,43,108,255],
+	"baseUIColor":[0,43,108,255],
+    "darkUIColor":[0,43,108,175],
+    "gridUIColor":[0,43,108,75],
+	
+	#"secondaryUIColor":[255,255,255,255],
+    #"secondarySegments":4,
+
+	
+	"displayName":"USNC",
+	"displayNameWithArticle":"the USNC",
+	"displayNameLong":"United States Naval Command",
+	"displayNameLongWithArticle":"the United States Naval Command",
+	"logo":"graphics/factions/USNC/USNC_flag.png",
+	"crest":"graphics/factions/USNC/USNC_crest.png",
+	"shipNamePrefix":"USS",
+	"shipNameSources":{
+	"BRITISH_NAVY":1,
+	"US_NAVY":1,
+	},
+	"description":"",
+	"names":{
+		"modern":1,
+		"old english":1,
+	},
+	
+ # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+  # multiplier for how often hulls show up in the faction's fleets
+  "hullFrequency": {
+		"tags":{
+    },
+		"hulls":{		
+	},
+},
+  # ships the faction gets access to when importing S&W out-of-faction
+  "shipsWhenImporting": {
+    "tags":[],
+    "hulls":[
+
+	],
+  },
+  
+  "knownShips": {
+    "tags": ["USNC"],
+		"hulls":[
+			"on_fletcher",
+			"on_liberty",
+
+	],
+  },
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": ["USNC"],
+    "hulls": [
+			"on_fletcher",
+			"on_butler",
+			
+      ],		
+  },
+	"knownFighters":{
+		"tags":["USNC"],
+		"fighters":[
+			#"ex",
+			
+		],
+	},
+	"priorityFighters":{
+		"tags":["USNC"],
+       "fighters":[
+		],
+  },
+  "knownWeapons": {
+    "tags": ["USNC"],
+    "weapons": [
+			"on_Twin50cal",
+			"on_Oer20mm",
+			
+			"on_Bof40mm",
+			"on_5inch",
+			"on_5inch_flak",
+			
+        ],
+  },
+  "priorityWeapons": {
+    "tags": ["USNC"],
+    "weapons": [
+        ],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "standard"],
+		"hullMods":[
+			  "converted_hangar",
+			  "turretgyros",
+			  "armoredweapons",
+			  "ballistic_rangefinder",
+			  "augmentedengines",
+			  "converted_hangar",
+			  "expanded_deck_crew",
+			  "magazines",
+			  "missleracks",
+			  "extendedshieldemitter",
+			  "frontemitter",
+			  "frontshield", # makeshift
+			  "heavyarmor",
+			  "insulatedengine",
+			  "nav_relay",
+			  "operations_center",
+			  "recovery_shuttles",
+			  "fluxdistributor",
+			  "surveying_equipment",
+			  "efficiency_overhaul",
+			  "fluxcoil",
+			  "targetingunit",
+			  "hardened_subsystems",
+		],
+	},
+	"weaponSellFrequency":{
+			"on_5inch":5,
+			"on_5inch_flak":5,
+
+
+	},
+	"fighterSellFrequency":{
+			#"on_example":5,
+			
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":1,
+		"ballistic_rangefinder":1,
+		"targetingunit":1,
+		"armoredweapons":1,
+	},	
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":0,
+		
+		"officerQuality":2,
+		"shipQuality":2,
+		"numShips":3,
+		
+		"shipSize":3,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+		"music":{
+		"theme":"music_usnc_market_neutral",
+		"market_neutral":"music_usnc_market_neutral",
+		"market_hostile":"music_usnc_market_hostile",
+		"market_friendly":"music_usnc_market_friendly",
+		"encounter_neutral":"music_usnc_encounter_neutral",
+		"encounter_hostile":"music_usnc_encounter_hostile",
+		"encounter_friendly":"music_usnc_encounter_friendly",
+	},
+
+	"internalComms":"usnc_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/USNC.png",
+		],
+		"standard_female":[
+			"graphics/portraits/USNC.png",	
+		],			
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"official":5,
+			"business":1,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"business":1,
+			"official":10,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":1.5,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Council Admiral"},
+
+			"spaceSailor":{"name":"Spaceman"},
+			"spaceChief":{"name":"Chief Petty Officer"},
+			"spaceEnsign":{"name":"Ensign"},
+			"spaceLieutenant":{"name":"Lieutenant"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Fleet Admiral"},
+			
+			"chiefHighInspector":{"name":"Chief Inspector"},
+			"deputyStarMarshal":{"name":"Deputy Inspector"},
+			"guardHighDeputyExecutor":{"name":"Navy Attorney General"},
+		
+			"executive":{"name":"Corporate Deputy"},
+			"seniorExecutive":{"name":"Corporate Officer"},
+			
+			"aristocrat":{"name":"Chief Executive Officer"},
+
+		},
+		"posts":{
+			"factionLeader":{"name":"Council Elect"},
+		
+			"patrolCommander":{"name":"Patrol Leader"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			
+			"baseCommander":{"name":"Planetary Operations Director"},
+			"stationCommander":{"name":"Station Operations Director"},
+			"outpostCommander":{"name":"Outpost Operations Director"},
+			"portmaster":{"name":"Dockmaster"},
+			
+			"intelligenceDirector":{"name":"Director of the Naval Intelligence"},
+			"guardLeader":{"name":"Director of Naval Police"},
+			
+			"supplyOfficer":{"name":"Quartermaster Officer"},
+			"supplyManager":{"name":"Logistics Officer"},
+			"medicalSupplier":{"name":"General Medical Officer"},
+			
+			"administrator":{"name":"Civilian Administrator"},
+			"militaryAdministrator":{"name":"Military Administrator"},
+			"freeAdmin":{"name":"Freelance Administrator"},
+			
+			"minorCriminal":{"name":"First-time Felon"},
+			"criminal":{"name":"Repeat-Offender"},
+			"spacer":{"name":"Drifter"},
+			
+			"genericMilitary":{"name":"Lieutenant Colonel"},
+			"marineSquadLeader":{"name":"Sergeant"},
+			
+			"trader":{"name":"Commercial Tradesman"},
+			"merchant":{"name":"Corporate Exchange Officer"},
+			
+			"shady":{"name":"Suspicious Character"},
+			"armsDealer":{"name":"Commercial Arms Dealer"},
+
+			"mercenary":{"name":"Private Military Officer"},
+			"officer":{"name":"Officer"},
+			"officer_for_hire":{"name":"Junior Officer (available for hire)"}, 
+
+			"securityChief":{"name":"Director of Security"},
+			"aristocrat":{"name":"Corporate Executive Officer"},
+		},
+	},
+	"fleetTypeNames":{
+
+	"trade": "Commercial Trade Fleet",
+	"tradeLiner": "Corporate Spaceliner Fleet",
+	"tradeSmuggler":"'Free' Trader",
+	"smallTrader": "Local Trade Fleet",
+	
+    "patrolSmall": "Naval Police Patrol",
+    "patrolMedium": "Naval Strike Group",
+    "patrolLarge": "Naval Support Detachment",
+
+	"supplyFleet":"Naval Logistics Fleet",
+	
+	"investigators":"Federal Investigators",
+	
+    "inspectionFleet": "Federal Investigation Fleet",
+    "taskForce": "Naval Strike Force",		
+	
+	"scavengerSmall":"Local Recovery Group",
+	"scavengerMedium":"Commercial Recovery Fleet",
+	"scavengerLarge":"Corporate Recovery Fleet",
+	
+	"foodReliefFleet":"Humanitarian Aid Convoy",
+	
+	"mercScout":"PMC Scouting Party",
+	"mercBountyHunter":"Fugitive Recovery Agent",
+	"mercPrivateer":"PMC Group",
+	"mercPatrol":"PMC Patrol Group",
+	"mercArmada":"PMC Strike Fleet",
+	
+	"battlestation":"Star Fortress",
+		
+	},
+		
+},

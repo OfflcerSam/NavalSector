@@ -1,0 +1,21 @@
+V1.0 - Release
+Release of the mod, base stuff listed.
+Factions:
+United States Naval Command, Star of Hope
+
+Ships:
+Wings -
+Plane 1
+
+Frigates -
+Supply Frigate
+River-class Frigate
+
+Weapons:
+Small Turrets -
+
+Medium Turret -
+
+Large Turret-
+
+	

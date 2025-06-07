@@ -1,0 +1,28 @@
+{
+	"defaultChannels":[
+		"usnc_public",
+	],
+	"usnc_public":{
+		"name":"News Broadcast",
+		"logo":"graphics/icons/intel/comms64.png",
+		"icon":"graphics/icons/intel/comms64.png",
+		"image":"graphics/factions/USNC/USNC_flag.png",
+		"sound":"ui_channel_news",
+		"faction":"USNC",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"usnc_internal":{
+		"name":"Naval Intelligence Department",
+		"logo":"graphics/icons/intel/comms64.png",
+		"icon":"graphics/icons/intel/comms64.png",
+		"image":"graphics/factions/USNC/USNC_flag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"USNC",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}
+
+
+

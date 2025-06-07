@@ -1,0 +1,22 @@
+{
+"flags":[
+
+			{
+				"logo":"graphics/factions/USNC/USNC_flag.png",
+				"crest":"graphics/factions/USNC/USNC_crest.png",
+			},
+
+		],
+"portraits":{
+		"standard_male":[
+			#"graphics/portraits/GGSR.png",
+			#"graphics/portraits/USMJ.png",
+			#"graphics/portraits/USSR.png",
+		],
+		"standard_female":[
+			#"graphics/portraits/GGSR.png",
+			#"graphics/portraits/USMJ.png",
+			#"graphics/portraits/USSR.png",			
+		],
+	},
+},

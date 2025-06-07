@@ -1,0 +1,42 @@
+{
+	"id":"on_smallerHE_flak",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":30,
+	"width":3.5,
+	"fadeTime":0.5,
+	"fringeColor":[255,165,30,175],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,165,30,105],
+	"glowRadius":60,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png",
+	
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":20,
+					 "coreRadius":10, # full damage within core radius
+					 "collisionClass":MISSILE_FF,
+					 "collisionClassByFighter":MISSILE_FF},
+					 
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":15,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":30,
+									 "coreRadius":15, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":2.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":1,
+									 "particleCount":25,
+									 "particleColor":[255,155,155,255],
+									 "sound":"explosion_flak"},
+					}
+}

@@ -1,0 +1,19 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+# USNC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M2E2 Twin Mount,on_Twin50cal,1,,250,450,,20,,2,80,5,210,7.5,105,KINETIC,5,,0,0.12,1,0,0,5,1,10,,890,,,10,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,12
+Oerlikon 20mm Mount,on_Oer20mm,1,,600,600,,30,,4,70,8,60,4,60,HIGH_EXPLOSIVE,10,,0,0.19,1,0,0,4,1,10,,850,,,20,,,"PD_ONLY,  ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
+Bofor 40mm Mount,on_Bof40mm,1,,750,700,,50,,6,60,10,4,2.86,1,HIGH_EXPLOSIVE,20,,0,0.33,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd5, he3, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
+Bofor Dual 40mm Mount,on_BofD40mm,1,,800,700,,50,,6,60,10,8,5.71,2,HIGH_EXPLOSIVE,10,,0,0.165,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5-inch/38-caliber gun Mount,on_5inch,1,,950,850,,150,,15,55,25,10,0.29,2,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,40
+5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,100,,10,55,20,10,0.29,2,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# USNC Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#M2E2 Twin Mount,on_example,3,,250,1500,,35,,1,45,6,210,6.56,105,HIGH_EXPLOSIVE,8,,0,0.12,1,0,0,10,1,10,,800,,,15,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, DO_NOT_CONSERVE","pd8, kinetic6, SR, usncwl_bp, USNC",,Navy Ordnance Department,,Point Defense,,,,,,,,,,12

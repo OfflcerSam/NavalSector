@@ -1,0 +1,244 @@
+{
+  "hullName": "Butler",
+  "hullId": "on_butler",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/USNC/Butlerclass.png",
+  "style": "MIDLINE",
+  "height": 187,
+  "width": 24,
+  "center": [12, 93.5],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "50CL1": "on_Twin50cal",
+    "50CL2": "on_Twin50cal",
+    "50CR1": "on_Twin50cal",
+    "50CR2": "on_Twin50cal",
+    "50FC": "on_Twin50cal",
+    "BoforFC": "on_BofD40mm",
+    "BoforRC": "on_BofD40mm",
+    "OerCL1": "on_Oer20mm",
+    "OerCL2": "on_Oer20mm",
+    "OerCR1": "on_Oer20mm",
+    "OerCR2": "on_Oer20mm",
+    "OerFL1": "on_Oer20mm",
+    "OerFR1": "on_Oer20mm",
+    "OerFR2": "on_Oer20mm",
+    "OerRL": "on_Oer20mm",
+    "OerRR": "on_Oer20mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "MainFront",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": -0,
+      "locations": [63.5, 0]
+    },
+    {
+      "id": "Torpedo",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-21.5, -0]
+    },
+    {
+      "id": "RearMain",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-58.5, -0]
+    },
+    {
+      "id": "BoforRC",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 180,
+      "locations": [-39.5, -0]
+    },
+    {
+      "id": "OerRR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-73.5, -3]
+    },
+    {
+      "id": "OerRL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-73.5, 3]
+    },
+    {
+      "id": "OerCR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": -116.5,
+      "locations": [-3.5, -7]
+    },
+    {
+      "id": "OerCL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": 116.5,
+      "locations": [-3.5, 7]
+    },
+    {
+      "id": "OerCR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": -108.5,
+      "locations": [2.5, -5]
+    },
+    {
+      "id": "OerCL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 217,
+      "angle": 108.5,
+      "locations": [2.5, 5]
+    },
+    {
+      "id": "50CR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [18, -5.5]
+    },
+    {
+      "id": "50CL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [18, 5.5]
+    },
+    {
+      "id": "50CR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [10, -5.5]
+    },
+    {
+      "id": "50CL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [10, 5.5]
+    },
+    {
+      "id": "OerFR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [33.5, -6]
+    },
+    {
+      "id": "OerFL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [33.5, 6]
+    },
+    {
+      "id": "BoforFC",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 0,
+      "locations": [46.5, -0]
+    },
+    {
+      "id": "50FC",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 0,
+      "locations": [39.5, -0]
+    },
+    {
+      "id": "OerFR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [28.5, -7]
+    },
+    {
+      "id": "OerFR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [28.5, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-91.5, -0],
+      "length": 50,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -90.5, 5,
+    -87.5, 7,
+    -73.5, 9,
+    -52.5, 10,
+    32.5, 10,
+    54.5, 8,
+    82.5, 4,
+    92.5, -0,
+    82.5, -4,
+    54.5, -8,
+    32.5, -10,
+    -52.5, -10,
+    -73.5, -9,
+    -87.5, -7,
+    -90.5, -5
+  ]
+}

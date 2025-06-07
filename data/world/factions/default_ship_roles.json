@@ -1,0 +1,89 @@
+{
+	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+			"on_fletcher_light":5,
+			"on_fletcher_escort":5,
+			"on_butler_screen":5,
+	},
+	"combatSmall":{
+			"on_butler_screen":5,
+			"on_fletcher_light":10,
+			"on_fletcher_escort":5,
+	},
+	"combatMedium":{
+
+			
+	},
+	"combatLarge":{
+
+	},
+	"combatCapital":{
+	
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+
+	},
+	"combatFreighterMedium":{
+
+	},
+	"combatFreighterLarge":{
+
+	},
+
+	# carriers
+	"carrierSmall":{
+
+	},
+	"carrierMedium":{
+
+	},
+	"carrierLarge":{
+	
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"personnelSmall":{	
+	},		
+	"personnelMedium":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	"civilianRandom":{
+			"on_liberty_standard":10,
+	},
+	
+	# freighters and such
+	"freighterSmall":{
+			"on_liberty_standard":10,
+	},
+	"freighterMedium":{
+
+	},
+	"freighterLarge":{
+		
+	},
+	
+	"tankerSmall":{
+			"on_liberty_standard":10,
+	},
+	"tankerMedium":{
+
+	},
+	"tankerLarge":{
+		
+	},
+	
+	
+}

@@ -1,0 +1,68 @@
+id,trigger,conditions,script,text,options,notes
+# USNC fleet greeting lines,,,,,,
+greetingUSNCFriendly,OpenCommLink,"$faction.id == USNC
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Roger, your IFF has been acknowledged, wait."" A flicker of the US Army star, then: ""Greetings friendly $shipOrFleet, is everything okay?""
+OR
+""Friendly, your IFF has been acknowledged, is everything okay?""
+OR
+""IFF recieved, over."" $PersonRank $personName gives a brief salute before signing off.",,
+greetingUSNCHostileWeaker,OpenCommLink,"$faction.id == USNC
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, this is $PersonRank $personName, you are being advised to power down weapon systems and disengage and await for strike force retrieval. Over.""
+OR
+""Attention bandit. Be advised that firing upon a US vessel is considered an act of war and you will be destroyed."" The American $personRank is calm despite the odds. ""You are to disengage or face further military action .""
+OR
+""Attention bandit. You are to power down your weapons and disengage immediately."" No more words are said before the comms are cut.",cutCommLink:Cut the comm link,
+greetingUSNCHostileWeakerDefiant,OpenCommLink,"$faction.id == USNC
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The American $personRank looks calm and collected. ""Hostile will be engaged if action is pursued,"" $heOrShe says before cutting the comms.
+OR
+""Hostile, we will not back down."" The comm-line cuts out.",cutCommLink:Cut the comm link,
+greetingUSNCHostileStronger,OpenCommLink,"$faction.id == USNC
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, you are outnumbered. Make this easy, make this hard. Eitherway you are coming with us, over.""
+OR
+""Attention bandit. You are given the chance to surrender yourself or be met with military action.""",cutCommLink:Cut the comm link,
+greetingUSNCNeutral,OpenCommLink,"$faction.id == USNC
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""IFF recieved. Awaiting further transmission from $shipOrFleet.""
+OR
+""This is $PersonRank $personName recieving $shipOrFleet, is everything okay?""",,
+,,,,,,
+# Trade panel flavor text,,,,,,
+flavorTextMarketUSNC,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == USNC","AddText ""The port concourse is filled with trader starcraft of every size as the American flags wave from the sidelines. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketUSNCSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$marketSize < 4
+$stability > 1
+$faction.id == USNC","AddText ""The humble port concourse has a lone American flag and is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+flavorTextMarketUSNCUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 1
+$faction.id == USNC","AddText ""The port concourse holds only a strew of trader starcraft, the American flag is protected behind a police barrier. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local police appears to have deployed patrols of power-armor units while police drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+flavorTextMarketUSNCVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$stability == 0
+$faction.id == USNC","AddText ""The port concourse contains only a few ships, and half of those look like warcraft, the American flag is protected within a shield projector. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as police drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+,,,,,,
+# USNC relationship level descriptions,,,,,,
+relLevelCooperativeUSNC,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == USNC",FireAll RelLevelMoreDescription,"Your actions are noticed by the top brass, they have allowed you additional merit permissions that only few others would have. Do not abuse this additional power of course.",,
+relLevelFriendlyUSNC,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == USNC",FireAll RelLevelMoreDescription,"You have great standing with many naval commanders of the USNC, you are usually an person of choice or preference in some business contracts.",,
+relLevelWelcomingUSNC,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == USNC",FireAll RelLevelMoreDescription,You have good standing.,,
+relLevelFavorableUSNC,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == USNC",FireAll RelLevelMoreDescription,You have some standing.,,
+relLevelNeutralUSNC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == USNC",FireAll RelLevelMoreDescription,You have no real standing.,,
+relLevelSuspiciousUSNC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == USNC",FireAll RelLevelMoreDescription,Your actions and behavior are suspicious.,,
+relLevelInhospitableUSNC,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == USNC",FireAll RelLevelMoreDescription,Your actions and behavior are inhospitable.,,
+relLevelHostileUSNC,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == USNC",FireAll RelLevelMoreDescription,The USNC has decided to take official stances against you.,,
+relLevelVengefulUSNC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == USNC",FireAll RelLevelMoreDescription,The USNC has decided to take further aggressive stances against you.,,
+#relLevelAmericaBaird,RelLevelMoreDescription,"$faction.id == USNC
+$global.gaKA_completed",,,,

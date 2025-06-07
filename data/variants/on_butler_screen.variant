@@ -1,0 +1,62 @@
+{
+  "variantId": "on_butler_screen",
+  "hullId": "on_butler",
+  "displayName": "Screen",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MainFront": "on_5inch",
+        "RearMain": "on_5inch_flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BoforFC": "on_BofD40mm",
+        "BoforRC": "on_BofD40mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "50CL1": "on_Twin50cal",
+        "50CL2": "on_Twin50cal",
+        "50CR1": "on_Twin50cal",
+        "50CR2": "on_Twin50cal",
+        "50FC": "on_Twin50cal"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerCL1": "on_Oer20mm",
+        "OerCL2": "on_Oer20mm",
+        "OerCR1": "on_Oer20mm",
+        "OerCR2": "on_Oer20mm",
+        "OerFL1": "on_Oer20mm",
+        "OerFR1": "on_Oer20mm",
+        "OerFR2": "on_Oer20mm",
+        "OerRL": "on_Oer20mm",
+        "OerRR": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
