@@ -33,16 +33,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "on_21Mk15_single",
-        "WS0003": "on_21Mk15_single"
+        "Torpedo1": "on_21Mk15_single",
+        "Torpedo3": "on_21Mk15_single"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "on_21Mk15_single",
-        "WS0004": "on_21Mk15_single"
+        "Torpedo2": "on_21Mk15_single",
+        "Torpedo4": "on_21Mk15_single"
       }
     }
   ],
