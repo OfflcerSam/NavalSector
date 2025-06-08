@@ -77,14 +77,20 @@
 	"knownFighters":{
 		"tags":["USNC"],
 		"fighters":[
-			"on_elcopt",
-			
-			"on_devastator",
-			"on_avenger",
-			"on_dauntless",
-			"on_wildcat",
-			
-			
+			"on_elcopt_wing"
+
+			"on_devastator_100_wing"
+			"on_devastator_torp_wing"
+
+			"on_avenger_1000_wing"
+			"on_avenger_1600_wing"
+			"on_avenger_torp_wing"
+
+			"on_dauntless_1600_wing"
+			"on_dauntless_torp_wing"
+			"on_dauntless_mine_wing"
+
+			"on_wildcat_wing"
 		],
 	},
 	"priorityFighters":{
@@ -149,20 +155,20 @@
 
 	},
 	"fighterSellFrequency":{
-			#"on_elcopt_wing":2,
+			"on_elcopt_wing":2,
 			
-			#"on_devastator_100_wing":5,
-			#"on_devastator_torp_wing":4,
+			"on_devastator_100_wing":5,
+			"on_devastator_torp_wing":4,
 			
-			#"on_avenger_1000_wing":5,
-			#"on_avenger_1600_wing":4,
-			#"on_avenger_torp_wing":4,
+			"on_avenger_1000_wing":5,
+			"on_avenger_1600_wing":4,
+			"on_avenger_torp_wing":4,
 			
-			#"on_dauntless_1600_wing":4,
-			#"on_dauntless_torp_wing":4,
-			#"on_dauntless_mine_wing":5,
+			"on_dauntless_1600_wing":4,
+			"on_dauntless_torp_wing":4,
+			"on_dauntless_mine_wing":5,
 			
-			#"on_wildcat_wing":10,
+			"on_wildcat_wing":10,
 			
 	},
 	"hullmodSellFrequency":{
