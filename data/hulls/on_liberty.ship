@@ -1,125 +1,224 @@
 {
   "hullName": "Liberty",
   "hullId": "on_liberty",
-  "hullSize": "DESTROYER",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Libertyship.png",
   "style": "MIDLINE",
-  "height": 169,
-  "width": 26,
-  "center": [13, 84.5],
-  "collisionRadius": 89,
+  "height": 268,
+  "width": 34,
+  "center": [17, 134],
+  "collisionRadius": 138,
   "shieldCenter": [0, 0],
-  "shieldRadius": 89,
+  "shieldRadius": 138,
   "viewOffset": 0,
   "builtInMods": [
-    "civgrade"
-  ],
-  "builtInWings": [
-    "on_elcopt"
+    "repair_gantry"
   ],
   "builtInWeapons": {
-    "BridgeC": "on_Oer20mm",
-    "BridgeL": "on_Twin50cal",
-    "BridgeR": "on_Twin50cal",
-    "Rear": "on_Oer20mm"
+    "50CL": "on_Twin50cal",
+    "50CR": "on_Twin50cal",
+    "BofC": "on_BofD40mm",
+    "BofCR": "on_Bof40mm",
+    "BofRL": "on_Bof40mm",
+    "BofRR": "on_Bof40mm",
+    "OerFL1": "on_Oer20mm",
+    "OerFR1": "on_Oer20mm",
+    "OerL1": "on_Oer20mm",
+    "OerL2": "on_Oer20mm",
+    "OerL3": "on_Oer20mm",
+    "OerL4": "on_Oer20mm",
+    "OerR1": "on_Oer20mm",
+    "OerR2": "on_Oer20mm",
+    "OerR3": "on_Oer20mm",
+    "OerR4": "on_Oer20mm"
   },
   "weaponSlots": [
     {
-      "id": "Front",
+      "id": "Turret",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 340,
+      "arc": 347,
       "angle": 0,
-      "locations": [73.5, -0]
+      "locations": [123, -0]
     },
     {
-      "id": "Rear",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 340,
-      "angle": 180,
-      "locations": [-76.5, -0]
-    },
-    {
-      "id": "BridgeC",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 284,
-      "angle": 180,
-      "locations": [-4.5, -0]
-    },
-    {
-      "id": "BridgeR",
+      "id": "OerFR1",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 270,
       "angle": -45,
-      "locations": [15.5, -7]
+      "locations": [115, -7]
     },
     {
-      "id": "BridgeL",
+      "id": "OerFL1",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 270,
       "angle": 45,
-      "locations": [15.5, 7]
+      "locations": [115, 7]
     },
     {
-      "id": "LB 1",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [40.5, 11]
+      "id": "OerR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [90, -11]
     },
     {
-      "id": "LB 2",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
+      "id": "OerL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [90, 11]
+    },
+    {
+      "id": "OerR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [51, -11]
+    },
+    {
+      "id": "OerL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [51, 11]
+    },
+    {
+      "id": "OerR3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-18, -11]
+    },
+    {
+      "id": "OerL3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-18, 11]
+    },
+    {
+      "id": "OerR4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-57, -11]
+    },
+    {
+      "id": "OerL4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-57, 11]
+    },
+    {
+      "id": "BofRR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-107, -7]
+    },
+    {
+      "id": "BofRL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-107, 7]
+    },
+    {
+      "id": "BofCR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 350,
+      "angle": 180,
+      "locations": [-126, -0]
+    },
+    {
+      "id": "50CR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [26, -7]
+    },
+    {
+      "id": "50CL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [26, 7]
+    },
+    {
+      "id": "BofC",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [40.5, -11]
+      "locations": [6, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-83.5, -0],
-      "length": 40,
+      "location": [-133, -0],
+      "length": 50,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 35,
       "style": "LOW_TECH"
     }
   ],
   "bounds": [
-    -82.5, 1,
-    -81.5, 2,
-    -78.5, 4,
-    -75.5, 5,
-    -66.5, 9,
-    -59.5, 10,
-    -49.5, 11,
-    59.5, 11,
-    68.5, 10,
-    73.5, 8,
-    82.5, 3,
-    82.5, -3,
-    73.5, -8,
-    68.5, -10,
-    59.5, -11,
-    -49.5, -11,
-    -59.5, -10,
-    -66.5, -9,
-    -75.5, -5,
-    -78.5, -4,
-    -81.5, -2,
-    -82.5, -1
+    -132, 1,
+    -131, 2,
+    -128, 4,
+    -125, 5,
+    -116, 9,
+    -105, 11,
+    -93, 12,
+    108, 12,
+    118, 10,
+    125, 7,
+    132, 1,
+    132, -1,
+    125, -7,
+    118, -10,
+    108, -12,
+    -93, -12,
+    -105, -11,
+    -116, -9,
+    -125, -5,
+    -128, -4,
+    -131, -2,
+    -132, -1
   ]
 }
