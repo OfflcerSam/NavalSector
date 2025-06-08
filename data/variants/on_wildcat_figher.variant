@@ -1,0 +1,30 @@
+{
+  "variantId": "on_wildcat_figher",
+  "hullId": "on_wildcat",
+  "displayName": "Figher",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "50L": "on_Twin50cal",
+        "50R": "on_Twin50cal"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Bomb": "on_100lb_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

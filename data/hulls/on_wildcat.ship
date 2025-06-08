@@ -1,0 +1,77 @@
+{
+  "hullName": "Wildct",
+  "hullId": "on_wildcat",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/USNC/F3F3closeenough.png",
+  "style": "MIDLINE",
+  "height": 17,
+  "width": 25,
+  "center": [12.5, 8.5],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 15.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "50L": "on_Twin50cal",
+    "50R": "on_Twin50cal",
+    "Bomb": "on_100lb_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "50R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, -4]
+    },
+    {
+      "id": "50L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4.5, 4]
+    },
+    {
+      "id": "Bomb",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [8.5, -0],
+      "length": 0.5,
+      "width": 5,
+      "angle": -0,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -8.5, 4.5,
+    -7, 4.5,
+    -6.5, 0.5,
+    -2.5, 1.5,
+    1.5, 2.5,
+    1.5, 11.5,
+    4.5, 12.5,
+    4.5, 2.5,
+    8.5, -0,
+    4.5, -2.5,
+    4.5, -12.5,
+    1.5, -11.5,
+    1.5, -2.5,
+    -2.5, -1.5,
+    -6.5, -0.5,
+    -7, -4.5,
+    -8.5, -4.5
+  ]
+}

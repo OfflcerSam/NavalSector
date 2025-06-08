@@ -67,7 +67,7 @@
   ],
   "modules": [],
   "wings": [
-    "on_elcopt",
-    "on_elcopt"
+    "on_elcopt_wing",
+    "on_elcopt_wing"
   ]
 }

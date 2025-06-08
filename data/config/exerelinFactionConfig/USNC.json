@@ -97,8 +97,8 @@
 		["on_fletcher_light", "on_lst_support", "on_lst_support"]
     ],
     "startShipsCarrierLarge":[
-		["on_fletcher_light"],
-		["on_fletcher_light"]
+		["on_yorktown_escort", "on_butler_screen", "on_lst_support"],
+		["on_yorktown_strike", "on_fletcher_escort", "on_lst_support"]
     ],
 	
     

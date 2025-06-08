@@ -1,0 +1,31 @@
+{
+  "variantId": "on_dauntless_1600",
+  "hullId": "on_dauntless",
+  "displayName": "Bomber",
+  "goalVariant": false,
+  "fluxCapacitors": 2,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "BombBay": "on_1600lb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Defense": "on_AN50cal",
+        "GunL": "on_AN50cal",
+        "GunR": "on_AN50cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

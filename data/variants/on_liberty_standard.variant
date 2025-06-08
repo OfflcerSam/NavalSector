@@ -15,31 +15,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "Turret": "on_5inch_flak"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
         "50CL": "on_Twin50cal",
-        "50CR": "on_Twin50cal"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
+        "50CR": "on_Twin50cal",
         "BofC": "on_BofD40mm",
         "BofCR": "on_Bof40mm",
         "BofRL": "on_Bof40mm",
-        "BofRR": "on_Bof40mm"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
+        "BofRR": "on_Bof40mm",
         "OerFL1": "on_Oer20mm",
         "OerFR1": "on_Oer20mm",
         "OerL1": "on_Oer20mm",
@@ -51,8 +32,25 @@
         "OerR3": "on_Oer20mm",
         "OerR4": "on_Oer20mm"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "on_elcopt_wing"
+  ]
 }

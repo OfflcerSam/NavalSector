@@ -1,8 +1,7 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #USNC General Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#River,on_river,Frigate,Naval Maritime Commission,,10,5000,200,500,,100,30,,500,300,900,120,360,80,NONE,,,,,,,2,4,10,20,1,20,9,4500,15,15,240,0.25,2,2,,,,,,,,"usncg_bp, USNC",,0.6,1,4,,1941
 Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,9,7500,100,1500,,300,65,1,121,40,100,6,3,4500,NONE,,,,,,,50,105,950,150,2,40,9,35500,10,20,240,0.25,4,4,,,,,,,"CARRIER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
-Cimarron,on_cimarron,Tanker,Naval Maritime Commission,,9,8750,100,1500,,300,65,,120,30,100,6,3,8000,NONE,,,,,,,115,300,80,1000,2,500,9,36500,10,20,240,0.25,4,4,,,,,,,TANKER,"usncg_bp, USNC",,0.6,1,5,,1941
+Cimarron,on_cimarron,Tanker,Naval Maritime Commission,,9,8750,100,2000,,300,65,,120,30,100,6,3,8000,NONE,,,,,,,115,300,80,1000,2,500,9,36500,10,20,240,0.25,4,4,,,,,,,TANKER,"usncg_bp, USNC",,0.6,1,5,,1941
 "Landing Ship, Tank",on_lst,Troop Transport,Naval Maritime Commission,,12,6500,150,1000,,200,70,2,114,35,100,6,3,2500,NONE,,,,,,,25,350,300,50,2,40,9,27500,10,15,480,0.25,3,3,,,,,,,"CARRIER, LINER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1942
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC System Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -12,9 +11,14 @@ Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,20,13900,650,3000,,300
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#placeholder,on_example,Cruiser,Naval Maritime Commission,,2,250,1500,10000,,600,30,,500,300,900,6,3,80,NONE,,,,,,,2,4,10,20,2,30,9,4500,15,15,720,0.25,2,2,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1941
-Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,30,27500,950,6000,,500,300,,138,45,100,6,3,6800,NONE,,,,,,,320,670,30,60,2,45,9,75500,25,20,720,0.25,12,12,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1940
+Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,30,27500,950,6000,,500,300,,138,45,100,6,3,6800,NONE,,,,,,,320,670,30,60,2,45,9,75500,25,20,720,0.25,20,20,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1934
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yorktown,on_yorktown,Carrier,Naval Maritime Commission,,40,48200,1270,8000,,700,350,4,137,44,100,6,3,12500,NONE,,,,,,,1200,2150,50,80,2,60,9,135000,30,30,720,0.25,12,12,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1940
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #UNSC Wings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Elco PTB,on_elcopt,,Naval Maritime Commission,,,850,80,500,,100,50,,247,83,100,60,60,60,NONE,,,,,,,15,15,,,,,,,,,,,,,,,,,,,,,,0.5,1,4,,1942
+TBD-1 Devastator,on_devastator,,Naval Maritime Commission,,,350,125,250,,100,50,,312,150,400,90,45,10,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,0.5,1,3,,1937
+TBF-1C Avenger,on_avenger,,Naval Maritime Commission,,,450,160,250,,100,50,,432,190,400,95,50,10,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.5,1,3,,1942
+SBD-3 Dauntless,on_dauntless,,Naval Maritime Commission,,,300,150,250,,100,50,,439,195,400,100,55,10,NONE,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,0.5,1,3,,1940
+F4F-3 Wildcat,on_wildcat,,Naval Maritime Commission,,,250,150,250,,100,50,,518,200,400,110,60,5,NONE,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,0.5,1,3,,1940

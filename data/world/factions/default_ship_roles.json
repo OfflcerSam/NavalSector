@@ -40,7 +40,8 @@
 			"on_lst_support":5,
 	},
 	"carrierMedium":{
-
+			"on_yorktown_escort":5,
+			"on_yorktown_strike":5,
 	},
 	"carrierLarge":{
 	

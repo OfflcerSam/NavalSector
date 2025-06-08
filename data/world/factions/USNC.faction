@@ -53,7 +53,9 @@
 			
 			"on_butler",
 			"on_fletcher",
+			
 			"on_atlanta",
+			"on_yorktown",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -66,7 +68,9 @@
 			
 			"on_butler",
 			"on_fletcher",
+			
 			"on_atlanta",
+			"on_yorktown",
 			
       ],		
   },
@@ -75,21 +79,23 @@
 		"fighters":[
 			"on_elcopt",
 			
+			"on_devastator",
+			"on_avenger",
+			"on_dauntless",
+			"on_wildcat",
+			
+			
 		],
 	},
 	"priorityFighters":{
 		"tags":["USNC"],
        "fighters":[
-			"on_elcopt",
+
 		],
   },
   "knownWeapons": {
     "tags": ["USNC"],
     "weapons": [
-			"on_Twin50cal",
-			"on_Oer20mm",
-
-			"on_Bof40mm",
 			"on_5inch",
 			"on_5inch_flak",
 			"on_5inch_dual",
@@ -143,7 +149,20 @@
 
 	},
 	"fighterSellFrequency":{
-			"on_elcopt_boat":2,
+			#"on_elcopt_wing":2,
+			
+			#"on_devastator_100_wing":5,
+			#"on_devastator_torp_wing":4,
+			
+			#"on_avenger_1000_wing":5,
+			#"on_avenger_1600_wing":4,
+			#"on_avenger_torp_wing":4,
+			
+			#"on_dauntless_1600_wing":4,
+			#"on_dauntless_torp_wing":4,
+			#"on_dauntless_mine_wing":5,
+			
+			#"on_wildcat_wing":10,
 			
 	},
 	"hullmodSellFrequency":{
