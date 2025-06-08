@@ -29,6 +29,7 @@
     "OerCR1": "on_Oer20mm",
     "OerCR2": "on_Oer20mm",
     "OerFL1": "on_Oer20mm",
+    "OerFL2": "on_Oer20mm",
     "OerFR1": "on_Oer20mm",
     "OerFR2": "on_Oer20mm",
     "OerRL": "on_Oer20mm",
@@ -198,13 +199,13 @@
       "locations": [39.5, -0]
     },
     {
-      "id": "OerFR2",
+      "id": "OerFL2",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 180,
-      "angle": -90,
-      "locations": [28.5, -7]
+      "angle": 90,
+      "locations": [28.5, 7]
     },
     {
       "id": "OerFR2",
@@ -212,8 +213,8 @@
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 180,
-      "angle": 90,
-      "locations": [28.5, 7]
+      "angle": -90,
+      "locations": [28.5, -7]
     }
   ],
   "engineSlots": [
