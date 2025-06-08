@@ -6,9 +6,6 @@
   "size": "SMALL",
   "turretSprite": "graphics/weapons/USNC/21inchTube.png",
   "hardpointSprite": "",
-  "renderHints": [
-    RENDER_LOADED_MISSILES
-  ],
   "turretOffsets": [
     0,
     0

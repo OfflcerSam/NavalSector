@@ -13,8 +13,10 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "50L": "on_Twin50cal",
-        "50R": "on_Twin50cal"
+        "50L": "on_AN50cal",
+        "50L2": "on_AN50cal",
+        "50R": "on_AN50cal",
+        "50R2": "on_AN50cal"
       }
     },
     {
