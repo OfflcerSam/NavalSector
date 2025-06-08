@@ -1,0 +1,74 @@
+{
+  "variantId": "on_atlanta_flotilla",
+  "hullId": "on_atlanta",
+  "displayName": "Flotilla Leader",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "TurretF1": "on_5inch_dual",
+        "TurretF2": "on_5inch_dual",
+        "TurretF3": "on_5inch_dual",
+        "TurretR1": "on_5inch_dual",
+        "TurretR2": "on_5inch_dual",
+        "TurretR3": "on_5inch_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TorpedoL": "on_21Mk15_rack",
+        "TorpedoR": "on_21Mk15_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "BofCL1": "on_BofD40mm",
+        "BofCL2": "on_BofD40mm",
+        "BofCR1": "on_BofD40mm",
+        "BofCR2": "on_BofD40mm",
+        "BofFL1": "on_BofD40mm",
+        "BofFR1": "on_BofD40mm",
+        "BofR1": "on_BofD40mm",
+        "BofR2": "on_BofD40mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerCL1": "on_Oer20mm",
+        "OerCR1": "on_Oer20mm",
+        "OerFC1": "on_Oer20mm",
+        "OerRL1": "on_Oer20mm",
+        "OerRL2": "on_Oer20mm",
+        "OerRL3": "on_Oer20mm",
+        "OerRR1": "on_Oer20mm",
+        "OerRR2": "on_Oer20mm",
+        "OerRR3": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

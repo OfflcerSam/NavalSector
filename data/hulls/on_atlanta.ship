@@ -1,0 +1,303 @@
+{
+  "hullName": "Atlanta",
+  "hullId": "on_atlanta",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/USNC/Atlantaclass.png",
+  "style": "MIDLINE",
+  "height": 229,
+  "width": 26,
+  "center": [13, 114.5],
+  "collisionRadius": 118,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "BofCL1": "on_BofD40mm",
+    "BofCL2": "on_BofD40mm",
+    "BofCR1": "on_BofD40mm",
+    "BofCR2": "on_BofD40mm",
+    "BofFL1": "on_BofD40mm",
+    "BofFR1": "on_BofD40mm",
+    "BofR1": "on_BofD40mm",
+    "BofR2": "on_BofD40mm",
+    "OerCL1": "on_Oer20mm",
+    "OerCR1": "on_Oer20mm",
+    "OerFC1": "on_Oer20mm",
+    "OerRL1": "on_Oer20mm",
+    "OerRL2": "on_Oer20mm",
+    "OerRL3": "on_Oer20mm",
+    "OerRR1": "on_Oer20mm",
+    "OerRR2": "on_Oer20mm",
+    "OerRR3": "on_Oer20mm",
+    "TorpedoL": "on_21Mk15_rack",
+    "TorpedoR": "on_21Mk15_rack"
+  },
+  "weaponSlots": [
+    {
+      "id": "TurretF1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 329,
+      "angle": 0,
+      "locations": [73.5, -0]
+    },
+    {
+      "id": "TurretF2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 298,
+      "angle": 0,
+      "locations": [60.5, -0]
+    },
+    {
+      "id": "TurretF3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": 0,
+      "locations": [47.5, -0]
+    },
+    {
+      "id": "TurretR3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 326,
+      "angle": 180,
+      "locations": [-47.5, -0]
+    },
+    {
+      "id": "TurretR2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 294,
+      "angle": 180,
+      "locations": [-60.5, -0]
+    },
+    {
+      "id": "TurretR1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 294,
+      "angle": 180,
+      "locations": [-73.5, -0]
+    },
+    {
+      "id": "TorpedoR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -90,
+      "locations": [-27, -10.5]
+    },
+    {
+      "id": "TorpedoL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 90,
+      "locations": [-27, 10.5]
+    },
+    {
+      "id": "OerRR3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-36.5, -7]
+    },
+    {
+      "id": "OerRL3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-36.5, 7]
+    },
+    {
+      "id": "BofR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": 180,
+      "locations": [-33.5, -0]
+    },
+    {
+      "id": "BofR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 279,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "OerRR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-18.5, -6]
+    },
+    {
+      "id": "OerRL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-18.5, 6]
+    },
+    {
+      "id": "OerRR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-8.5, -6]
+    },
+    {
+      "id": "OerRL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-8.5, 6]
+    },
+    {
+      "id": "BofCR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-3, -5]
+    },
+    {
+      "id": "BofCL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-3, 5]
+    },
+    {
+      "id": "BofCR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [4, -5]
+    },
+    {
+      "id": "BofCL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [4, 5]
+    },
+    {
+      "id": "OerCR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [16.5, -5]
+    },
+    {
+      "id": "OerCL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [16.5, 5]
+    },
+    {
+      "id": "BofFR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [30.5, -6]
+    },
+    {
+      "id": "BofFL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [30.5, 6]
+    },
+    {
+      "id": "OerFC1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 203,
+      "angle": 0,
+      "locations": [25.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113.5, -0],
+      "length": 36.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-113.5, 0],
+      "length": 36.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -112.5, 6,
+    -109.5, 7,
+    -91.5, 9,
+    -67.5, 11,
+    28.5, 11,
+    56, 9,
+    83.5, 6,
+    102.5, 3,
+    112.5, -0,
+    102.5, -3,
+    83.5, -6,
+    56, -9,
+    28.5, -11,
+    -67.5, -11,
+    -91.5, -9,
+    -109.5, -7,
+    -112.5, -6
+  ]
+}

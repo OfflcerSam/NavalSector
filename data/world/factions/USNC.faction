@@ -51,6 +51,7 @@
 			"on_lst",
 			"on_butler",
 			"on_fletcher",
+			"on_atlanta",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -60,6 +61,7 @@
 			"on_lst",
 			"on_butler",
 			"on_fletcher",
+			"on_atlanta",
 			
       ],		
   },
@@ -81,10 +83,14 @@
     "weapons": [
 			"on_Twin50cal",
 			"on_Oer20mm",
-			
+
 			"on_Bof40mm",
 			"on_5inch",
 			"on_5inch_flak",
+			"on_5inch_dual",
+			"on_5inch_dual_flak",
+			"on_21Mk15_single",
+			"on_21Mk15_rack",
 			
         ],
   },
@@ -124,6 +130,10 @@
 	"weaponSellFrequency":{
 			"on_5inch":5,
 			"on_5inch_flak":5,
+			"on_5inch_dual":3,
+			"on_5inch_dual_flak":3,
+			"on_21Mk15_single":2,
+			"on_21Mk15_rack":2,
 
 
 	},
