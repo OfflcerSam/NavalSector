@@ -77,20 +77,20 @@
 	"knownFighters":{
 		"tags":["USNC"],
 		"fighters":[
-			"on_elcopt_wing"
+			"on_elcopt_wing",
 
-			"on_devastator_100_wing"
-			"on_devastator_torp_wing"
+			"on_devastator_100_wing",
+			"on_devastator_torp_wing",
 
-			"on_avenger_1000_wing"
-			"on_avenger_1600_wing"
-			"on_avenger_torp_wing"
+			"on_avenger_1000_wing",
+			"on_avenger_1600_wing",
+			"on_avenger_torp_wing",
 
-			"on_dauntless_1600_wing"
-			"on_dauntless_torp_wing"
-			"on_dauntless_mine_wing"
+			"on_dauntless_1600_wing",
+			"on_dauntless_torp_wing",
+			"on_dauntless_mine_wing",
 
-			"on_wildcat_wing"
+			"on_wildcat_wing",
 		],
 	},
 	"priorityFighters":{
