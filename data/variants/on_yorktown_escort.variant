@@ -1,7 +1,7 @@
 {
   "variantId": "on_yorktown_escort",
   "hullId": "on_yorktown",
-  "displayName": "Strike",
+  "displayName": "Escort",
   "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 10,
