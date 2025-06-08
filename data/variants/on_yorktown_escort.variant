@@ -13,6 +13,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "GunL1": "on_5inch",
+        "GunL2": "on_5inch_flak",
+        "GunL3": "on_5inch",
+        "GunL4": "on_5inch_flak",
+        "GunR1": "on_5inch",
+        "GunR2": "on_5inch_flak",
+        "GunR3": "on_5inch",
+        "GunR4": "on_5inch_flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "Bof1": "on_BofD40mm",
         "WS0001": "on_BofD40mm",
         "WS0002": "on_BofD40mm",
@@ -71,25 +85,6 @@
         "WS0055": "on_Oer20mm",
         "WS0056": "on_Oer20mm"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "GunL1": "on_5inch",
-        "GunL2": "on_5inch_flak",
-        "GunL3": "on_5inch",
-        "GunL4": "on_5inch_flak",
-        "GunR1": "on_5inch",
-        "GunR2": "on_5inch_flak",
-        "GunR3": "on_5inch",
-        "GunR4": "on_5inch_flak"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],
