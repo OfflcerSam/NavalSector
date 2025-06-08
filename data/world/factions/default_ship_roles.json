@@ -25,7 +25,7 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
-			"on_lst_support":2,
+			"on_lst_support":1,
 	},
 	"combatFreighterMedium":{
 
