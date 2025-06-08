@@ -1,10 +1,10 @@
 {
   "variantId": "on_wildcat_fighter",
   "hullId": "on_wildcat",
-  "displayName": "Figher",
+  "displayName": "Fighter",
   "goalVariant": false,
-  "fluxCapacitors": 2,
-  "fluxVents": 0,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],

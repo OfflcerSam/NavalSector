@@ -3,8 +3,8 @@
   "hullId": "on_liberty",
   "displayName": "New Variant",
   "goalVariant": false,
-  "fluxCapacitors": 15,
-  "fluxVents": 5,
+  "fluxCapacitors": 5,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

@@ -3,8 +3,8 @@
   "hullId": "on_lst",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 15,
-  "fluxVents": 0,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
