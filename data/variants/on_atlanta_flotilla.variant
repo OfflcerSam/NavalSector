@@ -3,7 +3,7 @@
   "hullId": "on_atlanta",
   "displayName": "Flotilla Leader",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 30,
   "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
@@ -11,7 +11,7 @@
   "weaponGroups": [
     {
       "autofire": true,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "TurretF1": "on_5inch_dual",
         "TurretF2": "on_5inch_dual",
