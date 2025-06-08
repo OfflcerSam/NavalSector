@@ -78,8 +78,8 @@
 		["on_fletcher_escort", "on_lst_support", "on_liberty_standard"]
     ],
     "startShipsTradeLarge":[
-		["on_fletcher_light"],
-		["on_fletcher_light"]
+		["on_fletcher_light", "on_cimarron_standard", "on_cimarron_standard", "on_lst_support"],
+		["on_fletcher_light", "on_cimarron_standard", "on_liberty_standard", "on_liberty_standard"]
     ],
 	
 	"startShipsGrandFleet":[

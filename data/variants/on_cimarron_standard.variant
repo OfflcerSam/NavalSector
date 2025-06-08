@@ -1,0 +1,53 @@
+{
+  "variantId": "on_cimarron_standard",
+  "hullId": "on_cimarron",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerFC": "on_Oer20mm",
+        "OerL1": "on_Oer20mm",
+        "OerL10": "on_Oer20mm",
+        "OerL2": "on_Oer20mm",
+        "OerL3": "on_Oer20mm",
+        "OerL4": "on_Oer20mm",
+        "OerL5": "on_Oer20mm",
+        "OerL6": "on_Oer20mm",
+        "OerL7": "on_Oer20mm",
+        "OerL8": "on_Oer20mm",
+        "OerL9": "on_Oer20mm",
+        "OerR1": "on_Oer20mm",
+        "OerR10": "on_Oer20mm",
+        "OerR2": "on_Oer20mm",
+        "OerR3": "on_Oer20mm",
+        "OerR4": "on_Oer20mm",
+        "OerR5": "on_Oer20mm",
+        "OerR6": "on_Oer20mm",
+        "OerR7": "on_Oer20mm",
+        "OerR8": "on_Oer20mm",
+        "OerR9": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BofC1": "on_BofD40mm",
+        "BofC2": "on_BofD40mm",
+        "BofC3": "on_Bof40mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

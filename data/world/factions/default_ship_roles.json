@@ -68,12 +68,13 @@
 	"utility":{
 	},
 	"civilianRandom":{
-			"on_liberty_standard":10,
+			"on_liberty_standard":5,
+			"on_cimarron_standard":5,
 	},
 	
 	# freighters
 	"freighterSmall":{
-			"on_liberty_standard":10,
+			"on_liberty_standard":5,
 			"on_lst_support":5,
 	},
 	"freighterMedium":{
@@ -85,10 +86,11 @@
 	
 	#tankers
 	"tankerSmall":{
-			"on_liberty_standard":10,
+			
 	},
 	"tankerMedium":{
-
+			"on_cimarron_standard":5,
+			"on_liberty_standard":2,
 	},
 	"tankerLarge":{
 		
@@ -96,7 +98,7 @@
 	
 	#liner
 	"linerSmall":{
-			"on_lst_support":10,
+			"on_lst_support":5,
 	},
 	"linerMedium":{
 
@@ -109,6 +111,7 @@
 	"personnelSmall":{
 			"on_lst_support":2,
 			"on_liberty_standard":2,
+			"on_cimarron_standard":2,
 	},
 	"personnelMedium":{
 

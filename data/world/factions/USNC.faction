@@ -48,7 +48,9 @@
     "tags": ["USNC"],
 		"hulls":[
 			"on_liberty",
+			"on_cimarron",
 			"on_lst",
+			
 			"on_butler",
 			"on_fletcher",
 			"on_atlanta",
@@ -58,7 +60,10 @@
   "priorityShips": {
     "tags": ["USNC"],
     "hulls": [
+			"on_liberty",
+			"on_cimarron",
 			"on_lst",
+			
 			"on_butler",
 			"on_fletcher",
 			"on_atlanta",
