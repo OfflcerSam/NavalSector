@@ -6,9 +6,9 @@
 		{"file":"sounds/sfx_wpn_guns/tank_fire_3.ogg","pitch":1,"volume":1},
 	],
 	"ot_sound_jap150mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_1.ogg","pitch":1,"volume":0.3},
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_2.ogg","pitch":1,"volume":0.3},
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_3.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_1.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/150mm_type38_3.ogg","pitch":1,"volume":0.5},
 	],
 	
 	#USNCWeapons
