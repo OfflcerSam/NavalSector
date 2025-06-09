@@ -7,7 +7,12 @@
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "blast_doors",
+    "ecm",
+    "turretgyros"
+  ],
   "weaponGroups": [
     {
       "autofire": true,

@@ -13,13 +13,14 @@
 	},
 	"combatMedium":{
 			"on_atlanta_flotilla":5,
+			"on_atlanta_support":5,
 			
 	},
 	"combatLarge":{
 
 	},
 	"combatCapital":{
-	
+			"on_ncarolina_fast":5,
 	},
 	
 	

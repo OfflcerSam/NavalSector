@@ -1,0 +1,43 @@
+{
+  "id": "on_OerD20mm",
+  "specClass": "projectile",
+  "projectileSpecId": "on_heavymg_red",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/USNC/SAA_Main.PNG",
+  "turretGunSprite": "graphics/weapons/USNC/SAA_Gun.PNG",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    3,
+    1,
+    3,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 4,
+    "spread": 3,
+    "particleSizeMin": 1,
+    "particleSizeRange": 5,
+    "particleDuration": 0.02,
+    "particleCount": 15,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_us20mm_fire"
+}

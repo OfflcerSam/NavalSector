@@ -1,16 +1,18 @@
 {
-  "variantId": "on_atlanta_flotilla",
+  "variantId": "on_atlanta_support",
   "hullId": "on_atlanta",
-  "displayName": "Flotilla Leader",
+  "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 4,
+  "fluxCapacitors": 5,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "blast_doors",
-    "heavyarmor",
+    "pointdefenseai",
+    "escort_package",
+    "auxiliarythrusters",
     "reinforcedhull",
+    "blast_doors",
     "insulatedengine"
   ],
   "weaponGroups": [
@@ -19,11 +21,11 @@
       "mode": "LINKED",
       "weapons": {
         "TurretF1": "on_5inch_dual",
-        "TurretF2": "on_5inch_dual",
-        "TurretF3": "on_5inch_dual",
+        "TurretF2": "on_5inch_dual_flak",
+        "TurretF3": "on_5inch_dual_flak",
         "TurretR1": "on_5inch_dual",
-        "TurretR2": "on_5inch_dual",
-        "TurretR3": "on_5inch_dual"
+        "TurretR2": "on_5inch_dual_flak",
+        "TurretR3": "on_5inch_dual_flak"
       }
     },
     {

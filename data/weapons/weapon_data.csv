@@ -3,16 +3,16 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 ANM2 50cal,on_AN50cal,1,,250,450,,20,,2,80,2,105,7.5,45,KINETIC,10,,0,0.12,1,0,0,5,1,10,,890,,,10,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,12
 M2E2 Twin Mount,on_Twin50cal,1,,250,450,,20,,2,80,5,210,7.5,105,KINETIC,5,,0,0.12,1,0,0,5,1,10,,890,,,10,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,12
 Oerlikon 20mm Mount,on_Oer20mm,1,,600,600,,30,,4,70,8,60,4,60,FRAGMENTATION,10,,0,0.19,1,0,0,4,1,10,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
-#Oerlikon Dual 20mm Mount,on_OerD20mm,1,,600,600,,30,,4,70,8,120,4,60,FRAGMENTATION,5,,0,0.19,1,0,0,4,1,10,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
+Oerlikon Dual 20mm Mount,on_OerD20mm,1,,600,600,,30,,4,70,8,120,4,60,FRAGMENTATION,5,,0,0.19,1,0,0,4,1,10,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
 Bofor 40mm Mount,on_Bof40mm,1,,750,700,,50,,6,60,10,4,2.86,1,FRAGMENTATION,20,,0,0.33,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd5, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
 Bofor Dual 40mm Mount,on_BofD40mm,1,,800,700,,50,,6,60,12,8,5.71,2,FRAGMENTATION,10,,0,0.165,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
-#Bofor Quad 40mm Mount,on_BofQ40mm,1,,1000,700,,50,,6,60,15,16,20,4,FRAGMENTATION,5,,0,0.125,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
+Bofor Quad 40mm Mount,on_BofQ40mm,1,,1000,700,,50,,6,60,15,16,20,4,FRAGMENTATION,5,,0,0.125,1,0,0,4,1,20,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-5-inch/38-caliber gun Mount,on_5inch,1,,950,850,,150,,15,55,25,5,0.25,1,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
-5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,100,,10,55,20,5,0.25,1,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
-Dual 5-inch/38-caliber gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,35,10,0.5,2,HIGH_EXPLOSIVE,60,,0,3.5,1,0,0,4,1,10,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
-Dual 5-inch/38-caliber Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,10,55,30,10,0.5,2,HIGH_EXPLOSIVE,60,,0,3.5,1,0,0,4,1,10,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
+5-inch/38-caliber gun Mount,on_5inch,1,,950,850,,150,,15,55,25,5,0.14,1,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
+5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,100,,10,55,20,5,0.14,1,HIGH_EXPLOSIVE,120,,0,3.5,1,0,0,4,1,10,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
+Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,35,10,0.29,2,HIGH_EXPLOSIVE,60,,0,3.5,1,0,0,4,1,10,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
+Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,10,55,30,10,0.29,2,HIGH_EXPLOSIVE,60,,0,3.5,1,0,0,4,1,10,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 21-inch Mark 15 Torpedo (Single),on_21Mk15_single,2,0.5,400,1300,,1650,,50,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike8, rocket1, reload_1_and_a_half_pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
 21-inch Mark 15 Torpedo Rack,on_21Mk15_rack,2,0.5,800,1300,,1650,,50,10,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike10, rocket2, reload_3pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
@@ -25,10 +25,10 @@ Dual 5-inch/38-caliber Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,10,55
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#8-inch/55-caliber gun,on_8inch_triple,2,,3000,1200,,400,,25,35,60,30,0.1,3,HIGH_EXPLOSIVE,100,,0,15,1,0,0,4,1,10,,760,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
+#8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3000,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,100,,0,10,1,0,0,4,1,10,,850,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#M2E2 Twin Mount,on_example,3,,250,1500,,35,,1,45,6,210,6.56,105,HIGH_EXPLOSIVE,8,,0,0.12,1,0,0,10,1,10,,800,,,15,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, DO_NOT_CONSERVE","pd8, kinetic6, SR, usncwl_bp, USNC",,Navy Ordnance Department,,Point Defense,,,,,,,,,,12
+16-onch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,35,60,24,0.03,4,HIGH_EXPLOSIVE,100,,0,20,1,0,0,4,1,10,,705,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200

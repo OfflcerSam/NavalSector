@@ -7,7 +7,12 @@
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "turretgyros",
+    "blast_doors"
+  ],
   "weaponGroups": [
     {
       "autofire": true,

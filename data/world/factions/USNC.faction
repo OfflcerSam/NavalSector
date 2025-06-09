@@ -56,6 +56,8 @@
 			
 			"on_atlanta",
 			"on_yorktown",
+			
+			"on_ncarolina",
 	],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
@@ -71,6 +73,8 @@
 			
 			"on_atlanta",
 			"on_yorktown",
+			
+			"on_ncarolina",
 			
       ],		
   },
@@ -106,6 +110,9 @@
 			"on_5inch_flak",
 			"on_5inch_dual",
 			"on_5inch_dual_flak",
+			
+			"on_16inch_quad",
+			
 			"on_21Mk15_single",
 			"on_21Mk15_rack",
 			
@@ -130,7 +137,7 @@
 			  "missleracks",
 			  "extendedshieldemitter",
 			  "frontemitter",
-			  "frontshield", # makeshift
+			  "frontshield",
 			  "heavyarmor",
 			  "insulatedengine",
 			  "nav_relay",
@@ -142,6 +149,8 @@
 			  "fluxcoil",
 			  "targetingunit",
 			  "hardened_subsystems",
+			  "pointdefenseai",
+			  "escort_package",
 		],
 	},
 	"weaponSellFrequency":{
@@ -149,6 +158,9 @@
 			"on_5inch_flak":5,
 			"on_5inch_dual":3,
 			"on_5inch_dual_flak":3,
+			
+			"on_16inch_quad":1,
+			
 			"on_21Mk15_single":2,
 			"on_21Mk15_rack":2,
 
@@ -176,6 +188,12 @@
 		"ballistic_rangefinder":1,
 		"targetingunit":1,
 		"armoredweapons":1,
+		"operations_center":1,
+		"recovery_shuttles":1,
+		"insulatedengine":1,
+		"hardened_subsystems":1,
+		"pointdefenseai":1,
+		"escort_package":1,
 	},	
 	"factionDoctrine":{
 		"warships":4,

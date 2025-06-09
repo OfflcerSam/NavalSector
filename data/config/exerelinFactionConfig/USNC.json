@@ -61,16 +61,20 @@
 	
     "startShipsSolo":[
 		["on_fletcher_light"],
-		["on_fletcher_escort"],
-		["on_liberty_standard"]
+		["on_ncarolina_fast"],
+		["on_atlanta_flotilla"]
 	],
     "startShipsCombatSmall":[
 		["on_fletcher_light","on_butler_screen","on_fletcher_escort"],
 		["on_fletcher_light","on_fletcher_escort","on_fletcher_escort"]
     ],
     "startShipsCombatLarge":[
-		["on_fletcher_light", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_lst_support"],
+		["on_atlanta_support", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_lst_support"],
 		["on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light", "on_fletcher_escort", "on_lst_support"]
+    ],
+	"startShipsGrandFleet":[
+ 		["on_ncarolina_fast", "on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_butler_screen", "on_liberty_standard"],
+		["on_ncarolina_fast", "on_atlanta_flotilla", "on_atlanta_flotilla", "on_atlanta_support", "on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort", "on_liberty_standard"]
     ],
 	
 	"startShipsTradeSmall":[
@@ -82,10 +86,7 @@
 		["on_fletcher_light", "on_cimarron_standard", "on_liberty_standard", "on_liberty_standard"]
     ],
 	
-	"startShipsGrandFleet":[
- 		["on_atlanta_flotilla", "on_atlanta_flotilla", "on_fletcher_escort", "on_butler_screen", "on_butler_screen"],
-		["on_atlanta_flotilla", "on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_escort", "on_lst_support"]
-    ],
+
 
     "startShipsExplorerLarge":[
 		["on_fletcher_escort", "on_butler_screen", "on_liberty_standard"],
@@ -97,8 +98,8 @@
 		["on_fletcher_light", "on_lst_support", "on_lst_support"]
     ],
     "startShipsCarrierLarge":[
-		["on_yorktown_escort", "on_butler_screen", "on_lst_support"],
-		["on_yorktown_strike", "on_fletcher_escort", "on_lst_support"]
+		["on_yorktown_escort", "on_yorktown_strike", "on_fletcher_escort", "on_lst_support"],
+		["on_yorktown_strike", "on_yorktown_strike", "on_atlanta_support", "on_lst_support"]
     ],
 	
     
