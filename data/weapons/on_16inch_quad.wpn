@@ -7,7 +7,10 @@
   "turretSprite": "graphics/weapons/USNC/16inch_Turret.png",
   "turretGunSprite": "graphics/weapons/USNC/16inch_Gun.png",
   "hardpointSprite": "",
-  "visualRecoil": 8,
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
     34,
     -9,
@@ -31,14 +34,14 @@
   "hardpointAngleOffsets": [
     0
   ],
-  "barrelMode": "ALTERNATING",
+  "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
     "length": 175,
     "spread": 35,
     "particleSizeMin": 10,
     "particleSizeRange": 40,
-    "particleDuration": 0.08,
+    "particleDuration": 0.07,
     "particleCount": 30,
     "particleColor": [
       255,
