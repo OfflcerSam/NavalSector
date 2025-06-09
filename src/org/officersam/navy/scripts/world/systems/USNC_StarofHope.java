@@ -280,7 +280,7 @@ public class USNC_StarofHope {
 
 
         // ice
-        PlanetAPI ice = system.addPlanet("u_ice", hopeStar, "Icrocoko", "ice_giant", 360f * (float) Math.random(), 375f, iceDist, 600f);
+        PlanetAPI ice = system.addPlanet("u_ice", hopeStar, "Icogian", "ice_giant", 360f * (float) Math.random(), 375f, iceDist, 600f);
         ice.setCustomDescriptionId("usnc_starofhope_ice");
         MarketAPI ice_market = addMarketplace("USNC", ice, null,
                 "USNC Volatiles Industry",
