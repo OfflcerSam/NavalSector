@@ -25,10 +25,10 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,100,,0,10,1,0,0,4,1,10,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
+#8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,100,,0,10,3,1,0,4,1,10,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-16-onch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,35,60,24,0.03,4,HIGH_EXPLOSIVE,200,,0,20,1,0,0,4,1,10,,705,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,400
+16-onch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,35,60,24,0.03,4,HIGH_EXPLOSIVE,200,,0,20,4,1,0,4,1,10,,705,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,400

@@ -48,7 +48,7 @@
 	"vengeanceLevelNames":["Local System Warrant", "Naval Police Warrant", "Designated Security Threat"],
 	"vengeanceFleetNamesSingle":["Naval Police group", "Naval Detachment group", "Naval Strike group"],
 	"vengeanceFleetNames":["Naval Police Fleet", "Naval Detachment Fleet", "Naval Strike Fleet"],
-	"vengeanceFleetSizeMult":1.4,
+	"vengeanceFleetSizeMult":1.5,
 	
 	
 	"asteroidMiningFleetName":"Commercial Mining Fleet",
