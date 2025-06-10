@@ -5,9 +5,9 @@
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	"length":55.0,
-	"hitGlowRadius":125,
+	"hitGlowRadius":100,
 	"width":10.0,
-	"fadeTime":0.5,
+	"fadeTime":0.6,
 	"fringeColor":[255,165,30,175],
 	"coreColor":[255,255,255,200],
 	"glowColor":[255,165,30,105],
@@ -20,8 +20,8 @@
 	"bulletSprite":"graphics/missiles/shell_hellbore.png",
 	
 	"explosionSpec":{"duration":0.1f, # not visual
-					 "radius":50,
-					 "coreRadius":20, # full damage within core radius
+					 "radius":60,
+					 "coreRadius":30, # full damage within core radius
 					 "collisionClass":MISSILE_FF,
 					 "collisionClassByFighter":MISSILE_FF},
 					 
@@ -29,7 +29,7 @@
 					"range":30,
 					"explosionSpec":{"duration":0.1f,
 									 "radius":80,
-									 "coreRadius":30, # full damage within core radius - also equal to proximity fuse range
+									 "coreRadius":40, # full damage within core radius - also equal to proximity fuse range
 									 "collisionClass":PROJECTILE_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":2.0,
