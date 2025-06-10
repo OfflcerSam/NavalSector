@@ -27,7 +27,7 @@ public class NavalmodPlugin extends BaseModPlugin {
         // Test that the .jar is loaded and working, using the most obnoxious way possible.
         //throw new RuntimeException("Template mod loaded! Remove this crash in TemplateModPlugin.");
         if (hasGraphicsLib) {
-            //TextureData.readTextureDataCSV("data/lights/on_texture_data.csv");
+            TextureData.readTextureDataCSV("data/lights/on_texture_data.csv");
             LightData.readLightDataCSV("data/lights/on_light_data.csv");
         }
     }
