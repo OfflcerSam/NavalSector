@@ -25,7 +25,7 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,100,,0,10,3,1,0,4,1,10,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
+8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,100,,0,10,3,0.5,0,4,1,10,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
