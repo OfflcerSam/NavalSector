@@ -60,20 +60,22 @@
 
 	
     "startShipsSolo":[
-		["on_fletcher_light"],
+		["on_portland_attack"],
 		["on_ncarolina_fast"],
 		["on_atlanta_flotilla"]
 	],
     "startShipsCombatSmall":[
-		["on_fletcher_light","on_butler_screen","on_fletcher_escort"],
-		["on_fletcher_light","on_fletcher_escort","on_fletcher_escort"]
+		["on_fletcher_light", "on_butler_screen", "on_fletcher_escort"],
+		["on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort"],
+		["on_butler_screen", "on_butler_screen", "on_lst_support"]
     ],
     "startShipsCombatLarge":[
 		["on_atlanta_support", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_lst_support"],
-		["on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light", "on_fletcher_escort", "on_lst_support"]
+		["on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light", "on_fletcher_escort", "on_lst_support"],
+		["on_portland_attack", "on_atlanta_support", "on_fletcher_light", "on_butler_screen", "on_lst_support"]
     ],
 	"startShipsGrandFleet":[
- 		["on_ncarolina_fast", "on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_butler_screen", "on_liberty_standard"],
+ 		["on_ncarolina_fast", "on_portland_attack", "on_fletcher_light", "on_fletcher_light", "on_fletcher_light", "on_butler_screen", "on_butler_screen", "on_liberty_standard"],
 		["on_ncarolina_fast", "on_atlanta_flotilla", "on_atlanta_flotilla", "on_atlanta_support", "on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort", "on_liberty_standard"]
     ],
 	

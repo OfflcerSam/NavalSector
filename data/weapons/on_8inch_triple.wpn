@@ -1,0 +1,50 @@
+{
+  "id": "on_8inch_triple",
+  "specClass": "projectile",
+  "projectileSpecId": "on_mediumHE",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/USNC/8InchT_Main.PNG",
+  "turretGunSprite": "graphics/weapons/USNC/8InchT_Gun.PNG",
+  "turretUnderSprite": "graphics/weapons/USNC/8inch_under.PNG",
+  "hardpointSprite": "",
+  "visualRecoil": 5,
+  "renderHints": [RENDER_BARREL_BELOW],
+  "turretOffsets": [
+    23,
+    3,
+    23,
+    0,
+    23,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 90,
+    "spread": 17,
+    "particleSizeMin": 10,
+    "particleSizeRange": 30,
+    "particleDuration": 0.07,
+    "particleCount": 40,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "ot_sound_us90mm_fire"
+}

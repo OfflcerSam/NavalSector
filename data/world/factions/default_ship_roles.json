@@ -17,7 +17,7 @@
 			
 	},
 	"combatLarge":{
-
+			"on_portland_attack":5,
 	},
 	"combatCapital":{
 			"on_ncarolina_fast":5,

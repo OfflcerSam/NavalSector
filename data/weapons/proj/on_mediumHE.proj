@@ -1,5 +1,5 @@
 {
-	"id":"ot_mediumHE",
+	"id":"on_mediumHE",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
