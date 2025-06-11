@@ -112,11 +112,11 @@
 	"startSpecialItems":[
         [["usncg_package",""]],
 		[["usncs_package",""]],
-		[["usnci_package",""]],
+		#[["usnci_package",""]],
 		
 		[["usncws_package",""]],
-		[["usncwm_package",""]],
-		[["usncwl_package",""]],
+		#[["usncwm_package",""]],
+		#[["usncwl_package",""]],
 		
 		[["usncaw_package",""]],
 		
