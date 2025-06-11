@@ -41,8 +41,8 @@
         "moraleDamageTakenMult":0.9,
     },
     
-    #"specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
-    #"specialForcesFlagshipVariants":{ "paragon_Elite":1, "astral_Strike":0.5 },
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+    "specialForcesFlagshipVariants":{ "on_ncarolina_fast":1, "on_portland_attack":0.5 },
     
 	# Number of entries must equal number of vengeance tiers (0-3)
 	"vengeanceLevelNames":["Local System Warrant", "Naval Police Warrant", "Designated Security Threat"],

@@ -10,19 +10,37 @@
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "Main": "on_5inch",
+        "WS0001": "on_5inch"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "TorpedoL1": "on_21Mk15_rack",
         "TorpedoL2": "on_21Mk15_rack",
         "TorpedoR1": "on_21Mk15_rack",
-        "TorpedoR2": "on_21Mk15_rack",
-        "WS0001": "on_5inch",
+        "TorpedoR2": "on_21Mk15_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "on_Oer20mm",
         "WS0004": "on_Oer20mm",
         "WS0008": "on_Oer20mm",
-        "WS0009": "on_Oer20mm",
+        "WS0009": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0010": "on_Bof40mm"
       }
     }
