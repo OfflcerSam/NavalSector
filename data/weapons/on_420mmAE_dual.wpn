@@ -1,0 +1,52 @@
+{
+  "id": "on_420mmAE_dual",
+  "specClass": "beam",
+  "type": "HYBRID",
+  "size": "LARGE",
+  "beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/USNC/406mmAE.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    247,
+    252,
+    255,
+    225
+  ],
+  "hitGlowRadius": 100,
+  "turretOffsets": [
+    34,
+    -6,
+    34,
+    6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    216,
+    239,
+    252,
+    225
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    250
+  ],
+  "width": 15,
+  "textureType": LASER,
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 1,
+  "fireSoundTwo": "on_sound_ShockCannon_fire"
+}
