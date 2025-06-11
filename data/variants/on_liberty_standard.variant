@@ -8,7 +8,8 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "expanded_cargo_holds"
+    "expanded_cargo_holds",
+    "insulatedengine"
   ],
   "weaponGroups": [
     {
@@ -30,7 +31,8 @@
         "OerR1": "on_Oer20mm",
         "OerR2": "on_Oer20mm",
         "OerR3": "on_Oer20mm",
-        "OerR4": "on_Oer20mm"
+        "OerR4": "on_Oer20mm",
+        "Turret": "mininglaser"
       }
     },
     {

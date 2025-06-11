@@ -192,7 +192,7 @@ public class USNC_StarofHope {
                         Industries.MILITARYBASE
 
                 ),
-                0.16f,
+                0.15f,
                 false,
                 true);
 
@@ -260,7 +260,7 @@ public class USNC_StarofHope {
                         Industries.PATROLHQ
 
                 ),
-                0.16f,
+                0.15f,
                 false,
                 true);
 
