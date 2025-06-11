@@ -1,0 +1,16 @@
+{
+	"id":"on_mediumCoil_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":500.0,
+	"hitGlowRadius":100,
+	"width":20,
+	"fadeTime":1.0,
+	"fringeColor":[51,147,255,175],
+	"coreColor":[245,250,255,200],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}

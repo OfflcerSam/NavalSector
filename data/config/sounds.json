@@ -10,6 +10,17 @@
 		{"file":"sounds/sfx_wpn_guns/150mm_type38_2.ogg","pitch":1,"volume":0.9},
 		{"file":"sounds/sfx_wpn_guns/150mm_type38_3.ogg","pitch":1,"volume":0.9},
 	],
+	"on_sound_discharge_fire":[
+		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":1.1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":0.9,"volume":0.1},
+	],
+	"on_sound_charge_up":[
+		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":1.1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":0.9,"volume":0.1},
+	],
+	
 	
 	#USNCWeapons
 	"ot_sound_30cal_fire":[

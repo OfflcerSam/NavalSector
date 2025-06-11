@@ -1,0 +1,53 @@
+{
+  "id": "on_200mmCoil",
+  "specClass": "projectile",
+  "projectileSpecId": "on_mediumCoil_shot",
+  "type": "HYBRID",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/USNC/200mmCoil_Main.png",
+  "turretGunSprite": "graphics/weapons/USNC/200mmCoil_Barrel.PNG",
+  "turretUnderSprite": "graphics/weapons/USNC/8inch_under.PNG",
+  "hardpointSprite": "",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "glowColor": [
+    51,
+    147,
+    255,
+    200
+  ],
+  "visualRecoil": 8,
+  "turretOffsets": [
+    21,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 90,
+    "spread": 30,
+    "particleSizeMin": 10,
+    "particleSizeRange": 30,
+    "particleDuration": 0.2,
+    "particleCount": 50,
+    "particleColor": [
+      245,
+      250,
+      255,
+      150
+    ]
+  },
+  "fireSoundOne": "on_sound_charge_up",
+  "fireSoundTwo": "on_sound_discharge_fire"
+}

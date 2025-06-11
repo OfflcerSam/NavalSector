@@ -3,6 +3,7 @@
 		"USNC":[0,43,108,200],
 		"Naval Ordnance Department":[108,160,220,200],
 		"Naval Maritime Commission":[108,160,220,200],
+		"Naval Research and Development Department":[108,160,220,200],
     	},
 	"graphics":{
 			
@@ -14,6 +15,7 @@
 			"usncws_package":"graphics/icons/cargo/small_usnc.png",
 			"usncwm_package":"graphics/icons/cargo/medium_usnc.png",
 			"usncwl_package":"graphics/icons/cargo/large_usnc.png",
+			"usncwe_package":"graphics/icons/cargo/experimental_usnc.png",
 			
 			"usncaw_package":"graphics/icons/cargo/air_usnc.png",
 

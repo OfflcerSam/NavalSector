@@ -113,6 +113,8 @@
 			"on_5inch_dual",
 			"on_5inch_dual_flak",
 			
+			"on_8inch_triple",
+			
 			"on_16inch_quad",
 			
 			"on_21Mk15_single",
@@ -156,14 +158,17 @@
 		],
 	},
 	"weaponSellFrequency":{
-			"on_5inch":5,
-			"on_5inch_flak":5,
-			"on_5inch_dual":3,
-			"on_5inch_dual_flak":3,
+			"on_5inch":10,
+			"on_5inch_flak":10,
+			"on_5inch_dual":5,
+			"on_5inch_dual_flak":5,
 			
-			"on_16inch_quad":1,
+			"on_8inch_triple":4,
 			
-			"on_21Mk15_single":2,
+			"on_16inch_quad":2,
+			
+			"on_200mmCoil":0.5,
+			
 			"on_21Mk15_rack":2,
 
 
