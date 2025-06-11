@@ -23,6 +23,12 @@
 	"on_sound_ShockCannon_fire":[
 		{"file":"sounds/sfx_wpn_guns/Ribera_48cmShockCannon_fire.ogg","pitch":1,"volume":0.8},
 	],
+	"on_sound_wave_loop":[
+		{"file":"sounds/sfx_wpn_guns/wave.ogg","pitch":1,"volume":0.6},
+	],
+	"on_sound_wave_charge":[
+		{"file":"sounds/sfx_wpn_guns/wavecharge.ogg","pitch":1,"volume":0.4},
+	],
 	
 	#USNCWeapons
 	"ot_sound_30cal_fire":[

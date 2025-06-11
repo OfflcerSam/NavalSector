@@ -48,5 +48,6 @@
   "textureType": LASER,
   "textureScrollSpeed": 64,
   "pixelsPerTexel": 1,
-  "fireSoundTwo": "on_sound_ShockCannon_fire"
+  "fireSoundOne": "on_sound_wave_charge",
+  "fireSoundTwo": "on_sound_wave_loop"
 }
