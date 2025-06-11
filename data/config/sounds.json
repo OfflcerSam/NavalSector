@@ -21,7 +21,7 @@
 		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":0.9,"volume":0.1},
 	],
 	"on_sound_ShockCannon_fire":[
-		{"file":"sounds/sfx_wpn_guns/Ribera_48cmShockCannon_fire.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/Ribera_48cmShockCannon_fire.ogg","pitch":1,"volume":0.8},
 	],
 	
 	#USNCWeapons
