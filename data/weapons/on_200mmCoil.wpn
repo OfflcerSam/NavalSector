@@ -39,7 +39,7 @@
     "spread": 30,
     "particleSizeMin": 10,
     "particleSizeRange": 30,
-    "particleDuration": 0.2,
+    "particleDuration": 1.5,
     "particleCount": 50,
     "particleColor": [
       245,
