@@ -36,4 +36,4 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,100,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Experimental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-200mm Experimental Coilgun Mount,on_200mmCoil,3,0.3,9000,2000,,2000,5,80,35,90,5,0.08,5,KINETIC,800,,0.596,5,1,0,0,1,1,10,,9500,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic20, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,200
+200mm Experimental Coilgun Mount,on_200mmCoil,3,0.25,15000,5000,,2000,5,80,35,90,5,0.08,5,KINETIC,1500,,0.596,5,1,0,0,1,1,10,,15000,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic20, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,200
