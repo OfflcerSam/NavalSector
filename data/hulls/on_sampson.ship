@@ -1,0 +1,167 @@
+{
+  "hullName": "Sampson",
+  "hullId": "on_sampson",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/USNC/Sampsonclass.png",
+  "style": "MIDLINE",
+  "height": 174,
+  "width": 20,
+  "center": [10, 87],
+  "collisionRadius": 91,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 91,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "TorpedoL1": "on_21Mk15_rack",
+    "TorpedoL2": "on_21Mk15_rack",
+    "TorpedoR1": "on_21Mk15_rack",
+    "TorpedoR2": "on_21Mk15_rack",
+    "WS0003": "on_Oer20mm",
+    "WS0004": "on_Oer20mm",
+    "WS0008": "on_Oer20mm",
+    "WS0009": "on_Oer20mm",
+    "WS0010": "on_Bof40mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "Main",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 262,
+      "angle": 0,
+      "locations": [22, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 350,
+      "angle": 180,
+      "locations": [-46, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-30, -5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-30, 5]
+    },
+    {
+      "id": "TorpedoR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [-14.5, -7]
+    },
+    {
+      "id": "TorpedoL2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-14.5, 7]
+    },
+    {
+      "id": "TorpedoR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -90,
+      "locations": [1, -7]
+    },
+    {
+      "id": "TorpedoL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 90,
+      "locations": [1, 7]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 333,
+      "angle": 180,
+      "locations": [-79, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [11, -0],
+      "renderOrderMod": 3
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -85, 2,
+    -82, 3,
+    -79, 4,
+    -71, 5,
+    -60, 6,
+    -52, 7,
+    -22, 8,
+    15, 8,
+    29, 7,
+    52, 4,
+    76, 4,
+    86, -0,
+    76, -4,
+    52, -4,
+    29, -7,
+    15, -8,
+    -22, -8,
+    -52, -7,
+    -60, -6,
+    -71, -5,
+    -79, -4,
+    -82, -3,
+    -85, -2
+  ]
+}

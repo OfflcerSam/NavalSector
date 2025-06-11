@@ -48,7 +48,7 @@
 	"vengeanceLevelNames":["Local System Warrant", "Naval Police Warrant", "Designated Security Threat"],
 	"vengeanceFleetNamesSingle":["Naval Police group", "Naval Detachment group", "Naval Strike group"],
 	"vengeanceFleetNames":["Naval Police Fleet", "Naval Detachment Fleet", "Naval Strike Fleet"],
-	"vengeanceFleetSizeMult":1.5,
+	"vengeanceFleetSizeMult":2.0,
 	
 	
 	"asteroidMiningFleetName":"Commercial Mining Fleet",
@@ -65,7 +65,7 @@
 		["on_atlanta_flotilla"]
 	],
     "startShipsCombatSmall":[
-		["on_fletcher_light", "on_butler_screen", "on_fletcher_escort"],
+		["on_fletcher_light", "on_sampson_strike", "on_sampson_strike"],
 		["on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort"],
 		["on_butler_screen", "on_butler_screen", "on_lst_support"]
     ],
@@ -88,11 +88,14 @@
 		["on_liberty_standard", "on_liberty_standard", "on_lst_support"]
     ],
 	
-
-
-    "startShipsExplorerLarge":[
-		["on_fletcher_escort", "on_butler_screen", "on_liberty_standard"],
+	
+	"startShipsExplorerSmall":[
+		["on_fletcher_escort", "on_sampson_strike", "on_lst_support"],
 		["on_fletcher_light", "on_liberty_standard", "on_lst_support"]
+    ],
+    "startShipsExplorerLarge":[
+		["on_atlanta_support", "on_fletcher_escort", "on_liberty_standard"],
+		["on_atlanta_support", "on_fletcher_light", "on_lst_support"]
     ],
 	
     "startShipsCarrierSmall":[

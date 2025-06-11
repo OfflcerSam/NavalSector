@@ -1,0 +1,32 @@
+{
+  "variantId": "on_sampson_strike",
+  "hullId": "on_sampson",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Main": "on_5inch",
+        "TorpedoL1": "on_21Mk15_rack",
+        "TorpedoL2": "on_21Mk15_rack",
+        "TorpedoR1": "on_21Mk15_rack",
+        "TorpedoR2": "on_21Mk15_rack",
+        "WS0001": "on_5inch",
+        "WS0003": "on_Oer20mm",
+        "WS0004": "on_Oer20mm",
+        "WS0008": "on_Oer20mm",
+        "WS0009": "on_Oer20mm",
+        "WS0010": "on_Bof40mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

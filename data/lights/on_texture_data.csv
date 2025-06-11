@@ -5,6 +5,7 @@ id,type,frame,magnitude,map,path
 on_liberty,ship,,1,normal,graphics/shaders/normal/ships/USNC/Libertyship_Normal.png
 on_cimarron,ship,,1,normal,graphics/shaders/normal/ships/USNC/Cimarronclass_Normal.png
 on_lst,ship,,1,normal,graphics/shaders/normal/ships/USNC/LSTClass_Normal.png
+on_sampson,ship,,1,normal,graphics/shaders/normal/ships/USNCSampsonclass_Normal.png
 on_butler,ship,,1,normal,graphics/shaders/normal/ships/USNC/Butlerclass_Normal.png
 on_fletcher,ship,,1,normal,graphics/shaders/normal/ships/USNC/Fletcherclass_Normal.png
 on_atlanta,ship,,1,normal,graphics/shaders/normal/ships/USNC/Atlantaclass_Normal.png
