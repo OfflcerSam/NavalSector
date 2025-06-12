@@ -12,7 +12,6 @@
   "shieldRadius": 120,
   "viewOffset": 0,
   "builtInMods": [
-    "pointdefenseai",
 	"armoredweapons",
     "escort_package"
   ],

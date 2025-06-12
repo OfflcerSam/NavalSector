@@ -43,7 +43,7 @@ on_5inch_dual_flak,WEAPON,"Dual 5 inch (127mm) Gun turret, this one is loaded wi
 ,,,,,
 on_8inch_triple,WEAPON,"Triple 8 inch (203mm) Gun turret. The loading mechanism has been semi-automated, it feeds in 3 rounds at a time while holding 30 rounds in reserve total.",,,
 ,,,,,
-on_16inch_quad,WEAPON,"Quad 16 inch (405mm) Gun turret. The loading mechanism has been semi-automated, it feeds in 4 rounds at a time while holding 24 rounds in reserve total.",,,
+on_16inch_quad,WEAPON,"Quad 16 inch (405mm) Gun turret. The loading mechanism has been semi-automated, it feeds in 4 rounds at a time while holding 40 rounds in reserve total.",,,
 ,,,,,
 on_200mmCoil,WEAPON,"200mm Coilgun turret. The loading mechanism is entirely automated, it has a delay to charge up enough energy to fire and requires a barrel change after 5 shots.",,,
 on_420mmAE_dual,WEAPON,"420mm Positron Beam turret. The loading mechanism is semi-automated, it feeds in 2 energy cells at a time while holding 8 cells in reserve total.",,,

@@ -15,6 +15,10 @@
     "surveying_equipment",
     "ground_support"
   ],
+  "builtInWings": [
+    "on_elcopt_wing",
+    "on_elcopt_wing"
+  ],
   "builtInWeapons": {
     "50CL": "on_Twin50cal",
     "50CL2": "on_Twin50cal",

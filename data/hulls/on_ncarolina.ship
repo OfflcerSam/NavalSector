@@ -13,8 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "hiressensors",
-    "armoredweapons",
-    "pointdefenseai"
+    "armoredweapons"
   ],
   "builtInWeapons": {
     "WS0001": "on_BofD40mm",

@@ -14,6 +14,9 @@
   "builtInMods": [
     "repair_gantry"
   ],
+  "builtInWings": [
+    "mining_drone_wing"
+  ],
   "builtInWeapons": {
     "50CL": "on_Twin50cal",
     "50CR": "on_Twin50cal",

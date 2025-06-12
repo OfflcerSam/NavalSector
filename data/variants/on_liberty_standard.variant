@@ -52,7 +52,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "on_elcopt_wing"
-  ]
+  "wings": []
 }

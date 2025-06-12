@@ -4,11 +4,12 @@
   "displayName": "Escort",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 20,
+  "fluxVents": 19,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "insulatedengine",
+    "on_pdgunner",
     "blast_doors",
     "ecm",
     "turretgyros"

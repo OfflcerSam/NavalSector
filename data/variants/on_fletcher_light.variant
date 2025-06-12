@@ -9,6 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
+	"on_pdgunner",
     "insulatedengine"
   ],
   "weaponGroups": [

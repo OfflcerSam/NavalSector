@@ -3,12 +3,13 @@
   "hullId": "on_yorktown",
   "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 4,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
+    "on_pdgunner",
     "recovery_shuttles",
     "reinforcedhull",
     "additional_berthing"

@@ -12,7 +12,6 @@
   "shieldRadius": 235,
   "viewOffset": 0,
   "builtInMods": [
-    "pointdefenseai",
     "ground_support",
     "bdeck"
   ],

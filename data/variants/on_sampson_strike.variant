@@ -4,10 +4,12 @@
   "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 20,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "on_pdgunner"
+  ],
   "weaponGroups": [
     {
       "autofire": true,

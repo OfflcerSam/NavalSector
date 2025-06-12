@@ -120,7 +120,8 @@
 		
 		[["usncaw_package",""]],
 		
-		[["modspec","heavyarmor"],["modspec","ballistic_rangefinder"],["modspec","magazines"],["modspec","turretgyros"]]
+		[["modspec","ballistic_rangefinder"],["modspec","magazines"],["modspec","turretgyros"],["modspec","on_pdgunner"]],
+		[["modspec","heavyarmor"],["modspec","on_insulatedhull"],["modspec","fluxbreakers"]]
     ],
     
     "defenceStations":[

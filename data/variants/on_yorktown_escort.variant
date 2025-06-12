@@ -9,6 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
+	"on_pdgunner",
     "recovery_shuttles",
     "turretgyros",
     "blast_doors"

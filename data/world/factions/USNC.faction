@@ -39,9 +39,7 @@
   # ships the faction gets access to when importing S&W out-of-faction
   "shipsWhenImporting": {
     "tags":[],
-    "hulls":[
-
-	],
+    "hulls":[],
   },
   
   "knownShips": {
@@ -101,13 +99,11 @@
 	},
 	"priorityFighters":{
 		"tags":["USNC"],
-       "fighters":[
-
-		],
+		"fighters":[],
   },
   "knownWeapons": {
-    "tags": ["USNC"],
-    "weapons": [
+		"tags": ["USNC"],
+		"weapons": [
 			"on_5inch",
 			"on_5inch_flak",
 			"on_5inch_dual",
@@ -123,51 +119,22 @@
         ],
   },
   "priorityWeapons": {
-    "tags": ["USNC"],
-    "weapons": [
-        ],
+		"tags": ["USNC"],
+		"weapons": [],
 	},
 	"knownHullMods":{
-		"tags":["base_bp", "standard"],
-		"hullMods":[
-			  "converted_hangar",
-			  "turretgyros",
-			  "armoredweapons",
-			  "ballistic_rangefinder",
-			  "augmentedengines",
-			  "converted_hangar",
-			  "expanded_deck_crew",
-			  "magazines",
-			  "missleracks",
-			  "extendedshieldemitter",
-			  "frontemitter",
-			  "frontshield",
-			  "heavyarmor",
-			  "insulatedengine",
-			  "nav_relay",
-			  "operations_center",
-			  "recovery_shuttles",
-			  "fluxdistributor",
-			  "surveying_equipment",
-			  "efficiency_overhaul",
-			  "fluxcoil",
-			  "targetingunit",
-			  "hardened_subsystems",
-			  "pointdefenseai",
-			  "escort_package",
-		],
+		"tags":["merc", "standard", "USNC"],
+		"hullMods":[],
 	},
 	"weaponSellFrequency":{
 			"on_5inch":10,
 			"on_5inch_flak":10,
-			"on_5inch_dual":5,
-			"on_5inch_dual_flak":5,
+			"on_5inch_dual":10,
+			"on_5inch_dual_flak":10,
 			
-			"on_8inch_triple":4,
+			"on_8inch_triple":5,
 			
 			"on_16inch_quad":2,
-			
-			"on_200mmCoil":0.5,
 			
 			"on_21Mk15_rack":2,
 
@@ -191,16 +158,21 @@
 			
 	},
 	"hullmodSellFrequency":{
-		"heavyarmor":1,
-		"ballistic_rangefinder":1,
-		"targetingunit":1,
-		"armoredweapons":1,
-		"operations_center":1,
-		"recovery_shuttles":1,
-		"insulatedengine":1,
-		"hardened_subsystems":1,
-		"pointdefenseai":1,
-		"escort_package":1,
+			"turretgyros":1,
+			"ballistic_rangefinder":1,
+			"magazines":1,
+			"missleracks":1,
+			
+			"expanded_deck_crew":1,
+			"recovery_shuttles":1,
+
+			"heavyarmor":1,
+			"on_insulatedhull":1,
+			"insulatedengine":1,
+
+			"pointdefenseai":1,
+			"on_pdgunner":1,
+			"escort_package":1,
 	},	
 	"factionDoctrine":{
 		"warships":4,

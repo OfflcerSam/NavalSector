@@ -12,7 +12,6 @@
   "shieldRadius": 91,
   "viewOffset": 0,
   "builtInMods": [
-    "pointdefenseai",
     "armoredweapons"
   ],
   "builtInWeapons": {
