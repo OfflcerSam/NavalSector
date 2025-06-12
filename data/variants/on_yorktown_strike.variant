@@ -8,6 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
+	"on_defaultarmor",
     "expanded_deck_crew",
     "on_pdgunner",
     "recovery_shuttles",

@@ -8,6 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
+	"on_thinarmor",
     "blast_doors",
 	"on_pdgunner",
     "insulatedengine",

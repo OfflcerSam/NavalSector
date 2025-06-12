@@ -12,7 +12,7 @@
   "shieldRadius": 118,
   "viewOffset": 0,
   "builtInMods": [
-    "armoredweapons",
+    "on_navalhull",
     "hiressensors"
   ],
   "builtInWeapons": {

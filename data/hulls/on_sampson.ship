@@ -12,7 +12,7 @@
   "shieldRadius": 91,
   "viewOffset": 0,
   "builtInMods": [
-    "armoredweapons"
+    "on_navalhull"
   ],
   "builtInWeapons": {
     "TorpedoL1": "on_21Mk15_rack",

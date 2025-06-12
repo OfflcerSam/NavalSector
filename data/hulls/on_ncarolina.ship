@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "hiressensors",
-    "armoredweapons"
+    "on_navalhull"
   ],
   "builtInWeapons": {
     "WS0001": "on_BofD40mm",

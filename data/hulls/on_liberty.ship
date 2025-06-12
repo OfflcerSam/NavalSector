@@ -12,6 +12,7 @@
   "shieldRadius": 138,
   "viewOffset": 0,
   "builtInMods": [
+	"on_navalhull",
     "repair_gantry"
   ],
   "builtInWings": [

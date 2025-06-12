@@ -8,6 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
+	"on_defaultarmor",
     "on_pdgunner",
     "escort_package",
     "auxiliarythrusters",

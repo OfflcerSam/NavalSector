@@ -13,6 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "surveying_equipment",
+	"on_navalhull",
     "ground_support"
   ],
   "builtInWings": [

@@ -12,7 +12,7 @@
   "shieldRadius": 120,
   "viewOffset": 0,
   "builtInMods": [
-	"armoredweapons",
+	"on_navalhull",
     "escort_package"
   ],
   "builtInWeapons": {

@@ -13,6 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "ground_support",
+	"on_navalhull",
     "bdeck"
   ],
   "builtInWeapons": {
