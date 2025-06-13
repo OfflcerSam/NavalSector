@@ -25,16 +25,17 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,60,30,0.05,3,HIGH_EXPLOSIVE,50,,0,10,3,0.5,0,6,2,4,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,40,30,0.05,3,HIGH_EXPLOSIVE,50,,0,10,3,0.5,0,6,2,4,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
+#10-inch/40-caliber dual gun Mount,on_10inch_dual,2,0.5,4250,1300,,800,,30,35,45,20,0.03,2,HIGH_EXPLOSIVE,70,,0,10,3,0.5,0,6,2,4,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
+#12-inch/50-caliber triple gun Mount,on_12inch_triple,2,0.5,5500,1400,,1000,,30,35,45,30,0.05,3,HIGH_EXPLOSIVE,60,,0,10,3,0.5,0,6,2,4,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-16-inch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,25,60,40,0.03,4,HIGH_EXPLOSIVE,80,,0,20,4,1,0,6,2,4,,705,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,400
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#14-inch/50-caliber gun triple gun Mount,on_14inch_triple,3,0.5,7000,1600,,1200,,60,30,55,30,0.03,4,HIGH_EXPLOSIVE,70,,0,20,3,1,0,6,2,4,,800,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,350
+16-inch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,25,60,40,0.04,4,HIGH_EXPLOSIVE,80,,0,20,4,1,0,6,2,4,,715,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he25, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,400
+#18-inch/47-caliber triple gun Mount,on_18inch_triple,3,0.4,9950,2000,,2000,,100,25,65,30,0.03,4,HIGH_EXPLOSIVE,130,,0,30,3,1,0,6,2,4,,733,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,450
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Experimental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-200mm Experimental Coilgun Mount,on_200mmCoil,4,0.25,15000,5000,,2000,5,60,40,90,5,0.08,5,KINETIC,2500,,0.596,5,1,,0,4,2,4,,5000,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic25, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,200
+#125mm Experimental Coilgun Mount,on_125mmCoil,4,0.3,6000,5500,,1300,2,40,25,60,10,0.17,10,KINETIC,1050,,0.596,2,1,,0,3,2,4,,5000,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"kinetic20, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,125
+200mm Experimental Coilgun Mount,on_200mmCoil,4,0.25,15000,6500,,2000,5,60,40,90,5,0.08,5,KINETIC,2500,,0.596,5,1,,0,4,2,4,,5000,,,,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic25, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,200
 420mm Experimental Positron gun Mount,on_420mmAE_dual,4,0.1,85000,8000,4420,,200,90,20,120,8,0.02,2,KINETIC,,6000,3.8,3,5,,,,,,,10000,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"energy30, beam25, LR, usncwe_bp, USNC",,Naval Research and Development Department,,General,,,,,,,,,,400
