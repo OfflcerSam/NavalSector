@@ -64,13 +64,16 @@ public class navalDedicatedPointDefenseGunners extends BaseHullMod {
 		return null;
 	}
 
+	public boolean isApplicableToShip(ShipAPI ship) {
+		if (ship.getVariant().hasHullMod("pointdefenseai")) return false;
+		return ship != null;
+	}
+
 	public String getUnapplicableReason(ShipAPI ship) {
 		if (ship.getVariant().hasHullMod("pointdefenseai")) {
 			return "Incompatible with Integrated Point Defense AI.";
 		}
 		return "Incompatible";
-
-
 	}
 
 }

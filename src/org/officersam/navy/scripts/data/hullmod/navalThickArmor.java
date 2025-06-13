@@ -11,7 +11,7 @@ public class navalThickArmor extends BaseHullMod {
     public static final float ARMOR_BONUS = 50f;
 
     public static final float MIN_CREW_BONUS = 10f;
-    public static final float MAX_CREW_BONUS = -15f;
+    public static final float MAX_CREW_BONUS = -5f;
 
     public static final float MAX_SPEED_BONUS = -40f;
     public static final float ACCEL_BONUS = -20f;
