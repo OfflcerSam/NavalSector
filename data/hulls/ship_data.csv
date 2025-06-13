@@ -1,26 +1,26 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #USNC General Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,3,4500,60,2000,,250,65,1,140,45,125,9,6,2000,NONE,,,,,,,80,105,950,150,1,40,9,35500,10,20,240,0.25,4,4,,,,,,,"CIVILIAN, CARRIER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
-Cimarron,on_cimarron,Tanker,Naval Maritime Commission,,3,5500,60,2000,,300,65,,140,45,125,9,6,2700,NONE,,,,,,,225,300,80,1000,1,500,9,36500,10,20,240,0.25,4,4,,,,,,,"CIVILIAN, TANKER","usncg_bp, USNC",,0.6,1,5,,1941
-"Landing Ship, Tank",on_lst,Troop Transport,Naval Maritime Commission,,4,4000,90,1500,,250,70,2,160,50,125,9,6,800,NONE,,,,,,,25,350,300,50,1,40,9,27500,10,15,480,0.25,3,3,,,,,,,"CIVILIAN, CARRIER, LINER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1942
+Liberty Ship,on_liberty,Freighter,Naval Maritime Commission,,3,6500,60,2000,,250,65,1,140,45,125,9,6,2000,NONE,,,,,,,80,105,950,150,1,40,9,35500,10,20,240,0.25,4,4,,,,,,,"CIVILIAN, CARRIER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1941
+Cimarron,on_cimarron,Tanker,Naval Maritime Commission,,3,7000,60,2000,,300,65,,140,45,125,9,6,2700,NONE,,,,,,,225,300,80,1000,1,500,9,36500,10,20,240,0.25,4,4,,,,,,,"CIVILIAN, TANKER","usncg_bp, USNC",,0.6,1,5,,1941
+"Landing Ship, Tank",on_lst,Troop Transport,Naval Maritime Commission,,4,6500,100,1500,,250,70,2,160,50,125,9,6,800,NONE,,,,,,,25,350,300,50,1,40,9,27500,10,15,480,0.25,3,3,,,,,,,"CIVILIAN, CARRIER, LINER, FREIGHTER","usncg_bp, USNC",,0.6,1,5,,1942
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC System Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sampson,on_sampson,Destroyer,Naval Maritime Commission,,8,5000,100,3000,,150,70,,180,60,125,10,6,300,NONE,,,,,,,75,99,20,30,1,20,9,18500,10,10,540,0.25,4,4,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1915
-Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,10,5650,150,5000,,250,90,,160,50,125,10,6,550,NONE,,,,,,,150,195,25,40,1,25,9,24500,15,10,540,0.25,6,6,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1943
-Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,8500,400,7000,,300,170,,150,50,115,10,6,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,20,15,540,0.25,8,8,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
+Sampson,on_sampson,Destroyer,Naval Maritime Commission,,8,7600,150,3000,,150,70,,180,60,125,10,6,300,NONE,,,,,,,75,99,20,30,1,20,9,18500,10,10,540,0.25,4,4,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1915
+Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,10,8750,250,5000,,250,90,,160,50,125,10,6,550,NONE,,,,,,,150,195,25,40,1,25,9,24500,15,10,540,0.25,6,6,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1943
+Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,11000,550,7000,,300,170,,150,50,115,10,6,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,20,15,540,0.25,8,8,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,16500,500,8500,,500,300,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,10,10,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1934
-Portland,on_portland,Heavy Cruiser,Naval Maritime Commission,,25,19500,750,9500,,800,300,,140,45,105,9,6,3300,NONE,,,,,,,715,950,35,60,1,50,8,95000,25,20,720,0.25,12,12,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
+Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25500,700,8500,,500,300,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,10,10,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1934
+Portland,on_portland,Heavy Cruiser,Naval Maritime Commission,,25,31000,850,9500,,800,300,,135,45,105,9,6,3300,NONE,,,,,,,715,950,35,60,1,50,8,95000,25,20,720,0.25,12,12,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Yorktown,on_yorktown,Carrier,Naval Maritime Commission,,20,30000,800,9000,,1000,300,4,130,40,100,9,6,3500,NONE,,,,,,,1620,2150,80,80,1,60,8,135000,30,30,720,0.25,15,15,,,,,,,CARRIER,"usnci_bp, USNC",,0.4,3,8,,1940
+Yorktown,on_yorktown,Carrier,Naval Maritime Commission,,20,45500,950,9000,,1000,300,4,125,40,100,9,6,3500,NONE,,,,,,,1620,2150,80,80,1,60,8,135000,30,30,720,0.25,15,15,,,,,,,CARRIER,"usnci_bp, USNC",,0.4,3,8,,1940
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-North Carolina,on_ncarolina,Battleship,Naval Maritime Commission,,30,35000,1500,10000,,1000,650,,130,40,100,9,6,4250,NONE,,,,,,,1465,1950,50,80,1,50,8,195000,30,25,720,0.25,20,20,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1937
+North Carolina,on_ncarolina,Battleship,Naval Maritime Commission,,30,50000,1750,10000,,1000,650,,125,40,100,9,6,4250,NONE,,,,,,,1465,1950,50,80,1,50,8,195000,30,25,720,0.25,20,20,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1937
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

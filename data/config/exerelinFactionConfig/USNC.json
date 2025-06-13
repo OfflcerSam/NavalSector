@@ -123,6 +123,8 @@
 		[["modspec","on_noarmor"]],
 		[["modspec","on_thinarmor"]],
 		[["modspec","on_defaultarmor"]],
+		[["modspec","on_thickarmor"]],
+		[["modspec","on_thickestarmor"]],
 		
 		[["modspec","ballistic_rangefinder"],["modspec","magazines"],["modspec","turretgyros"],["modspec","on_pdgunner"]],
 		[["modspec","heavyarmor"],["modspec","on_insulatedhull"],["modspec","fluxbreakers"]]
