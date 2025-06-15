@@ -9,7 +9,7 @@
 	"gameVersion": "0.98a-RC8",
   
 	"jars": [ "jars/Navy.jar" ],
-	"modPlugin": "org.officersam.navy.scripts.NavalmodPlugin",
+	"modPlugin": "officersam.navy.scripts.NavalmodPlugin",
   
 	"totalConversion": "false",
 	"utility": "false",
