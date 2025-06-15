@@ -86,7 +86,7 @@
 		],
 		
 		"FIGHTER":{"sounds":[1,2], "pitch":1.0, "volume":0.2},
-		"FRIGATE":{"sounds":[0,2,3], "pitch":1.0, "volume":0.3},
+		"FRIGATE":{"sounds":[0,1,2,3], "pitch":1.0, "volume":0.3},
 		"DESTROYER":{"sounds":[0,2,3], "pitch":1, "volume":0.3},
 		"CRUISER":{"sounds":[0,2,3], "pitch":0.9, "volume":0.4},
 		"CAPITAL_SHIP":{"sounds":[0,2,3], "pitch":0.9, "volume":0.5},
