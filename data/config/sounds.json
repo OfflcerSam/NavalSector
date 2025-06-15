@@ -119,8 +119,8 @@
 	},
 	"on_sound_aircraft_engine_loop":{
 		"sounds":[
-			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_01","pitch":1,"volume":0.2}, #0
-			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_02","pitch":1,"volume":0.2}, #1
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_01.ogg","pitch":1,"volume":0.2}, #0
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_02.ogg","pitch":1,"volume":0.2}, #1
 		],
 		
 		"FIGHTER":{"sounds":[0,1], "pitch":1.0, "volume":0.2},
