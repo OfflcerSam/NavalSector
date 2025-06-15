@@ -111,11 +111,11 @@
 			{"file":"sounds/sfx_engines/naval/naval_engine_loop_05.ogg","pitch":1,"volume":1.0}, #Index 4
 		],
 			
-		"FIGHTER":{"sounds":[0,1,2,3,4], "pitch":1.1, "volume":0.3},
-		"FRIGATE":{"sounds":[0,1,2,3,4], "pitch":1.1, "volume":0.3},
-		"DESTROYER":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.4},
-		"CRUISER":{"sounds":[0,1,2,3,4], "pitch":0.9, "volume":0.5},
-		"CAPITAL_SHIP":{"sounds":[0,1,2,3,4], "pitch":0.9, "volume":0.6},
+		"FIGHTER":{"sounds":[0,1,2,3,4], "pitch":1.1, "volume":0.1},
+		"FRIGATE":{"sounds":[0,1,2,3,4], "pitch":1.1, "volume":0.2},
+		"DESTROYER":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.3},
+		"CRUISER":{"sounds":[0,1,2,3,4], "pitch":0.9, "volume":0.4},
+		"CAPITAL_SHIP":{"sounds":[0,1,2,3,4], "pitch":0.9, "volume":0.5},
 	},
 	"on_sound_aircraft_engine_loop":{
 		"sounds":[
