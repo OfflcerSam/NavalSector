@@ -3,7 +3,7 @@
   "hullId": "on_portland",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Portlandclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 346,
   "width": 40,
   "center": [20, 173],

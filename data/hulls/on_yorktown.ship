@@ -3,7 +3,7 @@
   "hullId": "on_yorktown",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Yorktownclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 418,
   "width": 70,
   "center": [35, 209],

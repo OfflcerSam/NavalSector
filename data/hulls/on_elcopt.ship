@@ -3,7 +3,7 @@
   "hullId": "on_elcopt",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/USNC/ElcoPTBoat.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 50,
   "width": 14,
   "center": [7, 25],

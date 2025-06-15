@@ -3,7 +3,7 @@
   "hullId": "on_avenger",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/USNC/TBFAvenger.png",
-  "style": "MIDLINE",
+  "style": "LIGHTAIRCRAFT",
   "height": 36,
   "width": 46,
   "center": [23, 18],

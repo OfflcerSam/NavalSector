@@ -3,7 +3,7 @@
   "hullId": "on_liberty",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Libertyship.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 268,
   "width": 34,
   "center": [17, 134],

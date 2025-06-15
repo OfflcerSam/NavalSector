@@ -3,7 +3,7 @@
   "hullId": "on_wildcat",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/USNC/F3F3closeenough.png",
-  "style": "MIDLINE",
+  "style": "LIGHTAIRCRAFT",
   "height": 17,
   "width": 25,
   "center": [12.5, 8.5],

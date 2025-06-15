@@ -3,7 +3,7 @@
   "hullId": "on_dauntless",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/USNC/SBDDauntless.png",
-  "style": "MIDLINE",
+  "style": "LIGHTAIRCRAFT",
   "height": 18,
   "width": 25,
   "center": [12.5, 9],

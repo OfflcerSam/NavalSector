@@ -3,7 +3,7 @@
   "hullId": "on_sampson",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/USNC/Sampsonclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 174,
   "width": 20,
   "center": [10, 87],

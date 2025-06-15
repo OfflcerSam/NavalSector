@@ -3,7 +3,7 @@
   "hullId": "on_butler",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/USNC/Butlerclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 187,
   "width": 24,
   "center": [12, 93.5],

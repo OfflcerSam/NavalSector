@@ -3,7 +3,7 @@
   "hullId": "on_fletcher",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/USNC/Fletcherclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 230,
   "width": 28,
   "center": [14, 115],

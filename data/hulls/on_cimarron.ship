@@ -3,7 +3,7 @@
   "hullId": "on_cimarron",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Cimarronclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 316,
   "width": 38,
   "center": [19, 158],

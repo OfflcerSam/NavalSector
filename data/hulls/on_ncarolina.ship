@@ -3,7 +3,7 @@
   "hullId": "on_ncarolina",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/USNC/NorthCarolinaclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 444,
   "width": 72,
   "center": [36, 222],

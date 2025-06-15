@@ -3,7 +3,7 @@
   "hullId": "on_atlanta",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Atlantaclass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 229,
   "width": 26,
   "center": [13, 114.5],

@@ -73,8 +73,29 @@
 		{"file":"sounds/sfx_wpn_guns/usnc/105mm_m4_3.ogg","pitch":1,"volume":0.5},
 	],
 	
+	#USNCShipSounds
+	"on_sound_ship_engine_accel":[
+		{"file":"sounds/sfx_engines/naval/naval_engine_accel_01","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_engines/naval/naval_engine_accel_02","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_engines/naval/naval_engine_accel_03","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_engines/naval/naval_engine_accel_04","pitch":1,"volume":0.4},
 
-	
+	],
+	"on_sound_ship_engine_loop":[
+		{"file":"sounds/sfx_engines/naval/naval_engine_loop_01","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_engines/naval/naval_engine_loop_02","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_engines/naval/naval_engine_loop_03","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_engines/naval/naval_engine_loop_04","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_engines/naval/naval_engine_loop_05","pitch":1,"volume":0.2},
+	],
+	"on_sound_aircraft_engine_accel":[
+		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_01","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_02","pitch":1,"volume":0.5},
+	],
+	"on_sound_aircraft_engine_loop":[
+		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_01","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_02","pitch":1,"volume":0.2},
+	],
 	
 	#Music
 	"music":{

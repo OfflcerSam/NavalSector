@@ -3,7 +3,7 @@
   "hullId": "on_lst",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/USNC/LSTClass.png",
-  "style": "MIDLINE",
+  "style": "NAVALSHIP",
   "height": 191,
   "width": 32,
   "center": [16, 95.5],

@@ -3,7 +3,7 @@
   "hullId": "on_devastator",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/USNC/TBDDevastator.png",
-  "style": "MIDLINE",
+  "style": "LIGHTAIRCRAFT",
   "height": 24,
   "width": 36,
   "center": [18, 12],
