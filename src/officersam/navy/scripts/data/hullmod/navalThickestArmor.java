@@ -1,28 +1,29 @@
-package org.officersam.navy.scripts.data.hullmod;
+package officersam.navy.scripts.data.hullmod;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import org.magiclib.hullmods.MagicIncompatibleWarning;
 import org.magiclib.util.MagicIncompatibleHullmods;
 
-public class navalThinArmor extends BaseHullMod {
+public class navalThickestArmor extends BaseHullMod {
 
-    public static final float HULL_BONUS = -20f;
-    public static final float ARMOR_BONUS = -40f;
+    public static final float HULL_BONUS = 50f;
+    public static final float ARMOR_BONUS = 100f;
 
-    public static final float MIN_CREW_BONUS = -5f;
-    public static final float MAX_CREW_BONUS = 15f;
+    public static final float MIN_CREW_BONUS = 20f;
+    public static final float MAX_CREW_BONUS = -10f;
 
-    public static final float MAX_SPEED_BONUS = 40f;
-    public static final float ACCEL_BONUS = 20f;
-    public static final float DECEL_BONUS = 10f;
+    public static final float MAX_SPEED_BONUS = -80f;
+    public static final float ACCEL_BONUS = -40f;
+    public static final float DECEL_BONUS = -20f;
 
-    public static final float ENGINE_HP_BONUS = -15f;
-    public static final float WEAPON_HP_BONUS = -20f;
+    public static final float ENGINE_HP_BONUS = 65f;
+    public static final float WEAPON_HP_BONUS = 80f;
 
-    public static final float CARGO_BONUS = 10f;
-    public static final float FUEL_BONUS = 10f;
-    public static final float FUEL_USAGE_BONUS = -15f;
+    public static final float CARGO_BONUS = -30f;
+    public static final float FUEL_BONUS = -20f;
+    public static final float FUEL_USAGE_BONUS = 40f;
 
     @Override
     public int getDisplaySortOrder() {
@@ -59,10 +60,10 @@ public class navalThinArmor extends BaseHullMod {
         stats.getFuelMod().modifyPercent(id,FUEL_BONUS);
         stats.getFuelUseMod().modifyPercent(id,FUEL_USAGE_BONUS);
 
-        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_noarmor", "on_thinarmor");
-        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_defaultarmor", "on_thinarmor");
-        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_thickarmor", "on_thinarmor");
-        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_thickestarmor", "on_thinarmor");
+        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_noarmor", "on_thickestarmor");
+        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_thinarmor", "on_thickestarmor");
+        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_defaultarmor", "on_thickestarmor");
+        MagicIncompatibleHullmods.removeHullmodWithWarning(stats.getVariant(), "on_thickarmor", "on_thickestarmor");
 
     }
 
@@ -86,19 +87,18 @@ public class navalThinArmor extends BaseHullMod {
         if (index == 12) return "" + (int) FUEL_USAGE_BONUS + "%";
         return null;
     }
-
     public boolean isApplicableToShip(ShipAPI ship) {
         if (ship.getVariant().hasHullMod("on_navalhull")) return true;
         if (ship.getVariant().hasHullMod("on_noarmor")) return false;
+        if (ship.getVariant().hasHullMod("on_thinarmor")) return false;
         if (ship.getVariant().hasHullMod("on_defaultarmor")) return false;
         if (ship.getVariant().hasHullMod("on_thickarmor")) return false;
-        if (ship.getVariant().hasHullMod("on_thickestarmor")) return false;
         return ship != null;
     }
 
     public String getUnapplicableReason(ShipAPI ship) {
-        if (ship.getVariant().hasHullMod("on_noarmor")) {
-            return "Incompatible with No Armor Layout.";
+        if (ship.getVariant().hasHullMod("on_thinarmor")) {
+            return "Incompatible with Thin Armor Layout.";
         }
         if (ship.getVariant().hasHullMod("on_defaultarmor")) {
             return "Incompatible with Default Armor Layout.";
@@ -106,9 +106,10 @@ public class navalThinArmor extends BaseHullMod {
         if (ship.getVariant().hasHullMod("on_thickarmor")) {
             return "Incompatible with Thick Armor Layout.";
         }
-        if (ship.getVariant().hasHullMod("on_thickestarmor")) {
-            return "Incompatible with Thickest Armor Layout.";
+        if (ship.getVariant().hasHullMod("on_noarmor")) {
+            return "Incompatible with No Armor Layout.";
         }
         return "Incompatible";
     }
+
 }

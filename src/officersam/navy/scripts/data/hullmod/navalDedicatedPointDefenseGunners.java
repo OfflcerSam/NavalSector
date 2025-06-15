@@ -1,4 +1,4 @@
-package org.officersam.navy.scripts.data.hullmod;
+package officersam.navy.scripts.data.hullmod;
 
 import java.util.Iterator;
 import java.util.List;
@@ -13,7 +13,7 @@ import com.fs.starfarer.api.combat.WeaponAPI.WeaponSize;
 import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
-public class DedicatedPointDefenseGunners extends BaseHullMod {
+public class navalDedicatedPointDefenseGunners extends BaseHullMod {
 
 	public static float DAMAGE_BONUS = 40f;
 	public static float CREW_PERCENT = 15f;
@@ -64,13 +64,16 @@ public class DedicatedPointDefenseGunners extends BaseHullMod {
 		return null;
 	}
 
+	public boolean isApplicableToShip(ShipAPI ship) {
+		if (ship.getVariant().hasHullMod("pointdefenseai")) return false;
+		return ship != null;
+	}
+
 	public String getUnapplicableReason(ShipAPI ship) {
 		if (ship.getVariant().hasHullMod("pointdefenseai")) {
 			return "Incompatible with Integrated Point Defense AI.";
 		}
 		return "Incompatible";
-
-
 	}
 
 }

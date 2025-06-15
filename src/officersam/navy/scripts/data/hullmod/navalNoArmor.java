@@ -1,4 +1,4 @@
-package org.officersam.navy.scripts.data.hullmod;
+package officersam.navy.scripts.data.hullmod;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;

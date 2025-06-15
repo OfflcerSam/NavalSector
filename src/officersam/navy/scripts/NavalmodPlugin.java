@@ -1,9 +1,9 @@
-package org.officersam.navy.scripts;
+package officersam.navy.scripts;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import org.apache.log4j.Logger;
-import org.officersam.navy.scripts.world.Naval_gen;
+import officersam.navy.scripts.world.Naval_gen;
 import org.dark.shaders.light.LightData;
 import org.dark.shaders.util.TextureData;
 import exerelin.campaign.SectorManager;
@@ -31,7 +31,6 @@ public class NavalmodPlugin extends BaseModPlugin {
             LightData.readLightDataCSV("data/lights/on_light_data.csv");
         }
     }
- 
 }
 	
 

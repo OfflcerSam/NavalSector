@@ -1,4 +1,4 @@
-package org.officersam.navy.scripts.world.systems;
+package officersam.navy.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorEntityToken;

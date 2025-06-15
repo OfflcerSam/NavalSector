@@ -1,17 +1,18 @@
-package org.officersam.navy.scripts.data.hullmod;
+package officersam.navy.scripts.data.hullmod;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
-public class InsulatedHull extends BaseHullMod {
+public class navalInsulatedHull extends BaseHullMod {
     public static float HULL_BONUS = 10f;
     public static float FLUX_RESISTANCE = 15f;
 
     public static float SMOD_HULL_BONUS = 20f;
     public static float SMOD_FLUX_RESISTANCE = 30f;
 
+    @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
         stats.getHullBonus().modifyPercent(id, HULL_BONUS);

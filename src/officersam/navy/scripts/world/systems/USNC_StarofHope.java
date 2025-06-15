@@ -1,4 +1,4 @@
-package org.officersam.navy.scripts.world.systems;
+package officersam.navy.scripts.world.systems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
@@ -17,7 +17,7 @@ import org.lazywizard.lazylib.MathUtils;
 import java.awt.*;
 import java.util.Arrays;
 
-import static org.officersam.navy.scripts.world.systems.ot_addmarket.addMarketplace;
+import static officersam.navy.scripts.world.systems.ot_addmarket.addMarketplace;
 
 public class USNC_StarofHope {
     // Star Orbits
@@ -94,7 +94,6 @@ public class USNC_StarofHope {
         //autogenerate hyperspace points
         system.autogenerateHyperspaceJumpPoints(true, false);
 
-
         //asteroid belt1 ring
         system.addAsteroidBelt(hopeStar, 1250, asteroidBelt1Dist, 800f, 250f, 250f, Terrain.ASTEROID_BELT, "Kepler's Belt");
         system.addRingBand(hopeStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt1Dist - 200, 250f);
@@ -105,7 +104,6 @@ public class USNC_StarofHope {
         system.addAsteroidBelt(hopeStar, 800, asteroidBelt1Dist, 400f, 250f, 250f, Terrain.ASTEROID_BELT, "Koopler's Belt");
         system.addRingBand(hopeStar, "misc", "rings_asteroids0", 256f, 1, Color.gray, 256f, asteroidBelt2Dist - 200, 750f);
         system.addRingBand(hopeStar, "misc", "rings_asteroids0", 256f, 0, Color.gray, 256f, asteroidBelt2Dist, 800f);
-
 
         // Relays
         SectorEntityToken hopeStar_relay = system.addCustomEntity("hopeStar_relay", // unique id

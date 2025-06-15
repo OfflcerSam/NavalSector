@@ -1,11 +1,11 @@
-package org.officersam.navy.scripts.world;
+package officersam.navy.scripts.world;
 
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
-import org.officersam.navy.scripts.world.systems.USNC_StarofHope;
+import officersam.navy.scripts.world.systems.USNC_StarofHope;
 
 @SuppressWarnings("unchecked")
 public class Naval_gen implements SectorGeneratorPlugin {

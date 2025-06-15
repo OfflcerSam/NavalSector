@@ -1,7 +1,7 @@
 /*
 By Tartiflette
  */
-package org.officersam.navy.scripts.util;
+package officersam.navy.scripts.util;
 
 import com.fs.starfarer.api.Global;
 
