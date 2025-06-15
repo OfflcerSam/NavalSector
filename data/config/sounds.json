@@ -79,10 +79,10 @@
 	#Engine Accel
 	"on_sound_ship_engine_accel":{
 		"sounds":[
-			{"file":"sounds/sfx_engines/naval/naval_engine_accel_01","pitch":1,"volume":0.4},
-			{"file":"sounds/sfx_engines/naval/naval_engine_accel_02","pitch":1,"volume":0.4},
-			{"file":"sounds/sfx_engines/naval/naval_engine_accel_03","pitch":1,"volume":0.4},
-			{"file":"sounds/sfx_engines/naval/naval_engine_accel_04","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_01.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_02.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_03.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_04.ogg","pitch":1,"volume":0.4},
 		],
 		
 		"FIGHTER":{"sounds":[0,1,2,3], "pitch":1.4, "volume":0.5},
@@ -94,8 +94,8 @@
 
 	"on_sound_aircraft_engine_accel":{
 		"sounds":[
-			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_01","pitch":1,"volume":0.5},
-			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_02","pitch":1,"volume":0.5},
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_01.ogg","pitch":1,"volume":0.5},
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_02.ogg","pitch":1,"volume":0.5},
 		],
 			
 		"FIGHTER":{"sounds":[0,1], "pitch":1.0, "volume":0.5},
@@ -104,11 +104,11 @@
 	# Engine Loop
 	"on_sound_ship_engine_loop":{
 		"sounds":[
-			{"file":"sounds/sfx_engines/naval/naval_engine_loop_01","pitch":1,"volume":0.2}, #Index 0
-			{"file":"sounds/sfx_engines/naval/naval_engine_loop_02","pitch":1,"volume":0.2},
-			{"file":"sounds/sfx_engines/naval/naval_engine_loop_03","pitch":1,"volume":0.2},
-			{"file":"sounds/sfx_engines/naval/naval_engine_loop_04","pitch":1,"volume":0.2},
-			{"file":"sounds/sfx_engines/naval/naval_engine_loop_05","pitch":1,"volume":0.2}, #Index 4
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_01.ogg","pitch":1,"volume":0.2}, #Index 0
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_02.ogg","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_03.ogg","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_04.ogg","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_05.ogg","pitch":1,"volume":0.2}, #Index 4
 		],
 			
 		"FIGHTER":{"sounds":[0,1,2,3,4], "pitch":1.4, "volume":0.3},
