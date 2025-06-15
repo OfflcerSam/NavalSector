@@ -78,10 +78,12 @@
 	
 	#Engine Accel
 	"on_sound_ship_engine_accel":{
-		{"file":"sounds/sfx_engines/naval/naval_engine_accel_01","pitch":1,"volume":0.4},
-		{"file":"sounds/sfx_engines/naval/naval_engine_accel_02","pitch":1,"volume":0.4},
-		{"file":"sounds/sfx_engines/naval/naval_engine_accel_03","pitch":1,"volume":0.4},
-		{"file":"sounds/sfx_engines/naval/naval_engine_accel_04","pitch":1,"volume":0.4},
+		"sounds":[
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_01","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_02","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_03","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_engines/naval/naval_engine_accel_04","pitch":1,"volume":0.4},
+		],
 		
 		"FIGHTER":{"sounds":[0,1,2,3], "pitch":1.4, "volume":0.5},
 		"FRIGATE":{"sounds":[0,1,2,3], "pitch":1.2, "volume":0.6},
@@ -91,20 +93,24 @@
 	},
 
 	"on_sound_aircraft_engine_accel":{
-		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_01","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_02","pitch":1,"volume":0.5},
-		
+		"sounds":[
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_01","pitch":1,"volume":0.5},
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_accel_02","pitch":1,"volume":0.5},
+		],
+			
 		"FIGHTER":{"sounds":[0,1], "pitch":1.0, "volume":0.5},
 	},
 	
 	# Engine Loop
 	"on_sound_ship_engine_loop":{
-		{"file":"sounds/sfx_engines/naval/naval_engine_loop_01","pitch":1,"volume":0.2}, #Index 0
-		{"file":"sounds/sfx_engines/naval/naval_engine_loop_02","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_engines/naval/naval_engine_loop_03","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_engines/naval/naval_engine_loop_04","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_engines/naval/naval_engine_loop_05","pitch":1,"volume":0.2}, #Index 4
-		
+		"sounds":[
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_01","pitch":1,"volume":0.2}, #Index 0
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_02","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_03","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_04","pitch":1,"volume":0.2},
+			{"file":"sounds/sfx_engines/naval/naval_engine_loop_05","pitch":1,"volume":0.2}, #Index 4
+		],
+			
 		"FIGHTER":{"sounds":[0,1,2,3,4], "pitch":1.4, "volume":0.3},
 		"FRIGATE":{"sounds":[0,1,2,3,4], "pitch":1.2, "volume":0.4},
 		"DESTROYER":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.4},
@@ -112,8 +118,10 @@
 		"CAPITAL_SHIP":{"sounds":[0,1,2,3,4], "pitch":0.85, "volume":0.8},
 	},
 	"on_sound_aircraft_engine_loop":{
-		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_01","pitch":1,"volume":0.2}, #0
-		{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_02","pitch":1,"volume":0.2}, #1
+		"sounds":[
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_01","pitch":1,"volume":0.2}, #0
+			{"file":"sounds/sfx_engines/aircraft/aircraft_engine_loop_02","pitch":1,"volume":0.2}, #1
+		],
 		
 		"FIGHTER":{"sounds":[0,1], "pitch":1.0, "volume":0.2},
 	},
