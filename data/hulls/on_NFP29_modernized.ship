@@ -1,0 +1,260 @@
+{
+  "hullName": "NFP29",
+  "hullId": "on_NFP29_modernized",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SRAC/Pattern_NF29.png",
+  "style": "NAVALSHIP",
+  "height": 94,
+  "width": 18,
+  "center": [9, 47],
+  "collisionRadius": 50,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull"
+  ],
+  "builtInWeapons": {
+    "AA 000": "on_Twin50cal",
+    "AA 001": "on_Twin50cal",
+    "AA 004": "on_Twin50cal",
+    "AA 005": "on_Twin50cal",
+    "AA 006": "on_Pha20mm",
+    "AA 007": "on_Pha20mm",
+    "AA 008": "on_Twin50cal",
+    "AA 009": "on_Twin50cal",
+    "AA 010": "on_Pha20mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "Front",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 306,
+      "angle": 0,
+      "locations": [21, 0]
+    },
+    {
+      "id": "AA 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 315,
+      "locations": [9.5, -3.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "AA 000",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [9.5, 3.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "AA 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 274,
+      "angle": 225,
+      "locations": [-2.5, -3.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "AA 003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": 135,
+      "locations": [-2.5, 3.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "AA 005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-7, -6]
+    },
+    {
+      "id": "AA 004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-7, 6]
+    },
+    {
+      "id": "AA 006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-19, -6]
+    },
+    {
+      "id": "AA 007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-19, 6]
+    },
+    {
+      "id": "AA 009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 225,
+      "locations": [-44.5, -1.5]
+    },
+    {
+      "id": "AA 008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-44.5, 1.5]
+    },
+    {
+      "id": "AA 015",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": 0,
+      "locations": [12, 0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "Rear",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 308,
+      "angle": 180.5,
+      "locations": [-32, 0]
+    },
+    {
+      "id": "AA 014",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-21.5, 2.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "AA 012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 225,
+      "locations": [-21.5, -2.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "AA 011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 179,
+      "angle": 90,
+      "locations": [-17.5, 2.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "AA 013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-17.5, -2.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "AA 010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, 0],
+      "renderOrderMod": 3
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 2,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "SMOKE",
+        "engineColor": [
+          59,
+          59,
+          59,
+          250
+        ],
+        "engineCampaignColor": [
+          59,
+          59,
+          59,
+          250
+        ],
+        "mode": "",
+        "contrailColor": [
+          117,
+          123,
+          130,
+          200
+        ],
+        "contrailCampaignColor": [
+          117,
+          123,
+          130,
+          200
+        ],
+        "contrailParticleSizeMult": 10,
+        "contrailParticleFinalSizeMult": 1.5,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0.5,
+        "contrailParticleDuration": 90
+      }
+    }
+  ],
+  "bounds": [
+    -45, 3,
+    -42, 6,
+    -35, 7,
+    22, 7,
+    27, 6,
+    34, 4,
+    45, 0,
+    34, -4,
+    27, -6,
+    22, -7,
+    -35, -7,
+    -42, -6,
+    -45, -3
+  ]
+}

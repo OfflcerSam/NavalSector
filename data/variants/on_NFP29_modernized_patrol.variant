@@ -1,0 +1,58 @@
+{
+  "variantId": "on_NFP29_modernized_patrol",
+  "hullId": "on_NFP29_modernized",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "on_defaultarmor",
+    "on_pdgunner",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Front": "on_6pounder_dual",
+        "Rear": "on_6pounder_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 006": "on_Pha20mm",
+        "AA 007": "on_Pha20mm",
+        "AA 010": "on_Pha20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 000": "on_Twin50cal",
+        "AA 001": "on_Twin50cal",
+        "AA 004": "on_Twin50cal",
+        "AA 005": "on_Twin50cal",
+        "AA 008": "on_Twin50cal",
+        "AA 009": "on_Twin50cal"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
