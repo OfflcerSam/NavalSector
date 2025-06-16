@@ -1,0 +1,67 @@
+{
+  "variantId": "on_NFP29_patrol",
+  "hullId": "on_NFP29",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "on_defaultarmor",
+    "on_pdgunner",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Front": "on_6pounder_dual",
+        "Rear": "on_6pounder_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 000": "on_Hot37mm",
+        "AA 001": "on_Hot37mm",
+        "AA 012": "on_Hot37mm",
+        "AA 014": "on_Hot37mm",
+        "AA 015": "on_Hot37mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 010": "on_BofD40mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 004": "on_Oer20mm",
+        "AA 005": "on_Oer20mm",
+        "AA 006": "on_Oer20mm",
+        "AA 007": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "AA 002": "on_Twin50cal",
+        "AA 003": "on_Twin50cal",
+        "AA 008": "on_Twin50cal",
+        "AA 009": "on_Twin50cal",
+        "AA 011": "on_Twin50cal",
+        "AA 013": "on_Twin50cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

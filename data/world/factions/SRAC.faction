@@ -1,0 +1,296 @@
+{
+	id:"SRAC",
+	"color":[102,0,153,255],
+	"baseUIColor":[102,0,153,255],
+    "darkUIColor":[102,0,153,175],
+    "gridUIColor":[102,0,153,75],
+	
+	#"secondaryUIColor":[255,255,255,255],
+    #"secondarySegments":4,
+
+	
+	"displayName":"SRAC",
+	"displayNameWithArticle":"the SRAC",
+	"displayNameLong":"Sampstonial Republic Admiralty Council",
+	"displayNameLongWithArticle":"the Sampstonial Republic Admiralty Council",
+	"logo":"graphics/factions/SRAC/SRAC_flag.png",
+	"crest":"graphics/factions/SRAC/SRAC_crest.png",
+	"shipNamePrefix":"SRS",
+	"shipNameSources":{
+	"SPANISH_NAVY":1,
+	"GERMAN_NAVY":1,
+	"FRENCH_NAVY":2,
+	},
+	"description":"",
+	"names":{
+		"french":2,
+		"german":1,
+		"spanish":1,
+	},
+	
+ # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+  # multiplier for how often hulls show up in the faction's fleets
+  "hullFrequency": {
+		"tags":{
+    },
+		"hulls":{		
+	},
+},
+  # ships the faction gets access to when importing S&W out-of-faction
+  "shipsWhenImporting": {
+    "tags":[],
+    "hulls":[],
+  },
+  
+  "knownShips": {
+    "tags": ["SRAC"],
+		"hulls":[],
+  },
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": ["SRAC"],
+    "hulls": [],		
+  },
+	"knownFighters":{
+		"tags":["SRAC"],
+		"fighters":[],
+	},
+	"priorityFighters":{
+		"tags":["SRAC"],
+		"fighters":[],
+  },
+  "knownWeapons": {
+		"tags": ["SRAC"],
+		"weapons": [],
+  },
+  "priorityWeapons": {
+		"tags": ["SRAC"],
+		"weapons": [],
+	},
+	"knownHullMods":{
+		"tags":["merc", "standard", "SRAC"],
+		"hullMods":[
+			"on_pdgunner",
+			"on_insulatedhull",
+		],
+	},
+	"weaponSellFrequency":{
+
+	},
+	"fighterSellFrequency":{
+	
+	},
+	"hullmodSellFrequency":{
+			"turretgyros":1,
+			"ballistic_rangefinder":1,
+			"magazines":1,
+			"missleracks":1,
+			
+			"expanded_deck_crew":1,
+			"recovery_shuttles":1,
+
+			"heavyarmor":1,
+			"on_insulatedhull":1,
+			"insulatedengine":1,
+
+			"pointdefenseai":1,
+			"on_pdgunner":1,
+			"escort_package":1,
+	},	
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":0,
+		
+		"officerQuality":3,
+		"shipQuality":2,
+		"numShips":2,
+		
+		"shipSize":3,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+		"music":{
+			"theme":"music_srac_market_neutral",
+			"market_neutral":"music_srac_market_neutral",
+			"market_hostile":"music_srac_market_hostile",
+			"market_friendly":"music_srac_market_friendly",
+			"encounter_neutral":"music_srac_encounter_neutral",
+			"encounter_hostile":"music_srac_encounter_hostile",
+			"encounter_friendly":"music_srac_encounter_friendly",
+	},
+
+	"internalComms":"srac_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/SRAC.png",
+		],
+		"standard_female":[
+			"graphics/portraits/SRAC.png",	
+		],			
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"official":5,
+			"business":1,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"business":1,
+			"official":10,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":1.5,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Amiral du Conseil"},
+			
+			"spaceSailor":{"name":"Spationaute"},
+			"spaceChief":{"name":"Premier Maître"},
+			"spaceEnsign":{"name":"Enseigne de Vaisseau"},
+			"spaceLieutenant":{"name":"Lieutenant de Vaisseau"},
+			"spaceCommander":{"name":"Capitaine de Corvette"},
+			"spaceCaptain":{"name":"Capitaine de Vaisseau"},
+			"spaceAdmiral":{"name":"Contre-Amiral"},
+			"spaceMarshal":{"name":"Amiral de Flotte"},
+			
+			"groundPrivate":{"name":"Soldat"},
+			"groundSergeant":{"name":"Sergent"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Capitaine"},
+			"groundMajor":{"name":"Commandant"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"Général d'Armée"},
+
+			"chiefHighInspector":{"name":"Inspecteur Général"},
+			"deputyStarMarshal":{"name":"Inspecteur Adjoint"},
+			"guardHighDeputyExecutor":{"name":"Commissaire Juridique de la Marine"},
+			"executive":{"name":"Adjoint Corporatif"},
+			
+			"seniorExecutive":{"name":"Officier Corporatif"},
+			"aristocrat":{"name":"Président Directeur Général"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Élu du Conseil"},
+
+			"patrolCommander":{"name":"Chef de Patrouille"},
+			"fleetCommander":{"name":"Commandant de Flotte"},
+
+			"baseCommander":{"name":"Directeur des Opérations Planétaires"},
+			"stationCommander":{"name":"Directeur des Opérations de Station"},
+			"outpostCommander":{"name":"Directeur des Opérations de Poste"},
+			"portmaster":{"name":"Maître de Quai"},
+
+			"intelligenceDirector":{"name":"Directeur du Renseignement Naval"},
+			"guardLeader":{"name":"Directeur de la Police Navale"},
+
+			"supplyOfficer":{"name":"Officier d’Approvisionnement"},
+			"supplyManager":{"name":"Officier Logistique"},
+			"medicalSupplier":{"name":"Officier Médical Général"},
+
+			"administrator":{"name":"Administrateur Civil"},
+			"militaryAdministrator":{"name":"Administrateur Militaire"},
+			"freeAdmin":{"name":"Administrateur Indépendant"},
+
+			"minorCriminal":{"name":"Délinquant Primaire"},
+			"criminal":{"name":"Récidiviste"},
+			"spacer":{"name":"Vagabond Spatial"},
+
+			"genericMilitary":{"name":"Lieutenant-Colonel"},
+			"marineSquadLeader":{"name":"Sergent"},
+
+			"trader":{"name":"Commerçant"},
+			"merchant":{"name":"Agent d’Échange Corporatif"},
+
+			"shady":{"name":"Individu Suspect"},
+			"armsDealer":{"name":"Marchand d’Armes"},
+
+			"mercenary":{"name":"Officier Militaire Privé"},
+			"officer":{"name":"Officier"},
+			"officer_for_hire":{"name":"Officier Subalterne (for hire)"}, 
+
+			"securityChief":{"name":"Directeur de la Sécurité"},
+			"aristocrat":{"name":"Cadre Supérieur Corporatif"},
+		},
+	},
+	"fleetTypeNames":{
+
+		"trade":"Flotte Commerciale",
+
+		"tradeLiner":"Flotte de Lignes Spatiales Corporatives",
+		"tradeSmuggler":"Marchand 'Libre'",
+		"smallTrader":"Flotte de Commerce Locale",
+
+		"patrolSmall":"Patrouille de Police Navale",
+		"patrolMedium":"Groupe de Frappe Navale",
+		"patrolLarge":"Détachement de Soutien Naval",
+
+		"supplyFleet":"Flotte Logistique Navale",
+
+		"investigators":"Enquêteurs Fédéraux",
+
+		"inspectionFleet":"Flotte d’Inspection Fédérale",
+		"taskForce":"Force de Frappe Navale",
+
+		"scavengerSmall":"Groupe de Récupération Locale",
+		"scavengerMedium":"Flotte de Récupération Commerciale",
+		"scavengerLarge":"Flotte de Récupération Corporative",
+
+		"foodReliefFleet":"Convoi d’Aide Humanitaire",
+
+		"mercScout":"Éclaireurs CMP",
+		"mercBountyHunter":"Agent de Récupération de Fugitifs",
+		"mercPrivateer":"Groupe CMP",
+		"mercPatrol":"Patrouille CMP",
+		"mercArmada":"Flotte d’Assaut CMP",
+
+		"battlestation":"Forteresse Stellaire",
+		
+	},
+		
+},

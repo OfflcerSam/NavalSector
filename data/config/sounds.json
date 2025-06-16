@@ -193,6 +193,67 @@
 				"randomStart":true, 
 			},
 		],
+		#SRAC
+		"music_srac_market_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_srac_market_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_srac_market_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_srac_encounter_neutral":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_srac_encounter_hostile":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
+		"music_srac_encounter_friendly":[
+			{
+				"source":"sounds/music",
+				"volume":0.5,
+				"files":[
+					"usnc_anchorsaway.ogg",
+				],
+				"randomStart":true, 
+			},
+		],
 	}
 }
 

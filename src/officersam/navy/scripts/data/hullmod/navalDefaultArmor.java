@@ -17,8 +17,8 @@ public class navalDefaultArmor extends BaseHullMod{
     public static final float ACCEL_BONUS = 0f;
     public static final float DECEL_BONUS = 0f;
 
-    public static final float ENGINE_HP_BONUS = 0f;
-    public static final float WEAPON_HP_BONUS = 0f;
+    public static final float ENGINE_HP_BONUS = 25f;
+    public static final float WEAPON_HP_BONUS = 25f;
 
     public static final float CARGO_BONUS = 0f;
     public static final float FUEL_BONUS = 0f;

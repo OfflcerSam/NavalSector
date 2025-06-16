@@ -13,6 +13,8 @@ on_portland,ship,,1,normal,graphics/shaders/normal/ships/USNC/Portlandclass_Norm
 on_yorktown,ship,,1,normal,graphics/shaders/normal/ships/USNC/Yorktownclass_Normal.png
 on_ncarolina,ship,,1,normal,graphics/shaders/normal/ships/USNC/NorthCarolinaclass_Normal.png
 ,,,,,
+on_NFP29,ship,,1,normal,graphics/shaders/normal/ships/SRAC/Pattern_NF29_Normal.png
+,,,,,
 #on_elcopt,ship,,1,normal,
 #on_devastator,ship,,1,normal,
 #on_avenger,ship,,1,normal,

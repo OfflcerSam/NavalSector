@@ -2,20 +2,20 @@
     "playableFaction":true,
     "corvusCompatible":true,
     
-    "rebelFleetSuffix":"Confederate Rebels",
+    "rebelFleetSuffix":"Revolutionnaires",
     
     "marketSpawnWeight":1.0,
 
 	"startRelationships":{
 		"independent":0.5,
 		"pirates":-1.0,
-		"tritachyon":0.2,
+		"tritachyon":0.0,
 		"hegemony":0.0,
 		"luddic_church":-0.3,	
 		"luddic_path":-1.0,
 		"persean": 0.3,
-		"lions_guard":-0.1,			
-	    "sindrian_diktat":-0.1,	
+		"lions_guard":0.0,			
+	    "sindrian_diktat":0.0,	
 		"remnant":-0.4,		
 	},
     "maxRelationships":{ "luddic_path":-0.6, "luddic_church":0.0, "pirates":-0.5 },
@@ -25,11 +25,11 @@
     },
     
 	"alignments":{
-		"corporate":0.2,
-		"technocratic":0.5,
-		"militarist":0.8,
-		"diplomatic":0.5,
-		"ideological":0.2,
+		"corporate":0.0,
+		"technocratic":0.6,
+		"militarist":0.7,
+		"diplomatic":0.6,
+		"ideological":0.4,
 	},
 	"diplomacyTraits":["stalwart", "likes_ai", "neutralist", "helps_allies"],
     
@@ -45,80 +45,80 @@
     "specialForcesFlagshipVariants":{ "on_ncarolina_fast":1, "on_portland_attack":0.5 },
     
 	# Number of entries must equal number of vengeance tiers (0-3)
-	"vengeanceLevelNames":["Local System Warrant", "Naval Police Warrant", "Designated Security Threat"],
-	"vengeanceFleetNamesSingle":["Naval Police group", "Naval Detachment group", "Naval Strike group"],
-	"vengeanceFleetNames":["Naval Police Fleet", "Naval Detachment Fleet", "Naval Strike Fleet"],
+	"vengeanceLevelNames":["Mandat d’Arrêt Local", "Mandat de la Gendarmerie Navale", "Menace Désignée à la Sûreté Nationale"],
+	"vengeanceFleetNamesSingle":["Groupe de la Gendarmerie Navale", "Groupe de Détachement Naval", "Groupe de Frappe Navale"],
+	"vengeanceFleetNames":["Flotte de la Gendarmerie Navale", "Flotte de Détachement Naval", "Flotte de Frappe Navale"],
 	"vengeanceFleetSizeMult":2.0,
 	
 	
-	"asteroidMiningFleetName":"Commercial Mining Fleet",
-	"invasionFleetname":"Naval Invasion Command Fleet",
-	"invasionSupportFleetname":"Naval Invasion Support Fleet",
-	"responseFleetname":"Naval Detachment Fleet",
-	"defenceFleetname":"Naval Defence Force Fleet",
-	"suppressionFleetname":"Naval Police Support Fleet",
+  "asteroidMiningFleetName": "Flotte Minière Commerciale",
+  "invasionFleetname": "Flotte de Commandement pour Invasion Navale",
+  "invasionSupportFleetname": "Flotte de Soutien à l’Invasion Navale",
+  "responseFleetname": "Flotte de Détachement Naval",
+  "defenceFleetname": "Flotte de la Force de Défense Navale",
+  "suppressionFleetname": "Flotte de Soutien de la Gendarmerie Navale",
 
 	
     "startShipsSolo":[
-		["on_portland_attack"],
-		["on_ncarolina_fast"],
-		["on_atlanta_flotilla"]
+		["on_NFP29_patrol"],
+		["on_NFP29_patrol"],
+		["on_NFP29_patrol"]
 	],
     "startShipsCombatSmall":[
-		["on_fletcher_light", "on_sampson_strike", "on_sampson_strike"],
-		["on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort"],
-		["on_butler_screen", "on_butler_screen", "on_lst_support"]
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsCombatLarge":[
-		["on_atlanta_support", "on_fletcher_light", "on_fletcher_light"],
-		["on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light"],
-		["on_portland_attack", "on_atlanta_support", "on_fletcher_light"]
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
 	"startShipsGrandFleet":[
- 		["on_ncarolina_fast", "on_portland_attack", "on_fletcher_light"],
-		["on_ncarolina_fast", "on_atlanta_flotilla", "on_atlanta_flotilla"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
 	
 	"startShipsTradeSmall":[
-		["on_butler_screen", "on_liberty_standard", "on_liberty_standard"],
-		["on_fletcher_escort", "on_lst_support", "on_liberty_standard"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsTradeLarge":[
-		["on_cimarron_standard", "on_cimarron_standard", "on_lst_support"],
-		["on_liberty_standard", "on_liberty_standard", "on_lst_support"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
 	
 	
 	"startShipsExplorerSmall":[
-		["on_fletcher_escort", "on_sampson_strike", "on_lst_support"],
-		["on_fletcher_light", "on_liberty_standard", "on_lst_support"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsExplorerLarge":[
-		["on_atlanta_support", "on_fletcher_escort", "on_liberty_standard"],
-		["on_atlanta_support", "on_fletcher_light", "on_lst_support"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
 	
     "startShipsCarrierSmall":[
-		["on_fletcher_escort", "on_lst_support", "on_lst_support"],
-		["on_fletcher_light", "on_lst_support", "on_lst_support"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsCarrierLarge":[
-		["on_yorktown_escort", "on_yorktown_strike", "on_fletcher_escort"],
-		["on_yorktown_strike", "on_yorktown_strike", "on_atlanta_support"]
+ 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
 	
     
     
 	"startSpecialItems":[
-        [["usncg_package",""]],
-		[["usncs_package",""]],
+        [["srncg_package",""]],
+		[["srncs_package",""]],
 		#[["usnci_package",""]],
 		
-		[["usncws_package",""]],
+		[["srncws_package",""]],
 		#[["usncwm_package",""]],
 		#[["usncwl_package",""]],
 		
-		[["usncaw_package",""]],
+		[["srncaw_package",""]],
 		
 		[["modspec","on_noarmor"]],
 		[["modspec","on_thinarmor"]],

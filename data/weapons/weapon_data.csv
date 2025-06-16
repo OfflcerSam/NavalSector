@@ -1,28 +1,31 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-# USNC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ANM2 50cal,on_AN50cal,1,,250,450,,12,,2,90,2,105,7.5,45,KINETIC,4,,0,0.12,1,0,0,5,1,5,,890,,,10,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,12
-M2E2 Twin Mount,on_Twin50cal,1,,250,450,,12,,2,85,5,210,7.5,105,KINETIC,2,,0,0.12,1,0,0,5,1,5,,890,,,10,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,12
-Oerlikon 20mm Mount,on_Oer20mm,1,,600,600,,20,,4,75,8,60,4,60,FRAGMENTATION,8,,0,0.19,1,0,0,7,1,4,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
-Oerlikon Dual 20mm Mount,on_OerD20mm,1,,600,600,,20,,4,70,9,120,4,60,FRAGMENTATION,4,,0,0.19,1,0,0,7,1,4,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense,,,,,,,,,,20
-Bofor 40mm Mount,on_Bof40mm,1,,750,700,,40,,6,70,10,4,2.86,1,FRAGMENTATION,12,,0,0.33,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd5, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
-Bofor Dual 40mm Mount,on_BofD40mm,1,,800,700,,40,,6,65,12,8,5.71,2,FRAGMENTATION,6,,0,0.165,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
-Bofor Quad 40mm Mount,on_BofQ40mm,1,,1000,700,,40,,6,60,15,16,20,4,FRAGMENTATION,3,,0,0.125,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, he3, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,40
+#General AA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ANM2 50cal,on_AN50cal,1,,250,450,,12,,2,90,2,105,7.5,45,KINETIC,4,,0,0.12,1,0,0,5,1,5,,890,,,10,,,"PD, PD_ALSO, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR",,,,Point Defense,,,,,,,,,,12
+M2E2 Twin Mount,on_Twin50cal,1,,250,450,,12,,2,85,5,210,7.5,105,KINETIC,2,,0,0.12,1,0,0,5,1,5,,890,,,10,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd3, kinetic3, SR",,,,Point Defense,,,,,,,,,,12
+Oerlikon 20mm Mount,on_Oer20mm,1,,400,600,,20,,4,75,8,60,4,60,FRAGMENTATION,8,,0,0.19,1,0,0,7,1,4,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, SR",,,,Point Defense,,,,,,,,,,20
+Oerlikon Dual 20mm Mount,on_OerD20mm,1,,400,600,,20,,4,70,9,120,4,60,FRAGMENTATION,4,,0,0.19,1,0,0,7,1,4,,850,,,20,,,"PD_ONLY, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, SR",,,,Point Defense,,,,,,,,,,20
+Hotchkiss 37mm Mount,on_Hot37mm,1,,600,700,,35,,4,75,9,10,0.67,1,HIGH_EXPLOSIVE,10,,0,1,1,0,0,5,1,2,,815,,,20,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd4, he2, SR",,,,General,,,,,,,,,,37
+Bofor 40mm Mount,on_Bof40mm,1,,750,700,,40,,6,70,10,4,2.86,1,FRAGMENTATION,12,,0,0.33,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd5, LR",,,,Point Defense (Area),,,,,,,,,,40
+Bofor Dual 40mm Mount,on_BofD40mm,1,,800,700,,40,,6,65,12,8,5.71,2,FRAGMENTATION,6,,0,0.165,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, LR",,,,Point Defense (Area),,,,,,,,,,40
+Bofor Quad 40mm Mount,on_BofQ40mm,1,,1000,700,,40,,6,60,15,16,20,4,FRAGMENTATION,3,,0,0.125,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, LR",,,,Point Defense (Area),,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# USNC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 5-inch/25-caliber Flak gun Mount,on_5inchS_flak,1,,700,800,,80,,8,60,20,5,0.14,1,FRAGMENTATION,40,,0,3,1,0,0,5,1,2,,650,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, SYSTEM, SHOW_IN_CODEX","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 5-inch/38-caliber gun Mount,on_5inch,1,,950,850,,150,,15,55,25,5,0.14,1,HIGH_EXPLOSIVE,100,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
 5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,150,,10,55,20,5,0.14,1,FRAGMENTATION,90,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,35,10,0.29,2,HIGH_EXPLOSIVE,50,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
 Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,10,55,30,10,0.29,2,FRAGMENTATION,45,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Torpedos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 21-inch Mark 15 Torpedo (Single),on_21Mk15_single,2,0.5,400,1300,,1650,,50,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike8, rocket1, reload_1_and_a_half_pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
 21-inch Mark 15 Torpedo Rack,on_21Mk15_rack,2,0.5,800,1300,,1650,,50,10,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike10, rocket2, reload_3pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Bomber Bombs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 100 lb AN-M30A1 Bombs (Bomber),on_100lb,0,,400,200,,250,,25,0,3,12,,,HIGH_EXPLOSIVE,0,,0,0.25,1,,5,5,0,0,,300,100,25,250,,,"STRIKE, USE_VS_FRIGATES, BOMB, SYSTEM, SHOW_IN_CODEX","strike3, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,100
 100 lb AN-M30A1 Bombs (Fighter),on_100lb_fighter,0,,400,200,,250,,25,0,3,1,0.1,,HIGH_EXPLOSIVE,0,,0,0.25,1,,5,5,0,0,,300,100,25,250,,,"STRIKE, USE_VS_FRIGATES, BOMB, SYSTEM, SHOW_IN_CODEX","strike3, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,100
 1000 lb Type A Mark 1 Magnetic Mine,on_1000lb_mine,0,,100,500,,700,,15,0,1,2,,,FRAGMENTATION,0,,0,1,1,,0,0,0,0,,50,50,8,200,,,"DO_NOT_AIM, SYSTEM, SHOW_IN_CODEX","he1, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Anti Fighter (Fighter),,,,,,,,,TRUE,1000
 1000 lb AN-Mk 33 AP Bomb,on_1000lb,0,,500,250,,550,,50,0,4,2,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,5,5,0,0,,200,50,30,500,,,"STRIKE, USE_VS_FRIGATES, BOMB, SYSTEM, SHOW_IN_CODEX","strike5, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,1000
 1600 lb AN-Mk 1 AP Bomb,on_1600lb,0,,600,200,,1200,,50,0,8,1,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,5,5,0,0,,200,50,30,650,,,"STRIKE, USE_VS_FRIGATES, BOMB, SYSTEM, SHOW_IN_CODEX","strike5, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,1600
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,1200,,600,,25,35,40,30,0.05,3,HIGH_EXPLOSIVE,50,,0,10,3,0.5,0,6,2,4,,850,,,,,,"STRIKE, USE_VS_FRIGATES, CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
@@ -34,8 +37,16 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,
 16-inch/45-caliber quad gun Mount,on_16inch_quad,3,0.5,8500,1800,,1450,,80,25,60,40,0.04,4,HIGH_EXPLOSIVE,80,,0,20,4,1,0,6,2,4,,715,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he25, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,400
 #18-inch/47-caliber triple gun Mount,on_18inch_triple,3,0.4,9950,2000,,2000,,100,25,65,30,0.03,4,HIGH_EXPLOSIVE,130,,0,30,3,1,0,6,2,4,,733,,,,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS, NO_TURN_RATE_BOOST_WHEN_IDLE","he30, LR, usncwl_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,450
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Experimental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #125mm Experimental Coilgun Mount,on_125mmCoil,4,0.3,6000,5500,,1300,2,40,25,60,10,0.17,10,KINETIC,1050,,0.596,2,1,,0,3,2,4,,5000,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"kinetic20, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,125
 200mm Experimental Coilgun Mount,on_200mmCoil,4,0.25,15000,6500,,2000,5,60,40,90,5,0.08,5,KINETIC,2500,,0.596,5,1,,0,4,2,4,,5000,,,,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic25, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Shield,,,,,,,,,,200
 420mm Experimental Positron gun Mount,on_420mmAE_dual,4,0.1,85000,8000,4420,,200,90,20,120,8,0.02,2,KINETIC,,6000,3.8,3,5,,,,,,,10000,,,,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"energy30, beam25, LR, usncwe_bp, USNC",,Naval Research and Development Department,,General,,,,,,,,,,400
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SRAC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncws_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
+QF 6-Pounder dual gun Mount,on_6pounder_dual,1,,600,750,,70,,6,60,15,10,0.5,2,HIGH_EXPLOSIVE,35,,0,2.5,2,0.1,0,5,1,2,,695,,,95,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he5, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,57
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SRAC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncwm_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SRAC Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncwl_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SRAC Experimental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncwe_bp, SRAC",,Institut de Recherche Maritime et Defensive,,,,,,,,,,,,

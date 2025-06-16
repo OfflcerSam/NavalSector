@@ -7,7 +7,7 @@ import org.magiclib.util.MagicIncompatibleHullmods;
 
 public class navalThickArmor extends BaseHullMod {
 
-    public static final float HULL_BONUS = 25f;
+    public static final float HULL_BONUS = 35f;
     public static final float ARMOR_BONUS = 50f;
 
     public static final float MIN_CREW_BONUS = 10f;
@@ -17,8 +17,8 @@ public class navalThickArmor extends BaseHullMod {
     public static final float ACCEL_BONUS = -20f;
     public static final float DECEL_BONUS = -10f;
 
-    public static final float ENGINE_HP_BONUS = 25f;
-    public static final float WEAPON_HP_BONUS = 35f;
+    public static final float ENGINE_HP_BONUS = 50f;
+    public static final float WEAPON_HP_BONUS = 50f;
 
     public static final float CARGO_BONUS = -15f;
     public static final float FUEL_BONUS = -10f;

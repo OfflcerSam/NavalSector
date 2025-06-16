@@ -17,8 +17,8 @@ public class navalThinArmor extends BaseHullMod {
     public static final float ACCEL_BONUS = 20f;
     public static final float DECEL_BONUS = 10f;
 
-    public static final float ENGINE_HP_BONUS = -15f;
-    public static final float WEAPON_HP_BONUS = -20f;
+    public static final float ENGINE_HP_BONUS = 0f;
+    public static final float WEAPON_HP_BONUS = 0f;
 
     public static final float CARGO_BONUS = 10f;
     public static final float FUEL_BONUS = 10f;
