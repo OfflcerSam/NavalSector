@@ -52,7 +52,7 @@ public class SRAC_StarofStonia {
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Stonia");
-        system.getLocation().set(1947, 3962);
+        system.getLocation().set(-16700, 2065);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/background5.jpg");
 
