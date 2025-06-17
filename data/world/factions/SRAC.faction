@@ -83,21 +83,7 @@
 	
 	},
 	"hullmodSellFrequency":{
-			"turretgyros":1,
-			"ballistic_rangefinder":1,
-			"magazines":1,
-			"missleracks":1,
-			
-			"expanded_deck_crew":1,
-			"recovery_shuttles":1,
 
-			"heavyarmor":1,
-			"on_insulatedhull":1,
-			"insulatedengine":1,
-
-			"pointdefenseai":1,
-			"on_pdgunner":1,
-			"escort_package":1,
 	},	
 	"factionDoctrine":{
 		"warships":5,

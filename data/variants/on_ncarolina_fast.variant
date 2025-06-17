@@ -8,7 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_thickarmor",
+	"on_mobility",
     "auxiliarythrusters",
     "on_pdgunner",
     "ecm",

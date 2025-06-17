@@ -8,7 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_thickarmor",
+	"on_armorpack",
     "on_pdgunner",
     "reinforcedhull",
     "blast_doors",

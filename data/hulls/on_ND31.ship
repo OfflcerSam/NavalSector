@@ -228,40 +228,7 @@
       "width": 2,
       "angle": 180,
       "contrailSize": 4,
-      "style": "CUSTOM",
-      "styleSpec": {
-        "type": "SMOKE",
-        "engineColor": [
-          59,
-          59,
-          59,
-          100
-        ],
-        "engineCampaignColor": [
-          59,
-          59,
-          59,
-          100
-        ],
-        "mode": "",
-        "contrailColor": [
-          117,
-          123,
-          130,
-          120
-        ],
-        "contrailCampaignColor": [
-          117,
-          123,
-          130,
-          120
-        ],
-        "contrailParticleSizeMult": 10,
-        "contrailParticleFinalSizeMult": 1.5,
-        "contrailMaxSpeedMult": 0.5,
-        "contrailAngularVelocityMult": 0.5,
-        "contrailParticleDuration": 90
-      }
+      "style": "NAVALSTEAM"
     },
     {
       "location": [-14.5, -0],
@@ -269,40 +236,7 @@
       "width": 2,
       "angle": 180,
       "contrailSize": 4,
-      "style": "CUSTOM",
-      "styleSpec": {
-        "type": "SMOKE",
-        "engineColor": [
-          59,
-          59,
-          59,
-          100
-        ],
-        "engineCampaignColor": [
-          59,
-          59,
-          59,
-          100
-        ],
-        "mode": "",
-        "contrailColor": [
-          117,
-          123,
-          130,
-          120
-        ],
-        "contrailCampaignColor": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "contrailParticleSizeMult": 10,
-        "contrailParticleFinalSizeMult": 1.5,
-        "contrailMaxSpeedMult": 0.5,
-        "contrailAngularVelocityMult": 0.5,
-        "contrailParticleDuration": 90
-      }
+      "style": "NAVALSTEAM"
     }
   ],
   "bounds": [

@@ -124,7 +124,10 @@
 	},
 	"knownHullMods":{
 		"tags":["merc", "standard", "USNC"],
-		"hullMods":[],
+		"hullMods":[
+			"on_pdgunner",
+			"on_insulatedhull",
+		],
 	},
 	"weaponSellFrequency":{
 			"on_5inch":10,
@@ -141,38 +144,10 @@
 
 	},
 	"fighterSellFrequency":{
-			"on_elcopt_wing":2,
-			
-			"on_devastator_100_wing":5,
-			"on_devastator_torp_wing":4,
-			
-			"on_avenger_1000_wing":5,
-			"on_avenger_1600_wing":4,
-			"on_avenger_torp_wing":4,
-			
-			"on_dauntless_1600_wing":4,
-			"on_dauntless_torp_wing":4,
-			"on_dauntless_mine_wing":5,
-			
-			"on_wildcat_wing":10,
 			
 	},
 	"hullmodSellFrequency":{
-			"turretgyros":1,
-			"ballistic_rangefinder":1,
-			"magazines":1,
-			"missleracks":1,
-			
-			"expanded_deck_crew":1,
-			"recovery_shuttles":1,
 
-			"heavyarmor":1,
-			"on_insulatedhull":1,
-			"insulatedengine":1,
-
-			"pointdefenseai":1,
-			"on_pdgunner":1,
-			"escort_package":1,
 	},	
 	"factionDoctrine":{
 		"warships":4,
