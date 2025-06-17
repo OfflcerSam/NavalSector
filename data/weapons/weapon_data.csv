@@ -45,6 +45,8 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # SRAC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncws_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
 QF 6-Pounder dual gun Mount,on_6pounder_dual,1,,600,750,,70,,6,60,15,10,0.5,2,HIGH_EXPLOSIVE,35,,0,2.5,2,0.1,0,5,1,2,,695,,,95,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he5, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,57
+135mm gun Mount,on_135mm,1,,1000,900,,300,,15,55,30,5,0.17,1,HIGH_EXPLOSIVE,110,,0,3.5,1,0,0,5,1,2,,800,,,200,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he12, LR, srncws_bp, SRAC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,135
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # SRAC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncwm_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

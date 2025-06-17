@@ -65,14 +65,14 @@
 		["on_NFP29_patrol"]
 	],
     "startShipsCombatSmall":[
+		["on_ND31_light", "on_ND31_light", "on_NFP29_patrol"],
 		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
+		["on_ND31_light", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsCombatLarge":[
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"]
+		["on_NFP29_patrol", "on_ND31_light", "on_ND31_light"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_ND31_light"],
+		["on_NFP29_patrol", "on_NFP29_patrol", "on_ND31_light"]
     ],
 	"startShipsGrandFleet":[
  		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],

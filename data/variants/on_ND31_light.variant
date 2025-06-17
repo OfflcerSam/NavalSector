@@ -1,0 +1,62 @@
+{
+  "variantId": "on_ND31_light",
+  "hullId": "on_ND31",
+  "displayName": "Light",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "on_defaultarmor",
+    "on_pdgunner"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MainC1": "on_135mm",
+        "MainC2": "on_135mm",
+        "MainC3": "on_135mm",
+        "MainC4": "on_135mm",
+        "MainC5": "on_135mm",
+        "T1": "on_21Mk15_single",
+        "T2": "on_21Mk15_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "37mm1": "on_Hot37mm",
+        "37mm2": "on_Hot37mm",
+        "37mm3": "on_Hot37mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Bofo": "on_BofD40mm",
+        "Oer1": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "50Cal1": "on_Twin50cal",
+        "50Cal2": "on_Twin50cal",
+        "50Cal3": "on_Twin50cal",
+        "50Cal4": "on_Twin50cal",
+        "50calR": "on_Twin50cal",
+        "50calR2": "on_Twin50cal",
+        "50calRR": "on_Twin50cal",
+        "50calRR2": "on_Twin50cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

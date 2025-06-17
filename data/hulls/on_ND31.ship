@@ -1,0 +1,297 @@
+{
+  "hullName": "ND31",
+  "hullId": "on_ND31",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SRAC/Pattern_ND31.png",
+  "style": "NAVALSHIP",
+  "height": 169,
+  "width": 20,
+  "center": [10, 84.5],
+  "collisionRadius": 88,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 88,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull",
+    "escort_package"
+  ],
+  "builtInWeapons": {
+    "37mm1": "on_Hot37mm",
+    "37mm2": "on_Hot37mm",
+    "37mm3": "on_Hot37mm",
+    "50Cal1": "on_Twin50cal",
+    "50Cal2": "on_Twin50cal",
+    "50Cal3": "on_Twin50cal",
+    "50Cal4": "on_Twin50cal",
+    "50calR": "on_Twin50cal",
+    "50calR2": "on_Twin50cal",
+    "50calRR": "on_Twin50cal",
+    "50calRR2": "on_Twin50cal",
+    "Bofo": "on_BofD40mm",
+    "Oer1": "on_Oer20mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "MainC1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [54.5, -0]
+    },
+    {
+      "id": "MainC2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [42.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "MainC3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-38.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "MainC4",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-54.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "MainC5",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-63.5, -0]
+    },
+    {
+      "id": "50Cal3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [33, -6.5]
+    },
+    {
+      "id": "50Cal1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [33, 6.5]
+    },
+    {
+      "id": "50Cal4",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [29, -6.5]
+    },
+    {
+      "id": "50Cal2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [29, 6.5]
+    },
+    {
+      "id": "37mm1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [10.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "37mm3",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-7.5, 5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "37mm2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-7.5, -5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "50calR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-28, 5.5]
+    },
+    {
+      "id": "50calR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-28, -5.5]
+    },
+    {
+      "id": "Oer1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 316,
+      "angle": 180,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "Bofo",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-46.5, -0],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "50calRR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-46, 5.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "50calRR2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-46, -5.5],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "T2",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": -90,
+      "locations": [3.5, -5]
+    },
+    {
+      "id": "T1",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 90,
+      "locations": [3.5, 5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [15.5, -0],
+      "length": 2,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "ATTACK_SWARM"
+    },
+    {
+      "location": [-14.5, -0],
+      "length": 2,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "SMOKE",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    }
+  ],
+  "bounds": [
+    -82.5, 2,
+    -81.5, 4,
+    -79.5, 5,
+    -69.5, 6,
+    -52.5, 7,
+    27.5, 7,
+    38.5, 8,
+    61.5, 6,
+    77.5, 3,
+    83.5, -0,
+    77.5, -3,
+    61.5, -6,
+    38.5, -8,
+    27.5, -7,
+    -52.5, -7,
+    -69.5, -6,
+    -79.5, -5,
+    -81.5, -4,
+    -82.5, -2
+  ]
+}
