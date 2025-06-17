@@ -17,9 +17,10 @@ public class navalMobilityEnhancement extends BaseHullMod {
 
     public static final float MIN_CREW_BONUS = 10f;
 
-    public static final float MAX_SPEED_BONUS = 50f;
+    public static final float MAX_SPEED_BONUS = 25f;
     public static final float ACCEL_BONUS = 25f;
     public static final float DECEL_BONUS = 25f;
+    public static final float BURN_BONUS = 1f;
 
     public static final float ENGINE_HP_BONUS = 25f;
 
@@ -48,6 +49,7 @@ public class navalMobilityEnhancement extends BaseHullMod {
         stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
         stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
         stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
+        stats.getMaxBurnLevel().modifyFlat(id, BURN_BONUS);
 
         stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
         stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
@@ -81,10 +83,11 @@ public class navalMobilityEnhancement extends BaseHullMod {
                 String.format("%d%%", (int) ENGINE_HP_BONUS));
 
         //Engine
-        tooltip.addSectionHeading("Engine Improvements", Alignment.MID, pad);
+        tooltip.addSectionHeading("Engine Expansion", Alignment.MID, pad);
         tooltip.addPara("Min Crew: %s", pad, Misc.getHighlightColor(),
                 String.format("%d%%", (int) MIN_CREW_BONUS));
-
+        tooltip.addPara("Burn Rate: %s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", (int) BURN_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
         tooltip.addPara("Fuel Usage: %s", pad, Misc.getNegativeHighlightColor(),
@@ -106,7 +109,7 @@ public class navalMobilityEnhancement extends BaseHullMod {
     ));
 
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>(Set.of(
-            "on_armorpack"
+            //"on_armorpack"
     ));
 
     @Override
