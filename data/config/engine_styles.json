@@ -5,9 +5,9 @@
 	"NAVALSTEAM":{
 		"engineColor":[59,59,59,50],
 		"engineCampaignColor":[59,59,59,100],
-		"contrailParticleSizeMult":2,
+		"contrailParticleSizeMult":10,
 		"contrailParticleDuration":90,
-		"contrailParticleFinalSizeMult":2.5,
+		"contrailParticleFinalSizeMult":5.0,
 		"contrailMaxSpeedMult":0.25,
 		"contrailAngularVelocityMult":0.5,
 		"contrailColor":[117,123,130,50],

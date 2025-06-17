@@ -16,6 +16,7 @@ public class navalArmorEnhancement extends BaseHullMod {
 
     public static final float MIN_CREW_BONUS = 15f;
     public static final float MAX_CREW_BONUS = -5f;
+    public static final float CREW_LOSS_MULT = 0.5f;
 
     public static final float MAX_SPEED_BONUS = -60f;
     public static final float ACCEL_BONUS = -25f;
@@ -47,6 +48,7 @@ public class navalArmorEnhancement extends BaseHullMod {
 
         stats.getMinCrewMod().modifyPercent(id, MIN_CREW_BONUS);
         stats.getMaxCrewMod().modifyPercent(id, MAX_CREW_BONUS);
+        stats.getCrewLossMult().modifyPercent(id,CREW_LOSS_MULT);
 
         stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
         stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
@@ -95,6 +97,8 @@ public class navalArmorEnhancement extends BaseHullMod {
                 String.format("%d%%", (int) MIN_CREW_BONUS));
         tooltip.addPara("Max Crew: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) MAX_CREW_BONUS));
+        tooltip.addPara("Crew Loss: -50%", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", (int) CREW_LOSS_MULT));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getNegativeHighlightColor(),

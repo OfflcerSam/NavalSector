@@ -14,6 +14,7 @@ public class navalDefaultArmor extends BaseHullMod{
 
     public static final float ENGINE_HP_BONUS = 10f;
     public static final float WEAPON_HP_BONUS = 10f;
+    public static final float CREW_LOSS_MULT = 0.75f;
 
     @Override
     public int getDisplaySortOrder() {
@@ -31,6 +32,7 @@ public class navalDefaultArmor extends BaseHullMod{
 
         stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HP_BONUS);
         stats.getWeaponHealthBonus().modifyPercent(id, WEAPON_HP_BONUS);
+        stats.getCrewLossMult().modifyPercent(id,CREW_LOSS_MULT);
 
         for (String blocked : BLOCKED_HULLMODS) {
             stats.getVariant().removeMod(blocked);
@@ -46,12 +48,14 @@ public class navalDefaultArmor extends BaseHullMod{
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         float pad = 10f;
 
-        //HullDurability
-        tooltip.addSectionHeading("Durability", Alignment.MID, pad);
+        //s
+        tooltip.addSectionHeading("Stat Modifications", Alignment.MID, pad);
         tooltip.addPara("Engine HP: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) ENGINE_HP_BONUS));
         tooltip.addPara("Weapon HP: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) WEAPON_HP_BONUS));
+        tooltip.addPara("Crew Loss: -25%", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", (int) CREW_LOSS_MULT));
 
     }
 
