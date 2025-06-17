@@ -10,7 +10,7 @@
   "hullMods": [
     "on_defaultarmor",
     "on_pdgunner",
-    "hiressensors"
+    "on_sensor"
   ],
   "weaponGroups": [
     {

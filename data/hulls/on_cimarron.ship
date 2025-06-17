@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 165.5,
   "viewOffset": 0,
+  "builtInMods": [
+	"on_navalhull"
+  ],
   "builtInWeapons": {
     "BofC1": "on_BofD40mm",
     "BofC2": "on_BofD40mm",

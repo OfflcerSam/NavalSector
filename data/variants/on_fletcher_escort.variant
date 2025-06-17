@@ -8,11 +8,10 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_thinarmor",
-    "insulatedengine",
+	"on_defaultarmor",
+    "on_sensor",
     "on_pdgunner",
     "blast_doors",
-    "ecm",
     "turretgyros"
   ],
   "weaponGroups": [

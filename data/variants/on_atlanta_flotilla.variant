@@ -8,10 +8,9 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_thickarmor",
     "blast_doors",
     "on_pdgunner",
-    "heavyarmor",
+    "on_armorpack",
     "reinforcedhull"
   ],
   "weaponGroups": [

@@ -1,0 +1,19 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	
+	"NAVALSTEAM":{
+		"engineColor":[59,59,59,50],
+		"engineCampaignColor":[59,59,59,100],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":90,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.25,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[117,123,130,50],
+		"contrailCampaignColor":[117,123,130,75],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+
+}
+

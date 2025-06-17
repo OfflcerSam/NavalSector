@@ -7,7 +7,7 @@
   "fluxVents": 1,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": ["on_defaultarmor"],
   "weaponGroups": [
     {
       "autofire": false,

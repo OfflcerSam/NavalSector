@@ -1,38 +1,33 @@
 package officersam.navy.scripts.data.hullmod;
 
-import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.ui.Alignment;
-import com.fs.starfarer.api.ui.LabelAPI;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
-import org.magiclib.util.MagicIncompatibleHullmods;
 
 import java.util.HashSet;
 import java.util.Set;
 
+public class navalArmorEnhancement extends BaseHullMod {
+    public static final float HULL_BONUS = 50f;
+    public static final float ARMOR_BONUS = 75f;
 
-public class navalNoArmor extends BaseHullMod {
+    public static final float MIN_CREW_BONUS = 15f;
+    public static final float MAX_CREW_BONUS = -5f;
 
-    public static final float HULL_BONUS = -30f;
-    public static final float ARMOR_BONUS = -70f;
+    public static final float MAX_SPEED_BONUS = -60f;
+    public static final float ACCEL_BONUS = -25f;
+    public static final float DECEL_BONUS = -15f;
 
-    public static final float MIN_CREW_BONUS = -25f;
-    public static final float MAX_CREW_BONUS = 50f;
+    public static final float ENGINE_HP_BONUS = 80f;
+    public static final float WEAPON_HP_BONUS = 80f;
 
-    public static final float MAX_SPEED_BONUS = 80f;
-    public static final float ACCEL_BONUS = 50f;
-    public static final float DECEL_BONUS = 50f;
-
-    public static final float ENGINE_HP_BONUS = -10f;
-    public static final float WEAPON_HP_BONUS = -25f;
-
-    public static final float CARGO_BONUS = 25f;
-    public static final float SUPPLY_BONUS = -50f;
-    public static final float FUEL_BONUS = 50f;
-    public static final float FUEL_USAGE_BONUS = -50f;
+    public static final float CARGO_BONUS = -25f;
+    public static final float SUPPLY_BONUS = 50f;
+    public static final float FUEL_BONUS = -25f;
+    public static final float FUEL_USAGE_BONUS = 100f;
 
     @Override
     public int getDisplaySortOrder() {
@@ -85,37 +80,37 @@ public class navalNoArmor extends BaseHullMod {
 
         //HullDurability
         tooltip.addSectionHeading("Durability", Alignment.MID, pad);
-        tooltip.addPara("Hull: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Hull: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) HULL_BONUS));
-        tooltip.addPara("Armor: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Armor: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) ARMOR_BONUS));
-        tooltip.addPara("Engine HP: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Engine HP: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) ENGINE_HP_BONUS));
-        tooltip.addPara("Weapon HP: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Weapon HP: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) WEAPON_HP_BONUS));
 
         //CrewLogi
         tooltip.addSectionHeading("Crew & Logistics", Alignment.MID, pad);
-        tooltip.addPara("Min Crew: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Min Crew: %s", pad, Misc.getHighlightColor(),
                 String.format("%d%%", (int) MIN_CREW_BONUS));
-        tooltip.addPara("Max Crew: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Max Crew: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) MAX_CREW_BONUS));
-        tooltip.addPara("Cargo Capacity: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Cargo Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
-        tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Fuel Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
-        tooltip.addPara("Fuel Usage: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Fuel Usage: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_USAGE_BONUS));
-        tooltip.addPara("Supply Usage: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Supply Usage: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) SUPPLY_BONUS));
 
         // Mobile
         tooltip.addSectionHeading("Mobility", Alignment.MID, pad);
-        tooltip.addPara("Top Speed: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Top Speed: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) MAX_SPEED_BONUS));
-        tooltip.addPara("Acceleration: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Acceleration: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) ACCEL_BONUS));
-        tooltip.addPara("Deceleration: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Deceleration: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) DECEL_BONUS));
     }
 
@@ -124,7 +119,8 @@ public class navalNoArmor extends BaseHullMod {
     ));
 
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>(Set.of(
-            "on_armorpack",
+            "on_mobility",
+            "on_noarmor",
             "on_defaultarmor"
     ));
 
