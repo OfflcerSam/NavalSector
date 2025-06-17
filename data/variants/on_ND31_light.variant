@@ -20,7 +20,13 @@
         "MainC2": "on_135mm",
         "MainC3": "on_135mm",
         "MainC4": "on_135mm",
-        "MainC5": "on_135mm",
+        "MainC5": "on_135mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "T1": "on_21Mk15_single",
         "T2": "on_21Mk15_single"
       }
@@ -43,7 +49,7 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "50Cal1": "on_Twin50cal",
