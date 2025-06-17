@@ -21,6 +21,7 @@ public class navalArmorEnhancement extends BaseHullMod {
     public static final float MAX_SPEED_BONUS = -60f;
     public static final float ACCEL_BONUS = -25f;
     public static final float DECEL_BONUS = -15f;
+    public static final float BURN_BONUS = -1f;
 
     public static final float ENGINE_HP_BONUS = 80f;
     public static final float WEAPON_HP_BONUS = 80f;
@@ -28,7 +29,7 @@ public class navalArmorEnhancement extends BaseHullMod {
     public static final float CARGO_BONUS = -25f;
     public static final float SUPPLY_BONUS = 50f;
     public static final float FUEL_BONUS = -25f;
-    public static final float FUEL_USAGE_BONUS = 100f;
+    public static final float FUEL_USAGE_BONUS = 50f;
 
     @Override
     public int getDisplaySortOrder() {
@@ -53,6 +54,7 @@ public class navalArmorEnhancement extends BaseHullMod {
         stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
         stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
         stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
+        stats.getMaxBurnLevel().modifyFlat(id, BURN_BONUS);
 
         stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
         stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
@@ -101,12 +103,15 @@ public class navalArmorEnhancement extends BaseHullMod {
                 String.format("%d%%", -50));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
+        tooltip.addPara("Supply Usage: %s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d%%", (int) SUPPLY_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
         tooltip.addPara("Fuel Usage: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_USAGE_BONUS));
-        tooltip.addPara("Supply Usage: %s", pad, Misc.getNegativeHighlightColor(),
-                String.format("%d%%", (int) SUPPLY_BONUS));
+        tooltip.addPara("Burn Rate: %s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d%%", (int) BURN_BONUS));
+
 
         // Mobile
         tooltip.addSectionHeading("Mobility", Alignment.MID, pad);

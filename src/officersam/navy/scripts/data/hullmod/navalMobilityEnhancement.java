@@ -86,12 +86,12 @@ public class navalMobilityEnhancement extends BaseHullMod {
         tooltip.addSectionHeading("Engine Expansion", Alignment.MID, pad);
         tooltip.addPara("Min Crew: %s", pad, Misc.getHighlightColor(),
                 String.format("%d%%", (int) MIN_CREW_BONUS));
-        tooltip.addPara("Burn Rate: %s", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) BURN_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
         tooltip.addPara("Fuel Usage: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_USAGE_BONUS));
+        tooltip.addPara("Burn Rate: %s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", (int) BURN_BONUS));
 
 
         // Mobile
