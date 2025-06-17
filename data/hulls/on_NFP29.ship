@@ -220,26 +220,26 @@
           59,
           59,
           59,
-          250
+          100
         ],
         "engineCampaignColor": [
           59,
           59,
           59,
-          250
+          100
         ],
         "mode": "",
         "contrailColor": [
           117,
           123,
           130,
-          200
+          120
         ],
         "contrailCampaignColor": [
           117,
           123,
           130,
-          200
+          120
         ],
         "contrailParticleSizeMult": 10,
         "contrailParticleFinalSizeMult": 1.5,
