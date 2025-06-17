@@ -49,9 +49,7 @@ public class navalSAP1 extends BaseHullMod {
     ));
 
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>(Set.of(
-            "on_mobility",
-            "on_noarmor",
-            "on_defaultarmor"
+            "on_ashe1"
     ));
 
     @Override
