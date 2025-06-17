@@ -123,7 +123,7 @@
 		"weapons": [],
 	},
 	"knownHullMods":{
-		"tags":["merc", "standard", "USNC"],
+		"tags":["naval", "merc", "standard", "USNC"],
 		"hullMods":[
 			"on_pdgunner",
 			"on_insulatedhull",

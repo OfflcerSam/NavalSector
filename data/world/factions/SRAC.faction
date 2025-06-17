@@ -70,7 +70,7 @@
 		"weapons": [],
 	},
 	"knownHullMods":{
-		"tags":["merc", "standard", "SRAC"],
+		"tags":["merc", "naval", "standard", "SRAC"],
 		"hullMods":[
 			"on_pdgunner",
 			"on_insulatedhull",
