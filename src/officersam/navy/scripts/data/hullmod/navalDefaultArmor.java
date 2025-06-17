@@ -54,8 +54,8 @@ public class navalDefaultArmor extends BaseHullMod{
                 String.format("%d%%", (int) ENGINE_HP_BONUS));
         tooltip.addPara("Weapon HP: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) WEAPON_HP_BONUS));
-        tooltip.addPara("Crew Loss: -25%", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) CREW_LOSS_MULT));
+        tooltip.addPara("Crew Loss: %s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", -25));
 
     }
 

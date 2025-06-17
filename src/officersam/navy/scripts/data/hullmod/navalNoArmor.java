@@ -102,8 +102,8 @@ public class navalNoArmor extends BaseHullMod {
                 String.format("%d%%", (int) MIN_CREW_BONUS));
         tooltip.addPara("Max Crew: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) MAX_CREW_BONUS));
-        tooltip.addPara("Crew Loss: 25%", pad, Misc.getNegativeHighlightColor(),
-                String.format("%d%%", (int) CREW_LOSS_MULT));
+        tooltip.addPara("Crew Loss: %s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d%%", 25));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
