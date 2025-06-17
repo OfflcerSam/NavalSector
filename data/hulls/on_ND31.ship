@@ -229,7 +229,38 @@
       "angle": 180,
       "contrailSize": 2,
       "style": "CUSTOM",
-      "styleId": "ATTACK_SWARM"
+      "styleSpec": {
+        "type": "SMOKE",
+        "engineColor": [
+          59,
+          59,
+          59,
+          250
+        ],
+        "engineCampaignColor": [
+          59,
+          59,
+          59,
+          250
+        ],
+        "mode": "",
+        "contrailColor": [
+          117,
+          123,
+          130,
+          200
+        ],
+        "contrailCampaignColor": [
+          117,
+          123,
+          130,
+          200
+        ],
+        "contrailParticleSizeMult": 10,
+        "contrailParticleFinalSizeMult": 1.5,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0.5,
+        "contrailParticleDuration": 90
     },
     {
       "location": [-14.5, -0],
@@ -241,35 +272,35 @@
       "styleSpec": {
         "type": "SMOKE",
         "engineColor": [
-          0,
-          0,
-          0,
-          0
+          59,
+          59,
+          59,
+          250
         ],
         "engineCampaignColor": [
-          0,
-          0,
-          0,
-          0
+          59,
+          59,
+          59,
+          250
         ],
         "mode": "",
         "contrailColor": [
-          0,
-          0,
-          0,
-          0
+          117,
+          123,
+          130,
+          200
         ],
         "contrailCampaignColor": [
-          0,
-          0,
-          0,
-          0
+          117,
+          123,
+          130,
+          200
         ],
-        "contrailParticleSizeMult": 0,
-        "contrailParticleFinalSizeMult": 0,
-        "contrailMaxSpeedMult": 0,
-        "contrailAngularVelocityMult": 0,
-        "contrailParticleDuration": 0
+        "contrailParticleSizeMult": 10,
+        "contrailParticleFinalSizeMult": 1.5,
+        "contrailMaxSpeedMult": 0.5,
+        "contrailAngularVelocityMult": 0.5,
+        "contrailParticleDuration": 90
       }
     }
   ],
