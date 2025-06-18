@@ -16,20 +16,21 @@ import java.util.Set;
 
 public class navalNoArmor extends BaseHullMod {
 
-    public static final float HULL_BONUS = -30f;
-    public static final float ARMOR_BONUS = -70f;
+    public static final float HULL_BONUS = -50f;
+    public static final float ARMOR_BONUS = -95f;
 
-    public static final float MIN_CREW_BONUS = -10f;
+    public static final float MIN_CREW_BONUS = -15f;
     public static final float MAX_CREW_BONUS = 50f;
-    public static final float CREW_LOSS_MULT = 1.25f;
+    public static final float CREW_LOSS_MULT = 1.5f;
 
     public static final float MAX_SPEED_BONUS = 80f;
     public static final float ACCEL_BONUS = 50f;
     public static final float DECEL_BONUS = 50f;
     public static final float BURN_BONUS = 2f;
+    public static final float TURN_BONUS = 12f;
 
-    public static final float ENGINE_HP_BONUS = -10f;
-    public static final float WEAPON_HP_BONUS = -25f;
+    public static final float ENGINE_HP_BONUS = -25f;
+    public static final float WEAPON_HP_BONUS = -50f;
 
     public static final float CARGO_BONUS = 25f;
     public static final float SUPPLY_BONUS = -50f;
@@ -61,8 +62,8 @@ public class navalNoArmor extends BaseHullMod {
         stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
         stats.getMaxBurnLevel().modifyFlat(id, BURN_BONUS);
 
-        stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
-        stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
+        stats.getMaxTurnRate().modifyFlat(id, TURN_BONUS);
+        stats.getTurnAcceleration().modifyFlat(id, TURN_BONUS);
 
         stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HP_BONUS);
         stats.getWeaponHealthBonus().modifyPercent(id, WEAPON_HP_BONUS);
@@ -105,7 +106,7 @@ public class navalNoArmor extends BaseHullMod {
         tooltip.addPara("Max Crew: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) MAX_CREW_BONUS));
         tooltip.addPara("Crew Loss: %s", pad, Misc.getNegativeHighlightColor(),
-                String.format("%d%%", 25));
+                String.format("%d%%", 50));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
         tooltip.addPara("Supply Usage: %s", pad, Misc.getPositiveHighlightColor(),
@@ -126,6 +127,10 @@ public class navalNoArmor extends BaseHullMod {
                 String.format("%d%%", (int) ACCEL_BONUS));
         tooltip.addPara("Deceleration: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) DECEL_BONUS));
+        tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d", (int) TURN_BONUS));
+        tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d", (int) TURN_BONUS));
     }
 
     private static final Set<String> REQUIRED_HULLMODS = new HashSet<>(Set.of(

@@ -22,6 +22,7 @@ public class navalArmorEnhancement extends BaseHullMod {
     public static final float ACCEL_BONUS = -25f;
     public static final float DECEL_BONUS = -15f;
     public static final float BURN_BONUS = -1f;
+    public static final float TURN_BONUS = -5f;
 
     public static final float ENGINE_HP_BONUS = 80f;
     public static final float WEAPON_HP_BONUS = 80f;
@@ -56,8 +57,8 @@ public class navalArmorEnhancement extends BaseHullMod {
         stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
         stats.getMaxBurnLevel().modifyFlat(id, BURN_BONUS);
 
-        stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
-        stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
+        stats.getMaxTurnRate().modifyFlat(id, TURN_BONUS);
+        stats.getTurnAcceleration().modifyFlat(id, TURN_BONUS);
 
         stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HP_BONUS);
         stats.getWeaponHealthBonus().modifyPercent(id, WEAPON_HP_BONUS);
@@ -121,6 +122,10 @@ public class navalArmorEnhancement extends BaseHullMod {
                 String.format("%d%%", (int) ACCEL_BONUS));
         tooltip.addPara("Deceleration: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) DECEL_BONUS));
+        tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d", (int) TURN_BONUS));
+        tooltip.addPara("Turn Rate: +%s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d", (int) TURN_BONUS));
     }
 
     private static final Set<String> REQUIRED_HULLMODS = new HashSet<>(Set.of(

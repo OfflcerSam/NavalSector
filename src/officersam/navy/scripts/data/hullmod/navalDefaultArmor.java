@@ -12,8 +12,8 @@ import java.util.Set;
 
 public class navalDefaultArmor extends BaseHullMod{
 
-    public static final float ENGINE_HP_BONUS = 10f;
-    public static final float WEAPON_HP_BONUS = 10f;
+    public static final float ENGINE_HP_BONUS = 25f;
+    public static final float WEAPON_HP_BONUS = 25f;
     public static final float CREW_LOSS_MULT = 0.75f;
 
     @Override

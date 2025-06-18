@@ -21,6 +21,7 @@ public class navalMobilityEnhancement extends BaseHullMod {
     public static final float ACCEL_BONUS = 25f;
     public static final float DECEL_BONUS = 25f;
     public static final float BURN_BONUS = 1f;
+    public static final float TURN_BONUS = 6f;
 
     public static final float ENGINE_HP_BONUS = 25f;
 
@@ -59,15 +60,15 @@ public class navalMobilityEnhancement extends BaseHullMod {
             stats.getMaxSpeed().modifyFlat(id, MAX_SPEED_BONUS);
             stats.getAcceleration().modifyFlat(id, ACCEL_BONUS);
             stats.getDeceleration().modifyFlat(id, DECEL_BONUS);
-            stats.getTurnAcceleration().modifyFlat(id, ACCEL_BONUS);
-            stats.getMaxTurnRate().modifyFlat(id, MAX_SPEED_BONUS);
+            stats.getTurnAcceleration().modifyFlat(id, TURN_BONUS);
+            stats.getMaxTurnRate().modifyFlat(id, TURN_BONUS);
         } else {
             // Use percent bonuses for smaller ships
             stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
             stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
             stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
-            stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
-            stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
+            stats.getTurnAcceleration().modifyFlat(id, TURN_BONUS);
+            stats.getMaxTurnRate().modifyFlat(id, TURN_BONUS);
         }
 
         stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HP_BONUS);
@@ -109,23 +110,33 @@ public class navalMobilityEnhancement extends BaseHullMod {
         tooltip.addPara("Fuel Usage: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_USAGE_BONUS));
         tooltip.addPara("Burn Rate: %s", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) BURN_BONUS));
+                String.format("%d", (int) BURN_BONUS));
 
 
         // Mobile
         tooltip.addSectionHeading("Mobility", Alignment.MID, pad);
         if (isLargeShip) {
-            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) MAX_SPEED_BONUS));
-            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) ACCEL_BONUS));
-            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) DECEL_BONUS));
-            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) ACCEL_BONUS));
-            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) ACCEL_BONUS));
+            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) DECEL_BONUS));
+            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) TURN_BONUS));
+            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) TURN_BONUS));
         } else {
-            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) MAX_SPEED_BONUS));
-            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) ACCEL_BONUS));
-            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) DECEL_BONUS));
-            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) ACCEL_BONUS));
-            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d%%", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d%%", (int) ACCEL_BONUS));
+            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d%%", (int) DECEL_BONUS));
+            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) TURN_BONUS));
+            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(),
+                    String.format("%d", (int) TURN_BONUS));
         }
     }
 
