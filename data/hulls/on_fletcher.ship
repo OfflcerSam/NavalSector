@@ -7,9 +7,9 @@
   "height": 224,
   "width": 26,
   "center": [13, 112],
-  "collisionRadius": 0,
+  "collisionRadius": 119,
   "shieldCenter": [0, 0],
-  "shieldRadius": 0,
+  "shieldRadius": 119,
   "viewOffset": 0,
   "builtInMods": [
     "on_navalhull",
