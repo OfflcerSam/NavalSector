@@ -12,7 +12,7 @@
   "shieldRadius": 138,
   "viewOffset": 0,
   "builtInMods": [
-	"on_navalhull",
+    "on_navalhull",
     "repair_gantry"
   ],
   "builtInWings": [
@@ -21,20 +21,11 @@
   "builtInWeapons": {
     "50CL": "on_Twin50cal",
     "50CR": "on_Twin50cal",
-    "BofC": "on_BofD40mm",
     "BofCR": "on_Bof40mm",
     "BofRL": "on_Bof40mm",
     "BofRR": "on_Bof40mm",
     "OerFL1": "on_Oer20mm",
-    "OerFR1": "on_Oer20mm",
-    "OerL1": "on_Oer20mm",
-    "OerL2": "on_Oer20mm",
-    "OerL3": "on_Oer20mm",
-    "OerL4": "on_Oer20mm",
-    "OerR1": "on_Oer20mm",
-    "OerR2": "on_Oer20mm",
-    "OerR3": "on_Oer20mm",
-    "OerR4": "on_Oer20mm"
+    "OerFR1": "on_Oer20mm"
   },
   "weaponSlots": [
     {
@@ -53,7 +44,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": -45,
-      "locations": [115, -7]
+      "locations": [115, -8]
     },
     {
       "id": "OerFL1",
@@ -62,79 +53,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 45,
-      "locations": [115, 7]
-    },
-    {
-      "id": "OerR1",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [90, -11]
-    },
-    {
-      "id": "OerL1",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [90, 11]
-    },
-    {
-      "id": "OerR2",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [51, -11]
-    },
-    {
-      "id": "OerL2",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [51, 11]
-    },
-    {
-      "id": "OerR3",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [-18, -11]
-    },
-    {
-      "id": "OerL3",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [-18, 11]
-    },
-    {
-      "id": "OerR4",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [-57, -11]
-    },
-    {
-      "id": "OerL4",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [-57, 11]
+      "locations": [115, 8]
     },
     {
       "id": "BofRR",
@@ -170,7 +89,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": -45,
-      "locations": [26, -7]
+      "locations": [27, -8]
     },
     {
       "id": "50CL",
@@ -179,16 +98,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 45,
-      "locations": [26, 7]
-    },
-    {
-      "id": "BofC",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 360,
-      "angle": 0,
-      "locations": [6, -0]
+      "locations": [27, 8]
     }
   ],
   "engineSlots": [

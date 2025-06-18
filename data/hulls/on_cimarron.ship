@@ -12,250 +12,110 @@
   "shieldRadius": 165.5,
   "viewOffset": 0,
   "builtInMods": [
-	"on_navalhull"
+    "on_navalhull"
   ],
   "builtInWeapons": {
-    "BofC1": "on_BofD40mm",
-    "BofC2": "on_BofD40mm",
-    "BofC3": "on_Bof40mm",
-    "OerFC": "on_Oer20mm",
-    "OerL1": "on_Oer20mm",
-    "OerL10": "on_Oer20mm",
-    "OerL2": "on_Oer20mm",
-    "OerL3": "on_Oer20mm",
-    "OerL4": "on_Oer20mm",
-    "OerL5": "on_Oer20mm",
-    "OerL6": "on_Oer20mm",
-    "OerL7": "on_Oer20mm",
-    "OerL8": "on_Oer20mm",
-    "OerL9": "on_Oer20mm",
-    "OerR1": "on_Oer20mm",
-    "OerR10": "on_Oer20mm",
-    "OerR2": "on_Oer20mm",
-    "OerR3": "on_Oer20mm",
-    "OerR4": "on_Oer20mm",
-    "OerR5": "on_Oer20mm",
-    "OerR6": "on_Oer20mm",
-    "OerR7": "on_Oer20mm",
-    "OerR8": "on_Oer20mm",
-    "OerR9": "on_Oer20mm"
+    "WS0001": "on_Oer20mm",
+    "WS0002": "on_Oer20mm",
+    "WS0003": "on_Oer20mm",
+    "WS0004": "on_Oer20mm",
+    "WS0005": "on_Oer20mm",
+    "WS0006": "on_Oer20mm",
+    "WS0007": "on_Oer20mm",
+    "WS0008": "on_Oer20mm",
+    "WS0009": "on_BofD40mm",
+    "WS0010": "on_BofD40mm"
   },
   "weaponSlots": [
     {
-      "id": "OerFC",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 334,
-      "angle": 0,
-      "locations": [144, -0]
-    },
-    {
-      "id": "OerR1",
+      "id": "WS0003",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 270,
       "angle": -45,
-      "locations": [118, -12]
+      "locations": [108, -6]
     },
     {
-      "id": "OerL1",
+      "id": "WS0004",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 270,
       "angle": 45,
-      "locations": [118, 12]
+      "locations": [108, 6]
     },
     {
-      "id": "OerR2",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": -45,
-      "locations": [107, -5]
-    },
-    {
-      "id": "OerL2",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": 45,
-      "locations": [107, 5]
-    },
-    {
-      "id": "OerR3",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [99, -5]
-    },
-    {
-      "id": "OerL3",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [99, 5]
-    },
-    {
-      "id": "OerR4",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [76, -4]
-    },
-    {
-      "id": "OerL4",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [76, 4]
-    },
-    {
-      "id": "OerR5",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 360,
-      "angle": -90,
-      "locations": [50, -9]
-    },
-    {
-      "id": "OerL5",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 360,
-      "angle": 90,
-      "locations": [50, 9]
-    },
-    {
-      "id": "BofC1",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 360,
-      "angle": 180,
-      "locations": [37, -0]
-    },
-    {
-      "id": "OerR6",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [27, -9]
-    },
-    {
-      "id": "OerL6",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [27, 9]
-    },
-    {
-      "id": "OerR7",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [-69, -10]
-    },
-    {
-      "id": "OerL7",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [-69, 10]
-    },
-    {
-      "id": "OerR8",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": -90,
-      "locations": [-95, -10]
-    },
-    {
-      "id": "OerL8",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 180,
-      "angle": 90,
-      "locations": [-95, 10]
-    },
-    {
-      "id": "OerR10",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": -45,
-      "locations": [-101, -4]
-    },
-    {
-      "id": "OerL10",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": 45,
-      "locations": [-101, 4]
-    },
-    {
-      "id": "BofC2",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": 180,
-      "locations": [-125, -0]
-    },
-    {
-      "id": "OerL9",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 270,
-      "angle": 135,
-      "locations": [-142, 10]
-    },
-    {
-      "id": "OerR9",
+      "id": "WS0001",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 270,
       "angle": -135,
-      "locations": [-142, -10]
+      "locations": [26, -10]
     },
     {
-      "id": "BofC3",
+      "id": "WS0002",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 322,
+      "arc": 270,
+      "angle": 135,
+      "locations": [26, 10]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [-68, -11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [-68, 11]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-143, -11]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-143, 11]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
       "angle": 180,
-      "locations": [-146, -0]
+      "locations": [-123, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [40, -0]
     }
   ],
   "engineSlots": [

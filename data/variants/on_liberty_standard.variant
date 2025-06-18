@@ -8,7 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_noarmor",
+    "on_noarmor",
     "expanded_cargo_holds",
     "insulatedengine"
   ],
@@ -17,39 +17,33 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "50CL": "on_Twin50cal",
-        "50CR": "on_Twin50cal",
-        "BofC": "on_BofD40mm",
-        "BofCR": "on_Bof40mm",
-        "BofRL": "on_Bof40mm",
-        "BofRR": "on_Bof40mm",
-        "OerFL1": "on_Oer20mm",
-        "OerFR1": "on_Oer20mm",
-        "OerL1": "on_Oer20mm",
-        "OerL2": "on_Oer20mm",
-        "OerL3": "on_Oer20mm",
-        "OerL4": "on_Oer20mm",
-        "OerR1": "on_Oer20mm",
-        "OerR2": "on_Oer20mm",
-        "OerR3": "on_Oer20mm",
-        "OerR4": "on_Oer20mm",
         "Turret": "mininglaser"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "OerFL1": "on_Oer20mm",
+        "OerFR1": "on_Oer20mm"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "BofCR": "on_Bof40mm",
+        "BofRL": "on_Bof40mm",
+        "BofRR": "on_Bof40mm"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "50CL": "on_Twin50cal",
+        "50CR": "on_Twin50cal"
+      }
     }
   ],
   "modules": [],

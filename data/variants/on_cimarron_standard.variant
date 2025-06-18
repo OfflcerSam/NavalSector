@@ -8,7 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_noarmor",
+    "on_noarmor",
     "auxiliary_fuel_tanks"
   ],
   "weaponGroups": [
@@ -16,36 +16,22 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "OerFC": "on_Oer20mm",
-        "OerL1": "on_Oer20mm",
-        "OerL10": "on_Oer20mm",
-        "OerL2": "on_Oer20mm",
-        "OerL3": "on_Oer20mm",
-        "OerL4": "on_Oer20mm",
-        "OerL5": "on_Oer20mm",
-        "OerL6": "on_Oer20mm",
-        "OerL7": "on_Oer20mm",
-        "OerL8": "on_Oer20mm",
-        "OerL9": "on_Oer20mm",
-        "OerR1": "on_Oer20mm",
-        "OerR10": "on_Oer20mm",
-        "OerR2": "on_Oer20mm",
-        "OerR3": "on_Oer20mm",
-        "OerR4": "on_Oer20mm",
-        "OerR5": "on_Oer20mm",
-        "OerR6": "on_Oer20mm",
-        "OerR7": "on_Oer20mm",
-        "OerR8": "on_Oer20mm",
-        "OerR9": "on_Oer20mm"
+        "WS0001": "on_Oer20mm",
+        "WS0002": "on_Oer20mm",
+        "WS0003": "on_Oer20mm",
+        "WS0004": "on_Oer20mm",
+        "WS0005": "on_Oer20mm",
+        "WS0006": "on_Oer20mm",
+        "WS0007": "on_Oer20mm",
+        "WS0008": "on_Oer20mm"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "BofC1": "on_BofD40mm",
-        "BofC2": "on_BofD40mm",
-        "BofC3": "on_Bof40mm"
+        "WS0009": "on_BofD40mm",
+        "WS0010": "on_BofD40mm"
       }
     }
   ],
