@@ -51,7 +51,7 @@ public class USNC_StarofHope {
 
     public void generate(SectorAPI sector) {
 
-        StarSystemAPI system = sector.createStarSystem("Hope");
+        StarSystemAPI system = sector.createStarSystem("U_Hope");
         system.getLocation().set(1947, 3962);
 
         system.setBackgroundTextureFilename("graphics/backgrounds/background5.jpg");
