@@ -1,79 +1,91 @@
 {
-	#WeaponSounds
-	"ot_sound_cannon_generic":[
-		{"file":"sounds/sfx_wpn_guns/tank_fire_1.ogg","pitch":1,"volume":1},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_2.ogg","pitch":1,"volume":1},
-		{"file":"sounds/sfx_wpn_guns/tank_fire_3.ogg","pitch":1,"volume":1},
-	],
-	"ot_sound_jap150mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_1.ogg","pitch":1,"volume":0.9},
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_2.ogg","pitch":1,"volume":0.9},
-		{"file":"sounds/sfx_wpn_guns/150mm_type38_3.ogg","pitch":1,"volume":0.9},
-	],
+	###WeaponSounds
+	##SciFi
+	#Coil
 	"on_sound_discharge_fire":[
-		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":1.1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/DisCharge_Fire.ogg","pitch":0.9,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/DisCharge_Fire.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/DisCharge_Fire.ogg","pitch":1.1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/DisCharge_Fire.ogg","pitch":0.9,"volume":0.1},
 	],
 	"on_sound_charge_up":[
-		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":1.1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/ChargeUp.ogg","pitch":0.9,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/ChargeUp.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/ChargeUp.ogg","pitch":1.1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/SciFi/ChargeUp.ogg","pitch":0.9,"volume":0.1},
 	],
+	#Beam
 	"on_sound_ShockCannon_fire":[
-		{"file":"sounds/sfx_wpn_guns/Ribera_48cmShockCannon_fire.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/sfx_wpn_guns/SciFi/Ribera_48cmShockCannon_fire.ogg","pitch":1,"volume":0.8},
 	],
 	"on_sound_wave_loop":[
-		{"file":"sounds/sfx_wpn_guns/wave.ogg","pitch":1,"volume":0.6},
+		{"file":"sounds/sfx_wpn_guns/SciFi/wave.ogg","pitch":1,"volume":0.6},
 	],
 	"on_sound_wave_charge":[
-		{"file":"sounds/sfx_wpn_guns/wavecharge.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_wpn_guns/SciFi/wavecharge.ogg","pitch":1,"volume":0.4},
 	],
 	
-	#USNCWeapons
-	"ot_sound_30cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_1.ogg","pitch":1,"volume":0.08},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_2.ogg","pitch":1,"volume":0.08},
-		{"file":"sounds/sfx_wpn_guns/usnc/30cal_fire_3.ogg","pitch":1,"volume":0.08},
+	##Conventional
+	#AA Weapons
+	"on_sound_genericAAcannon_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/aa_cannon_shot_1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/aa_cannon_shot_2.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/aa_cannon_shot_3.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/aa_cannon_shot_4.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/aa_cannon_shot_5.ogg","pitch":1.0,"volume":0.5},
 	],
-	"ot_sound_50cal_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_1.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_2.ogg","pitch":1,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/usnc/50cal_fire_3.ogg","pitch":1,"volume":0.1},
+	"on_sound_oer20_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/Oer20_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Oer20_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Oer20_fire_03.ogg","pitch":1.0,"volume":0.5},
+	],
+	"on_sound_flak37_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/Flak37_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Flak37_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Flak37_fire_03.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Flak37_fire_04.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Flak37_fire_05.ogg","pitch":1.0,"volume":0.5},
+	],
+	"on_sound_m537_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/37mm_m5_1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/37mm_m5_2.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/37mm_m5_3.ogg","pitch":1.0,"volume":0.5},
+	],
+	"on_sound_bof40_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/Bof40_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Bof40_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/AA/Bof40_fire_03.ogg","pitch":1.0,"volume":0.5},
+	],
+	
+	#Cannons
+	"on_sound_smallcannon_fire":[
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_small_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_small_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_small_fire_03.ogg","pitch":1.0,"volume":0.5},
+	],
+	"on_sound_mediumcannon_fire":[
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_medium_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_medium_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_medium_fire_03.ogg","pitch":1.0,"volume":0.5},
+	],
+	"on_sound_largecannon_fire":[
+		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_03.ogg","pitch":1.0,"volume":0.5},
+	],
+	
+	#MGs
+	"on_sound_30cal_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/30cal_fire_1.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/AA/30cal_fire_2.ogg","pitch":1,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/AA/30cal_fire_3.ogg","pitch":1,"volume":0.1},
+	],
+	"on_sound_50cal_fire":[
+		{"file":"sounds/sfx_wpn_guns/AA/50cal_fire_1.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/AA/50cal_fire_2.ogg","pitch":1,"volume":0.2},
+		{"file":"sounds/sfx_wpn_guns/AA/50cal_fire_3.ogg","pitch":1,"volume":0.2},
 	], 
+
 	
-	"ot_sound_us20mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_1.ogg","pitch":1,"volume":0.02},
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_2.ogg","pitch":1,"volume":0.02},
-		{"file":"sounds/sfx_wpn_guns/usnc/20mm_oerlikon_3.ogg","pitch":1,"volume":0.02},
-	],
-	"ot_sound_us37mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_1.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_2.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/37mm_m5_3.ogg","pitch":1,"volume":0.05},
-	],
-	"ot_sound_us75mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_1.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_2.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/75mm_m3_3.ogg","pitch":1,"volume":0.05},
-	],
-	"ot_sound_us76mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_1.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_2.ogg","pitch":1,"volume":0.05},
-		{"file":"sounds/sfx_wpn_guns/usnc/76mm_m1_3.ogg","pitch":1,"volume":0.05},
-	],
-	"ot_sound_us90mm_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_1.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_2.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/sfx_wpn_guns/usnc/90mm_m3_3.ogg","pitch":1,"volume":0.2},
-	],
-	"ot_sound_us105mmH_fire":[
-		{"file":"sounds/sfx_wpn_guns/usnc/105mm_m4_1.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/usnc/105mm_m4_2.ogg","pitch":1,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/usnc/105mm_m4_3.ogg","pitch":1,"volume":0.5},
-	],
-	
-	#Engine Sounds
+	###Engine Sounds
 	# played when engines are being used - depending on ship style and size
 	
 	#Engine Accel - Plays when flux is full
@@ -130,7 +142,7 @@
 	
 
 	
-	#Music
+	###Music
 	"music":{
 		#USNC
 		"music_usnc_market_neutral":[
