@@ -120,20 +120,20 @@
   ],
   "engineSlots": [
     {
-      "location": [-157, -0],
-      "length": 50,
-      "width": 10,
+      "location": [-110, -0],
+      "length": 5,
+      "width": 8,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 8,
+      "style": "NAVALSTEAM"
     },
     {
-      "location": [-157, 0],
-      "length": 30,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "location": [103, -0],
+      "length": 2,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "NAVALSTEAM"
     }
   ],
   "bounds": [

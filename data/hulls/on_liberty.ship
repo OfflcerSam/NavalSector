@@ -103,12 +103,12 @@
   ],
   "engineSlots": [
     {
-      "location": [-133, -0],
-      "length": 50,
-      "width": 10,
+      "location": [13, -0],
+      "length": 2,
+      "width": 4,
       "angle": 180,
-      "contrailSize": 35,
-      "style": "LOW_TECH"
+      "contrailSize": 4,
+      "style": "NAVALSTEAM"
     }
   ],
   "bounds": [
