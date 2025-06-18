@@ -18,8 +18,8 @@ Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,13,1
 Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,10,55,15,10,0.29,2,FRAGMENTATION,45,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Torpedos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-21-inch Mark 15 Torpedo (Single),on_21Mk15_single,2,0.5,400,1300,,1650,,50,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike8, rocket1, reload_1_and_a_half_pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
-21-inch Mark 15 Torpedo Rack,on_21Mk15_rack,2,0.5,800,1300,,1650,,50,10,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,STRIKE,"strike10, rocket2, reload_3pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
+21-inch Mark 15 Torpedo (Single),on_21Mk15_single,2,0.5,400,1300,,1650,,50,10,1,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS","strike8, rocket1, reload_1_and_a_half_pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
+21-inch Mark 15 Torpedo Rack,on_21Mk15_rack,2,0.5,800,1300,,1650,,50,10,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,300,150,10,400,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR, USE_LESS_VS_SHIELDS","strike10, rocket2, reload_3pt, usncws_bp, USNC",,Naval Ordnance Department,,Torpedo,Slow,None,,,,,,,TRUE,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Bomber Bombs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 100 lb AN-M30A1 Bombs (Bomber),on_100lb,0,,400,200,,250,,25,0,3,12,,,HIGH_EXPLOSIVE,0,,0,0.25,1,,5,5,0,0,,300,100,25,250,,,"STRIKE, USE_VS_FRIGATES, BOMB, SYSTEM, SHOW_IN_CODEX","strike3, no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,100
