@@ -1,4 +1,6 @@
 faction,system,entityID
-USNC,U_StarofHope,u_north
-USNC,U_StarofHope,u_east
-USNC,U_StarofHope,u_usnc
+USNC,U_Hope,u_north
+USNC,U_Hope,u_east
+USNC,U_Hope,u_usnc
+SRAC,S_Stonia,u_north
+SRAC,S_Stonia,u_east
