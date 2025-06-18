@@ -8,14 +8,13 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-	"on_mobility",
-    "auxiliarythrusters",
+    "on_mobility",
     "on_pdgunner",
-    "ecm",
     "targetingunit",
     "ballistic_rangefinder",
     "insulatedengine",
-    "magazines"
+    "magazines",
+    "on_insulatedhull"
   ],
   "weaponGroups": [
     {
