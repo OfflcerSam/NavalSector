@@ -1,6 +1,6 @@
 {
-    #"masterVersionFile":"https://raw.githubusercontent.com/OfflcerSam/TankSector/refs/heads/main/Tank.version",
-	#"changelogURL": "https://raw.githubusercontent.com/OfflcerSam/TankSector/refs/heads/main/Tank%20Changelog.txt",
+    "masterVersionFile":"https://raw.githubusercontent.com/OfflcerSam/NavalSector/refs/heads/main/Naval.version",
+	"changelogURL": "https://raw.githubusercontent.com/OfflcerSam/NavalSector/refs/heads/main/Naval%20Changelog.txt",
     "modName":"NavalSector",
     #"modThreadId":33212,
     "modVersion":
