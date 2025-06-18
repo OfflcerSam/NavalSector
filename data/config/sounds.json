@@ -67,9 +67,9 @@
 		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_medium_fire_03.ogg","pitch":1.0,"volume":0.5},
 	],
 	"on_sound_largecannon_fire":[
-		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_01.ogg","pitch":1.0,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_02.ogg","pitch":1.0,"volume":0.5},
-		{"file":"sounds/sfx_wpn_guns/Cannon_Generic/cannon_large_fire_03.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_large_fire_01.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_large_fire_02.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_guns/Cannon/cannon_large_fire_03.ogg","pitch":1.0,"volume":0.5},
 	],
 	
 	#MGs
