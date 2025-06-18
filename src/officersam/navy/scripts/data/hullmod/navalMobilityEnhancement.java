@@ -46,13 +46,29 @@ public class navalMobilityEnhancement extends BaseHullMod {
 
         stats.getMinCrewMod().modifyPercent(id, MIN_CREW_BONUS);
 
-        stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
-        stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
-        stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
+//        stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
+//        stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
+//        stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
         stats.getMaxBurnLevel().modifyFlat(id, BURN_BONUS);
 
-        stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
-        stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
+//        stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
+//        stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
+
+        if (hullSize == ShipAPI.HullSize.CRUISER || hullSize == ShipAPI.HullSize.CAPITAL_SHIP) {
+            // Use flat bonuses for large ships
+            stats.getMaxSpeed().modifyFlat(id, MAX_SPEED_BONUS);
+            stats.getAcceleration().modifyFlat(id, ACCEL_BONUS);
+            stats.getDeceleration().modifyFlat(id, DECEL_BONUS);
+            stats.getTurnAcceleration().modifyFlat(id, ACCEL_BONUS);
+            stats.getMaxTurnRate().modifyFlat(id, MAX_SPEED_BONUS);
+        } else {
+            // Use percent bonuses for smaller ships
+            stats.getMaxSpeed().modifyPercent(id, MAX_SPEED_BONUS);
+            stats.getAcceleration().modifyPercent(id, ACCEL_BONUS);
+            stats.getDeceleration().modifyPercent(id, DECEL_BONUS);
+            stats.getTurnAcceleration().modifyPercent(id, ACCEL_BONUS);
+            stats.getMaxTurnRate().modifyPercent(id, MAX_SPEED_BONUS);
+        }
 
         stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HP_BONUS);
 
@@ -72,6 +88,8 @@ public class navalMobilityEnhancement extends BaseHullMod {
     @Override
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         float pad = 10f;
+        boolean isLargeShip = hullSize == ShipAPI.HullSize.CRUISER || hullSize == ShipAPI.HullSize.CAPITAL_SHIP;
+
 
         //HullDurability
         tooltip.addSectionHeading("Durability", Alignment.MID, pad);
@@ -96,12 +114,19 @@ public class navalMobilityEnhancement extends BaseHullMod {
 
         // Mobile
         tooltip.addSectionHeading("Mobility", Alignment.MID, pad);
-        tooltip.addPara("Top Speed: %s", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) MAX_SPEED_BONUS));
-        tooltip.addPara("Acceleration: %s", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) ACCEL_BONUS));
-        tooltip.addPara("Deceleration: %s", pad, Misc.getPositiveHighlightColor(),
-                String.format("%d%%", (int) DECEL_BONUS));
+        if (isLargeShip) {
+            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) ACCEL_BONUS));
+            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) DECEL_BONUS));
+            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) ACCEL_BONUS));
+            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d", (int) MAX_SPEED_BONUS));
+        } else {
+            tooltip.addPara("Top Speed: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) MAX_SPEED_BONUS));
+            tooltip.addPara("Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) ACCEL_BONUS));
+            tooltip.addPara("Deceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) DECEL_BONUS));
+            tooltip.addPara("Turn Acceleration: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) ACCEL_BONUS));
+            tooltip.addPara("Turn Rate: +%s", pad, Misc.getPositiveHighlightColor(), String.format("%d%%", (int) MAX_SPEED_BONUS));
+        }
     }
 
     private static final Set<String> REQUIRED_HULLMODS = new HashSet<>(Set.of(
