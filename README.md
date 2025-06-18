@@ -1,2 +1,2 @@
 # NavalSector
-Adds naval to starsector, maybe on day it will add water :trollface:
+Adds naval to starsector, maybe one day it will add water :trollface:
