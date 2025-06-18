@@ -27,8 +27,7 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "Torpedo": "on_21Mk15_rack",
-        "WS0002": "on_Oer20mm"
+        "Torpedo": "on_21Mk15_rack"
       }
     },
     {
@@ -36,6 +35,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "on_Oer20mm",
+        "WS0002": "on_Oer20mm",
         "WS0004": "on_Oer20mm",
         "WS0005": "on_Oer20mm",
         "WS0006": "on_Oer20mm",
@@ -50,14 +50,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "on_BofD40mm",
-        "WS0010": "on_BofD40mm"
+        "WS0003": "on_BofD40mm"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0010": "on_BofD40mm"
+      }
     }
   ],
   "modules": [],
