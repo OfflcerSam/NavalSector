@@ -1,0 +1,19 @@
+Created by Offlcer_Sam and covered under CC BY-SA 4.0, see ASSETS_LICENSE.
+ChargeUp.ogg
+DisCharge_Fire.ogg
+wave.ogg
+wavecharge.ogg
+
+Created by my microwave
+mwave.ogg
+
+//////////////////////////////////
+Audio Credits and Legal Notice
+
+Some sound effects and audio clips used in this project are sourced from copyrighted materials. These are used under the doctrine of Fair Use for purposes such as commentary, parody, education, or transformative use.
+All rights to the original works remain with their respective copyright holders.
+
+If you are a copyright holder and believe your work has been used improperly, please post an issue to the github and we will address the issue promptly.
+
+From Space Battleship Yamato
+Ribera_48cmShockCannon_fire.ogg
