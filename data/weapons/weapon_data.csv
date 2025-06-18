@@ -11,10 +11,10 @@ Bofor Dual 40mm Mount,on_BofD40mm,1,,800,700,,35,,6,65,12,8,5.71,2,FRAGMENTATION
 Bofor Quad 40mm Mount,on_BofQ40mm,1,,1000,700,,35,,6,60,15,16,20,4,FRAGMENTATION,4,,0,0.125,1,0,0,7,1,4,,880,,,40,,,"PD, ANTI_FTR, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","pd6, LR",,,,Point Defense (Area),,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-5-inch/25-caliber Flak gun Mount,on_5inchS_flak,1,,700,800,,80,,8,60,8,5,0.14,1,FRAGMENTATION,40,,0,3,1,0,0,5,1,2,,650,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, SYSTEM, SHOW_IN_CODEX","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
+5-inch/25-caliber Flak gun Mount,on_5inchS_flak,1,,700,800,,80,,8,60,6,5,0.14,1,FRAGMENTATION,40,,0,3,1,0,0,5,1,2,,650,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, SYSTEM, SHOW_IN_CODEX","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 5-inch/38-caliber gun Mount,on_5inch,1,,950,850,,150,,15,55,10,5,0.14,1,HIGH_EXPLOSIVE,100,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
-5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,150,,10,55,10,5,0.14,1,FRAGMENTATION,90,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
-Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,15,10,0.29,2,HIGH_EXPLOSIVE,50,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
+5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,850,,150,,10,55,8,5,0.14,1,FRAGMENTATION,90,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
+Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,850,,150,,15,55,13,10,0.29,2,HIGH_EXPLOSIVE,50,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
 Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,850,,150,,10,55,15,10,0.29,2,FRAGMENTATION,45,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Torpedos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
