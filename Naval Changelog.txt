@@ -2,20 +2,78 @@ V1.0 - Release
 Release of the mod, base stuff listed.
 Factions:
 United States Naval Command, Star of Hope
+Sampstonial Republic Admiralty Council, Star of Stonia
 
 Ships:
 Wings -
-Plane 1
+Elco PTB Gunboat
+TBD-1 Devastator Bomber
+TBF-1C Avenger Bomber
+SBD-3 Dauntless Bomber
+F4F-3 Wildcat Fighter
 
 Frigates -
-Supply Frigate
-River-class Frigate
+Frigate Pattern 1029
+Frigate Pattern 1029 (M)
+
+Destroyers -
+Landing Ship, Tank
+
+Sampson Class Destroyer
+Butler Class Destroyer Escort
+Fletcher Class Destroyer
+
+Destroyer Pattern 1031
+
+Cruisers -
+Liberty Ship Class Freighter
+Cimarron Class Tanker
+
+Atlanta Class Light Cruiser
+Portland Class Heavy Cruiser
+Lexington Class Battlecruiser
+Yorktown Class Carrier
+
+Capitals -
+North Carolina Class Battleship
+Iowa Class Battleship
 
 Weapons:
 Small Turrets -
+ANM2 50cal
+M2E2 Twin Mount
+Oerlikon 20mm Mount
+Oerlikon Dual 20mm Mount
+Phalanx CIWS 20mm Mount
+Hotchkiss 37mm Mount
+Bofor 40mm Mount
+Bofor Dual 40mm Mount
+Bofor Quad 40mm Mount
+
+21-inch Mark 15 Torpedo (Single)
+21-inch Mark 15 Torpedo Rack
+
+125mm Experimental Coilgun Mount
+
+5-inch/25-caliber Flak gun Mount
+5-inch/38-caliber gun Mount
+5-inch/38-caliber Flak gun Mount
+Dual 5-inch/38-caliber dual gun Mount
+Dual 5-inch/38-caliber dual Flak gun Mount
+
+QF 6-Pounder dual gun Mount
+135mm gun Mount
 
 Medium Turret -
+8-inch/55-caliber triple gun Mount
+10-inch/40-caliber dual gun Mount
+12-inch/50-caliber triple gun Mount
+
+200mm Experimental Coilgun Mount
 
 Large Turret-
+14-inch/50-caliber gun triple gun Mount
+16-inch/45-caliber quad gun Mount
+18-inch/47-caliber triple gun Mount
 
-	
+420mm Experimental Positron gun Mount
