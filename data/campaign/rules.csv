@@ -110,21 +110,21 @@ relLevelVengefulUSNC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == USNC",FireAll RelLevelMoreDescription,"The USNC has decided to take further aggressive stances against you. Naval command wants you gone, they want you squashed. Expect more than just small strike forces and patrols to meet you in open space.",,
 ,,,,,,
 #SRAC relationship levels,,,,,,
-relLevelCooperativeUSNC,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+relLevelCooperativeSRAC,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
 $faction.id == SRAC",FireAll RelLevelMoreDescription,"High Command speaks of you in terms usually reserved for flag officers. Expect good leeway, access to better contracts, and priority docking",,
-relLevelFriendlyUSNC,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+relLevelFriendlySRAC,RelationshipLevelDesc,"$faction.rel == FRIENDLY
 $faction.id == SRAC",FireAll RelLevelMoreDescription,"You're treated like one of their own—mess halls at ports welcome you, and patrols give your ships a respectful berth if asked for.",,
-relLevelWelcomingUSNC,RelationshipLevelDesc,"$faction.rel == WELCOMING
+relLevelWelcomingSRAC,RelationshipLevelDesc,"$faction.rel == WELCOMING
 $faction.id == SRAC",FireAll RelLevelMoreDescription,There’s a handshake waiting at every dock and a cot ready in every barracks. You’re good company in SRAC space.,,
-relLevelFavorableUSNC,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+relLevelFavorableSRAC,RelationshipLevelDesc,"$faction.rel == FAVORABLE
 $faction.id == SRAC",FireAll RelLevelMoreDescription,You've earned more than a passing nod from the brass. Some in SRAC space wouldn't mind watching your six.,,
-relLevelNeutralUSNC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+relLevelNeutralSRAC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
 $faction.id == SRAC",FireAll RelLevelMoreDescription,You aren't quite known to the SRAC or they are just in a position of neutrality with you.,,
-relLevelSuspiciousUSNC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+relLevelSuspiciousSRAC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == SRAC",FireAll RelLevelMoreDescription,The MPs check your cargo twice and keep their safeties off around you. It's obvious the local patrols have it out for you.,,
-relLevelInhospitableUSNC,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+relLevelInhospitableSRAC,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
 $faction.id == SRAC",FireAll RelLevelMoreDescription,"Local buisnesses refuse trade with you, and the gun crews follow your every move where ever you go. The local patrols seem to enjoy having you as an object of harassment.",,
-relLevelHostileUSNC,RelationshipLevelDesc,"$faction.rel == HOSTILE
+relLevelHostileSRAC,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == SRAC",FireAll RelLevelMoreDescription,"The SRAC has decided to take official stances against you, you are actively tracked in SRAC territory. Naval command coordinates strike forces and patrols to harass and fire upon you when you're reported and sighted.",,
-relLevelVengefulUSNC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+relLevelVengefulSRAC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == SRAC",FireAll RelLevelMoreDescription,"The SRAC has decided to take further aggressive stances against you. Naval command wants you gone, they want you squashed. Expect more than just small strike forces and patrols to meet you in open space.",,
