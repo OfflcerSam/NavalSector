@@ -64,7 +64,8 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": -45,
-      "locations": [169.5, -25.5]
+      "locations": [169.5, -25.5],
+      "renderOrderMod": 2
     },
     {
       "id": "Gun2",
@@ -73,7 +74,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -90,
-      "locations": [157.5, -25.5]
+      "locations": [157.5, -25.5],
+      "renderOrderMod": 1
     },
     {
       "id": "Gun3",
@@ -91,7 +93,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [154.5, 28.5]
+      "locations": [154.5, 28.5],
+      "renderOrderMod": 1
     },
     {
       "id": "Gun5",
@@ -118,7 +121,8 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 135,
-      "locations": [-186.5, 24.5]
+      "locations": [-186.5, 24.5],
+      "renderOrderMod": 1
     },
     {
       "id": "Gun7",
@@ -127,7 +131,8 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [-167.5, 25.5]
+      "locations": [-167.5, 25.5],
+      "renderOrderMod": 1
     },
     {
       "id": "WS0001",
@@ -145,7 +150,8 @@
       "mount": "TURRET",
       "arc": 299,
       "angle": 0,
-      "locations": [20, 25]
+      "locations": [20, 25],
+      "renderOrderMod": 1
     },
     {
       "id": "WS0003",
@@ -154,7 +160,8 @@
       "mount": "TURRET",
       "arc": 299,
       "angle": 180,
-      "locations": [-66, 25]
+      "locations": [-66, 25],
+      "renderOrderMod": 1
     },
     {
       "id": "WS0004",
