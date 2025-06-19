@@ -2,67 +2,129 @@ id,trigger,conditions,script,text,options,notes
 # USNC fleet greeting lines,,,,,,
 greetingUSNCFriendly,OpenCommLink,"$faction.id == USNC
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""Roger, your IFF has been acknowledged, wait."" A flicker of the US Army star, then: ""Greetings friendly $shipOrFleet, is everything okay?""
+FireAll PopulateOptions","""$PersonRank $PersonName, greeting Captain $PlayerName. Lines clear.""
 OR
-""Friendly, your IFF has been acknowledged, is everything okay?""
+""Good to see a friendly $shipOrFleet in the sector, our lines are open.""
 OR
-""IFF recieved, over."" $PersonRank $personName gives a brief salute before signing off.",,
+""Flag confirmed, $PlayerSirOrMadam. Maintain heading and godspeed from all of us here.""",,
 greetingUSNCHostileWeaker,OpenCommLink,"$faction.id == USNC
 $entity.isHostile
-$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, this is $PersonRank $personName, you are being advised to power down weapon systems and disengage and await for strike force retrieval. Over.""
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"The $PersonRank looks up at you before the transmission cuts.
 OR
-""Attention bandit. Be advised that firing upon a US vessel is considered an act of war and you will be destroyed."" The American $personRank is calm despite the odds. ""You are to disengage or face further military action .""
+""Unflagged $shipOrFleet, you're not welcome in this theater. Last warning before action.""
 OR
-""Attention bandit. You are to power down your weapons and disengage immediately."" No more words are said before the comms are cut.",cutCommLink:Cut the comm link,
+""How about you go fuck yourself kindly, $PlayerSirOrMadam."" The transmission cuts.",cutCommLink:Cut the comm link,
 greetingUSNCHostileWeakerDefiant,OpenCommLink,"$faction.id == USNC
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"The American $personRank looks calm and collected. ""Hostile will be engaged if action is pursued,"" $heOrShe says before cutting the comms.
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""You may outgun us, $PlayerSirOrMadam, but I'd like to think God is on ourside for this one."" The comm cuts out.
 OR
-""Hostile, we will not back down."" The comm-line cuts out.",cutCommLink:Cut the comm link,
+""We won’t stand down, even if outnumbered by the likes of you."" The $PersonRank stands back from the screen. ""Call for General Quarters, and someone cut this li-."" The comm cuts out.
+OR
+""Steel holds, even when thin. We’re not backing down. Make your move, $playerSirOrMadam."" The transmission cuts.",cutCommLink:Cut the comm link,
 greetingUSNCHostileStronger,OpenCommLink,"$faction.id == USNC
 $entity.isHostile
-$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Attention bandit, you are outnumbered. Make this easy, make this hard. Eitherway you are coming with us, over.""
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""God is on our side, not yours. Infact don't make it easy for us."" The transmission cuts.
 OR
-""Attention bandit. You are given the chance to surrender yourself or be met with military action.""",cutCommLink:Cut the comm link,
+""You can attempt surrender, and we might not beat your ass afterwards and throw you into a cold cell."" The transmission cuts.
+OR
+""If you think I'm scared of your $shipOrFleet, you might notice we outgun you."" The transmission cuts.",cutCommLink:Cut the comm link,
 greetingUSNCNeutral,OpenCommLink,"$faction.id == USNC
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""IFF recieved. Awaiting further transmission from $shipOrFleet.""
+FireAll PopulateOptions","""This is $PersonRank $PersonName. Do you have something for us?""
 OR
-""This is $PersonRank $personName recieving $shipOrFleet, is everything okay?""",,
+""Neutral contact identified. Eyes on you, $playerSirOrMadam—maintain current heading.""
+OR
+""$otherFleetName to $shipOrFleet: We acknowledge your presence. Keep things tidy out here.""",,
+,,,,,,
+# SRAC fleet greeting lines,,,,,,
+greetingSRACFriendly,OpenCommLink,"$faction.id == SRAC
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""$PersonRank $PersonName, greeting Captain $PlayerName. Lines clear.""
+OR
+""Good to see a friendly $shipOrFleet in the sector, our lines are open.""
+OR
+""Flag confirmed, $PlayerSirOrMadam. Maintain heading and godspeed from all of us here.""",,
+greetingSRACHostileWeaker,OpenCommLink,"$faction.id == SRAC
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"The $PersonRank looks up at you before the transmission cuts.
+OR
+""Unflagged $shipOrFleet, you're not welcome in this theater. Last warning before action.""
+OR
+""How about you go fuck yourself kindly, $PlayerSirOrMadam."" The transmission cuts.",cutCommLink:Cut the comm link,
+greetingSRACHostileWeakerDefiant,OpenCommLink,"$faction.id == SRAC
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""You may outgun us, $PlayerSirOrMadam, but I'd like to think God is on ourside for this one."" The comm cuts out.
+OR
+""We won’t stand down, even if outnumbered by the likes of you."" The $PersonRank stands back from the screen. ""Call for General Quarters, and someone cut this li-."" The comm cuts out.
+OR
+""Steel holds, even when thin. We’re not backing down. Make your move, $playerSirOrMadam."" The transmission cuts.",cutCommLink:Cut the comm link,
+greetingSRACHostileStronger,OpenCommLink,"$faction.id == SRAC
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""God is on our side, not yours. Infact don't make it easy for us."" The transmission cuts.
+OR
+""You can attempt surrender, and we might not beat your ass afterwards and throw you into a cold cell."" The transmission cuts.
+OR
+""If you think I'm scared of your $shipOrFleet, you might notice we outgun you."" The transmission cuts.",cutCommLink:Cut the comm link,
+greetingSRACNeutral,OpenCommLink,"$faction.id == SRAC
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""This is $PersonRank $PersonName. Do you have something for us?""
+OR
+""Neutral contact identified. Eyes on you, $playerSirOrMadam—maintain current heading.""
+OR
+""$otherFleetName to $shipOrFleet: We acknowledge your presence. Keep things tidy out here.""",,
 ,,,,,,
 # Trade panel flavor text,,,,,,
 flavorTextMarketUSNC,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == USNC","AddText ""The port concourse is filled with trader starcraft of every size as the American flags wave from the sidelines. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+$faction.id == USNC","AddText ""The crisp white-and-blue banners of the USNC snap in the wind above naval barracks and reinforced bunkers. Liberty ships dock in tight formation while armed MPs watch every corner."" marketFlavorTextColor",,,
 flavorTextMarketUSNCSmall,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $marketSize < 4
 $stability > 1
-$faction.id == USNC","AddText ""The humble port concourse has a lone American flag and is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos."" marketFlavorTextColor",,,
+$faction.id == USNC","AddText ""A lone forward operations base and control tower mark the center of the concourse. Despite the smaller size of this port, it still runs quite smoothly."" marketFlavorTextColor",,,
 flavorTextMarketUSNCUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 1
-$faction.id == USNC","AddText ""The port concourse holds only a strew of trader starcraft, the American flag is protected behind a police barrier. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local police appears to have deployed patrols of power-armor units while police drones buzz conspicuously overhead."" marketFlavorTextColor",,,
+$faction.id == USNC","AddText ""Sandbags line the streets and floodlights glare through the night. Drunken and aggrevated brawls spill out of local canteens, the local MPs are seen quickly responding about, never getting a moment of rest."" marketFlavorTextColor",,,
 flavorTextMarketUSNCVeryUnstable,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $stability == 0
-$faction.id == USNC","AddText ""The port concourse contains only a few ships, and half of those look like warcraft, the American flag is protected within a shield projector. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as police drones buzz overhead in a rush to some incident or another."" marketFlavorTextColor",,,
+$faction.id == USNC","AddText ""The harbor lies half-empty with only a skeleton crew running the direction of space traffic, MPs and regular troops strictly guard the concourse overlooking areas with MG nests. In the distance, gunfire seems to rings out far too often."" marketFlavorTextColor",,,
 ,,,,,,
 # USNC relationship level descriptions,,,,,,
 relLevelCooperativeUSNC,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == USNC",FireAll RelLevelMoreDescription,"Your actions are noticed by the top brass, they have allowed you additional merit permissions that only few others would have. Do not abuse this additional power of course.",,
+$faction.id == USNC",FireAll RelLevelMoreDescription,"High Command speaks of you in terms usually reserved for flag officers. Expect good leeway, access to better contracts, and priority docking",,
 relLevelFriendlyUSNC,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == USNC",FireAll RelLevelMoreDescription,"You have great standing with many naval commanders of the USNC, you are usually an person of choice or preference in some business contracts.",,
+$faction.id == USNC",FireAll RelLevelMoreDescription,"You're treated like one of their own—mess halls at ports welcome you, and patrols give your ships a respectful berth if asked for.",,
 relLevelWelcomingUSNC,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == USNC",FireAll RelLevelMoreDescription,You have good standing.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,There’s a handshake waiting at every dock and a cot ready in every barracks. You’re good company in USNC space.,,
 relLevelFavorableUSNC,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == USNC",FireAll RelLevelMoreDescription,You have some standing.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,You've earned more than a passing nod from the brass. Some in USNC space wouldn't mind watching your six.,,
 relLevelNeutralUSNC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == USNC",FireAll RelLevelMoreDescription,You have no real standing.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,You aren't quite known to the USNC or they are just in a position of neutrality with you.,,
 relLevelSuspiciousUSNC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
-$faction.id == USNC",FireAll RelLevelMoreDescription,Your actions and behavior are suspicious.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,The MPs check your cargo twice and keep their safeties off around you. It's obvious the local patrols have it out for you.,,
 relLevelInhospitableUSNC,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == USNC",FireAll RelLevelMoreDescription,Your actions and behavior are inhospitable.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,"Local buisnesses refuse trade with you, and the gun crews follow your every move where ever you go. The local patrols seem to enjoy having you as an object of harassment.",,
 relLevelHostileUSNC,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == USNC",FireAll RelLevelMoreDescription,The USNC has decided to take official stances against you.,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,"The USNC has decided to take official stances against you, you are actively tracked in USNC territory. Naval command coordinates strike forces and patrols to harass and fire upon you when you're reported and sighted.",,
 relLevelVengefulUSNC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == USNC",FireAll RelLevelMoreDescription,The USNC has decided to take further aggressive stances against you.,,
-#relLevelAmericaBaird,RelLevelMoreDescription,"$faction.id == USNC
-$global.gaKA_completed",,,,
+$faction.id == USNC",FireAll RelLevelMoreDescription,"The USNC has decided to take further aggressive stances against you. Naval command wants you gone, they want you squashed. Expect more than just small strike forces and patrols to meet you in open space.",,
+,,,,,,
+#SRAC relationship levels,,,,,,
+relLevelCooperativeUSNC,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == SRAC",FireAll RelLevelMoreDescription,"High Command speaks of you in terms usually reserved for flag officers. Expect good leeway, access to better contracts, and priority docking",,
+relLevelFriendlyUSNC,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == SRAC",FireAll RelLevelMoreDescription,"You're treated like one of their own—mess halls at ports welcome you, and patrols give your ships a respectful berth if asked for.",,
+relLevelWelcomingUSNC,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == SRAC",FireAll RelLevelMoreDescription,There’s a handshake waiting at every dock and a cot ready in every barracks. You’re good company in SRAC space.,,
+relLevelFavorableUSNC,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == SRAC",FireAll RelLevelMoreDescription,You've earned more than a passing nod from the brass. Some in SRAC space wouldn't mind watching your six.,,
+relLevelNeutralUSNC,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == SRAC",FireAll RelLevelMoreDescription,You aren't quite known to the SRAC or they are just in a position of neutrality with you.,,
+relLevelSuspiciousUSNC,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == SRAC",FireAll RelLevelMoreDescription,The MPs check your cargo twice and keep their safeties off around you. It's obvious the local patrols have it out for you.,,
+relLevelInhospitableUSNC,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == SRAC",FireAll RelLevelMoreDescription,"Local buisnesses refuse trade with you, and the gun crews follow your every move where ever you go. The local patrols seem to enjoy having you as an object of harassment.",,
+relLevelHostileUSNC,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == SRAC",FireAll RelLevelMoreDescription,"The SRAC has decided to take official stances against you, you are actively tracked in SRAC territory. Naval command coordinates strike forces and patrols to harass and fire upon you when you're reported and sighted.",,
+relLevelVengefulUSNC,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == SRAC",FireAll RelLevelMoreDescription,"The SRAC has decided to take further aggressive stances against you. Naval command wants you gone, they want you squashed. Expect more than just small strike forces and patrols to meet you in open space.",,
