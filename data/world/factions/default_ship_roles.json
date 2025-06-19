@@ -21,6 +21,7 @@
 			
 	},
 	"combatLarge":{
+			"on_portland_support":5,
 			"on_portland_attack":5,
 	},
 	"combatCapital":{

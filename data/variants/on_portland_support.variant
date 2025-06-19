@@ -1,22 +1,18 @@
 {
-  "variantId": "on_portland_attack",
+  "variantId": "on_portland_support",
   "hullId": "on_portland",
-  "displayName": "Attack",
+  "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 3,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "on_armorpack",
+    "on_insulatedhull",
+    "on_mobility",
     "on_pdgunner",
-    "reinforcedhull",
-    "blast_doors",
-    "targetingunit",
-    "insulatedengine",
     "on_sensor",
-    "on_ashe1",
-    "on_insulatedhull"
+    "magazines"
   ],
   "weaponGroups": [
     {
@@ -32,14 +28,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "SecondaryL1": "on_5inch",
-        "SecondaryL2": "on_5inch",
-        "SecondaryL3": "on_5inch",
-        "SecondaryL4": "on_5inch",
-        "SecondaryR1": "on_5inch",
-        "SecondaryR2": "on_5inch",
-        "SecondaryR3": "on_5inch",
-        "SecondaryR4": "on_5inch"
+        "SecondaryL1": "on_5inch_flak",
+        "SecondaryL2": "on_5inch_flak",
+        "SecondaryL3": "on_5inch_flak",
+        "SecondaryL4": "on_5inch_flak",
+        "SecondaryR1": "on_5inch_flak",
+        "SecondaryR2": "on_5inch_flak",
+        "SecondaryR3": "on_5inch_flak",
+        "SecondaryR4": "on_5inch_flak"
       }
     },
     {
@@ -48,6 +44,7 @@
       "weapons": {
         "WS0001": "on_Oer20mm",
         "WS0004": "on_Oer20mm",
+        "WS0005": "on_Twin50cal",
         "WS0008": "on_Twin50cal",
         "WS0009": "on_Oer20mm",
         "WS0010": "on_Oer20mm",
@@ -67,17 +64,11 @@
       "weapons": {
         "WS0002": "on_BofD40mm",
         "WS0003": "on_BofD40mm",
-        "WS0005": "on_Twin50cal",
         "WS0006": "on_BofD40mm",
         "WS0007": "on_BofD40mm",
         "WS0015": "on_BofD40mm",
         "WS0016": "on_BofD40mm"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],

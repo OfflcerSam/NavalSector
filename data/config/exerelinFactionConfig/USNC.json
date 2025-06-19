@@ -72,11 +72,12 @@
     "startShipsCombatLarge":[
 		["on_atlanta_support", "on_fletcher_light", "on_fletcher_light"],
 		["on_atlanta_flotilla", "on_fletcher_light", "on_fletcher_light"],
-		["on_portland_attack", "on_atlanta_support", "on_fletcher_light"]
+		["on_portland_attack", "on_atlanta_support", "on_fletcher_light"],
+		["on_portland_support", "on_atlanta_flotilla", "on_atlanta_flotilla"]
     ],
 	"startShipsGrandFleet":[
- 		["on_ncarolina_fast", "on_portland_attack", "on_fletcher_light"],
-		["on_ncarolina_fast", "on_atlanta_flotilla", "on_atlanta_flotilla"]
+ 		["on_ncarolina_fast", "on_portland_attack", "on_atlanta_support"],
+		["on_ncarolina_fast", "on_portland_support", "on_atlanta_flotilla"]
     ],
 	
 	"startShipsTradeSmall":[
