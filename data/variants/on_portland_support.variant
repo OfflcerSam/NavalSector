@@ -9,6 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "on_insulatedhull",
+	"on_defaultarmor",
     "on_mobility",
     "on_pdgunner",
     "on_sensor",
