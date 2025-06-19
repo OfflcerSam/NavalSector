@@ -10,9 +10,9 @@ Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,10,8750,250,5000,,2
 Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,11250,550,7000,,300,100,,150,50,115,10,7,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,20,15,540,0.25,9,9,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,Naval Maritime Commission,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25000,700,8500,,500,200,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,14,14,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1934
-Portland,on_portland,Heavy Cruiser,Naval Maritime Commission,,25,30000,850,9500,,800,225,,135,45,105,9,6,3300,NONE,,,,,,,715,950,35,60,1,50,8,95000,25,20,720,0.25,18,18,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
-#Lexington,on_lexington,Battlecruiser,Naval Maritime Commission,,30,38000,1350,9500,,800,250,,135,45,105,9,6,3800,NONE,,,,,,,1010,1350,40,60,1,50,8,95000,25,20,720,0.25,22,22,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
+Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25000,700,8500,,500,230,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,14,14,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1934
+Portland,on_portland,Heavy Cruiser,Naval Maritime Commission,,25,30000,850,9500,,800,250,,135,45,105,9,6,3300,NONE,,,,,,,715,950,35,60,1,50,8,95000,25,20,720,0.25,18,18,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
+#Lexington,on_lexington,Battlecruiser,Naval Maritime Commission,,30,38000,1350,9500,,800,300,,135,45,105,9,6,3800,NONE,,,,,,,1010,1350,40,60,1,50,8,95000,25,20,720,0.25,22,22,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
 Yorktown,on_yorktown,Carrier,Naval Maritime Commission,,20,35000,950,9000,,1000,225,4,130,45,100,9,6,3500,NONE,,,,,,,1620,2150,80,80,1,60,8,135000,30,30,720,0.25,30,30,,,,,,,CARRIER,"usnci_bp, USNC",,0.4,3,8,,1940
 North Carolina,on_ncarolina,Battleship,Naval Maritime Commission,,30,42000,1750,10000,,1000,500,,130,40,100,9,6,4250,NONE,,,,,,,1470,1950,50,80,1,50,8,195000,30,25,720,0.25,40,40,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1937
 #Iowa,on_iowa,Battleship,Naval Maritime Commission,,30,63000,1900,10000,,1250,650,,125,40,95,9,6,5550,NONE,,,,,,,2000,2700,50,80,1,50,8,250000,30,25,720,0.25,60,60,,,,,,,,"usnci_bp, USNC",,0.3,3,8,,1940
