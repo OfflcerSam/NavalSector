@@ -3,20 +3,15 @@
   "hullId": "on_portland",
   "displayName": "Attack",
   "goalVariant": true,
-  "fluxCapacitors": 3,
-  "fluxVents": 30,
+  "fluxCapacitors": 0,
+  "fluxVents": 25,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "on_armorpack",
     "on_pdgunner",
-    "reinforcedhull",
-    "blast_doors",
-    "targetingunit",
-    "insulatedengine",
     "on_sensor",
-    "on_ashe1",
-    "on_insulatedhull"
+    "targetingunit"
   ],
   "weaponGroups": [
     {

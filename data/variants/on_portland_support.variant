@@ -3,17 +3,20 @@
   "hullId": "on_portland",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 5,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "on_insulatedhull",
-	"on_defaultarmor",
+    "on_defaultarmor",
     "on_mobility",
     "on_pdgunner",
     "on_sensor",
-    "magazines"
+    "magazines",
+    "blast_doors",
+    "targetingunit",
+    "pointdefenseai"
   ],
   "weaponGroups": [
     {
