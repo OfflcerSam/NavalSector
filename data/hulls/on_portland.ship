@@ -1,7 +1,7 @@
 {
   "hullName": "Portland",
   "hullId": "on_portland",
-  "hullSize": "FRIGATE",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/USNC/Portlandclass.png",
   "style": "NAVALSHIP",
   "height": 351,
