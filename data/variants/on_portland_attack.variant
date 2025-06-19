@@ -44,6 +44,7 @@
         "WS0001": "on_Oer20mm",
         "WS0004": "on_Oer20mm",
         "WS0008": "on_Twin50cal",
+		"WS0005": "on_Twin50cal",
         "WS0009": "on_Oer20mm",
         "WS0010": "on_Oer20mm",
         "WS0011": "on_Oer20mm",
@@ -62,7 +63,6 @@
       "weapons": {
         "WS0002": "on_BofD40mm",
         "WS0003": "on_BofD40mm",
-        "WS0005": "on_Twin50cal",
         "WS0006": "on_BofD40mm",
         "WS0007": "on_BofD40mm",
         "WS0015": "on_BofD40mm",
