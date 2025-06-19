@@ -476,7 +476,10 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [162.5, 0.5]
+      "locations": [
+        162.5, 0.5,
+        163.5, 0.5
+      ]
     },
     {
       "id": "LB 3",
@@ -485,7 +488,10 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [-133, -0.5]
+      "locations": [
+        -133, -0.5,
+        -135, -0.5
+      ]
     },
     {
       "id": "LB 2",
@@ -494,7 +500,10 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [42.5, 4.5]
+      "locations": [
+        42.5, 4.5,
+        43.5, 4.5
+      ]
     },
     {
       "id": "WS0069",
