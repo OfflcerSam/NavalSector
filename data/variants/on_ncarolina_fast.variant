@@ -14,7 +14,8 @@
     "ballistic_rangefinder",
     "magazines",
     "on_insulatedhull",
-    "operations_center"
+    "operations_center",
+    "on_defaultarmor"
   ],
   "weaponGroups": [
     {
