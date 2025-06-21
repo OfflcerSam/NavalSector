@@ -104,17 +104,7 @@
   "knownWeapons": {
 		"tags": ["USNC"],
 		"weapons": [
-			"on_5inch",
-			"on_5inch_flak",
-			"on_5inch_dual",
-			"on_5inch_dual_flak",
-			
-			"on_8inch_triple",
-			
-			"on_16inch_quad",
-			
-			"on_21Mk15_single",
-			"on_21Mk15_rack",
+			"mininglaser"
 			
         ],
   },

@@ -1,7 +1,7 @@
 {
   "variantId": "on_liberty_standard",
   "hullId": "on_liberty",
-  "displayName": "New Variant",
+  "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 15,

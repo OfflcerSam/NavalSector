@@ -63,7 +63,9 @@
   },
   "knownWeapons": {
 		"tags": ["SRAC"],
-		"weapons": [],
+		"weapons": [
+				"mininglaser"
+		],
   },
   "priorityWeapons": {
 		"tags": ["SRAC"],
