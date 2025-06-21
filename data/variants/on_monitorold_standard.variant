@@ -1,0 +1,27 @@
+{
+  "variantId": "on_monitorold_standard",
+  "hullId": "on_monitorold",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "on_defaultarmor",
+    "on_insulatedhull",
+    "insulatedengine",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Main": "on_11inchDahl_dual"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

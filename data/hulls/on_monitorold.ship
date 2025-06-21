@@ -1,0 +1,60 @@
+{
+  "hullName": "Ironclad Monitor",
+  "hullId": "on_monitorold",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/USNC/USSMonitor.png",
+  "style": "NAVALSHIP",
+  "height": 106,
+  "width": 26,
+  "center": [13, 53],
+  "collisionRadius": 56.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 56.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull",
+    "escort_package"
+  ],
+  "weaponSlots": [
+    {
+      "id": "Main",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 3],
+      "length": 1,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "NAVALSTEAM"
+    },
+    {
+      "location": [-15, -3],
+      "length": 1,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "NAVALSTEAM"
+    }
+  ],
+  "bounds": [
+    -51, 2,
+    -41, 8,
+    -22, 12,
+    28, 12,
+    43, 7,
+    52, 0,
+    43, -7,
+    28, -12,
+    -22, -12,
+    -41, -8,
+    -51, -2
+  ]
+}
