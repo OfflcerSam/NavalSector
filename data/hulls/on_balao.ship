@@ -12,7 +12,8 @@
   "shieldRadius": 96,
   "viewOffset": 0,
   "builtInMods": [
-    "on_navalhull"
+    "on_navalhull",
+	"phasefield"
   ],
   "builtInWeapons": {
     "WS0001": "on_Oer20mm",

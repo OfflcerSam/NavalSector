@@ -68,7 +68,7 @@
 		["on_fletcher_light", "on_sampson_strike", "on_sampson_strike"],
 		["on_fletcher_light", "on_fletcher_escort", "on_fletcher_escort"],
 		["on_butler_screen", "on_butler_screen", "on_lst_support"],
-		["on_butler_screen", "on_monitorold_standard", "on_monitorold_standard"]
+		["on_butler_screen", "on_monitorold_standard", "on_monitorold_standard"],
 		["on_balao_standard", "on_balao_standard", "on_balao_standard"]
     ],
     "startShipsCombatLarge":[
