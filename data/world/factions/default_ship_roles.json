@@ -57,7 +57,7 @@
 
 	# phase ships
 	"phaseSmall":{
-
+		"on_balao_standard":5,
 	},
 	"phaseMedium":{
 

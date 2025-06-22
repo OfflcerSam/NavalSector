@@ -8,10 +8,11 @@ Cimarron,on_cimarron,Tanker,Naval Maritime Commission,,3,7000,60,2000,,300,40,,1
 Ironclad Monitor,on_monitorold,System Monitor,Naval Maritime Commission,,3,4250,205,500,,100,40,,100,35,90,9,6,400,NONE,,,,,,,35,50,10,20,1,15,8,4150,10,10,540,0.25,3,3,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1862
 Sampson,on_sampson,Destroyer,Naval Maritime Commission,,8,7650,150,3000,,150,50,,180,60,125,10,7,300,NONE,,,,,,,75,100,20,30,1,20,9,18500,10,10,540,0.25,5,5,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1915
 Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,10,8750,250,5000,,250,65,,160,50,125,10,7,550,NONE,,,,,,,150,195,25,40,1,25,9,24500,15,10,540,0.25,7,7,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1943
-Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,11250,550,7000,,300,100,,150,50,115,10,7,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,20,15,540,0.25,9,9,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
+Balao,on_balao,Phase Destroyer,Naval Maritime Commission,,12,10500,200,5000,,300,65,,150,50,115,10,7,525,PHASE,phasecloak,90,,,0.05,0.04,65,80,15,30,1,30,9,30500,15,15,540,0.25,12,12,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1942
+Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,11250,550,7000,,300,100,,150,50,115,10,7,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,15,15,540,0.25,9,9,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
+Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25000,700,8500,,500,225,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,14,14,,,,,,,,"usncs_bp, USNC",,0.4,3,8,,1934
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,Naval Maritime Commission,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25000,700,8500,,500,225,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,14,14,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1934
 Portland,on_portland,Heavy Cruiser,Naval Maritime Commission,,25,30000,850,9500,,600,250,,135,45,105,9,6,3300,NONE,,,,,,,715,950,35,60,1,50,8,95000,25,20,720,0.25,18,18,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
 #Lexington,on_lexington,Battlecruiser,Naval Maritime Commission,,30,38000,1350,9500,,800,300,,135,45,105,9,6,3800,NONE,,,,,,,1010,1350,40,60,1,50,8,95000,25,20,720,0.25,22,22,,,,,,,,"usnci_bp, USNC",,0.4,3,8,,1932
 Yorktown,on_yorktown,Carrier,Naval Maritime Commission,,20,35000,950,10000,,1000,200,4,130,45,100,9,6,3500,NONE,,,,,,,1620,2150,80,80,1,60,8,135000,30,30,720,0.25,30,30,,,,,,,CARRIER,"usnci_bp, USNC",,0.4,3,8,,1940

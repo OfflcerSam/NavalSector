@@ -1,0 +1,51 @@
+{
+  "variantId": "on_balao_standard",
+  "hullId": "on_balao",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "on_mobility",
+    "on_defaultarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "on_21Mk15_rack",
+        "WS0005": "on_21Mk15_rack",
+        "WS0007": "on_21Mk15_rack",
+        "WS0008": "on_21Mk15_rack",
+        "WS0009": "on_21Mk15_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Main": "on_5inch"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "on_Oer20mm",
+        "WS0002": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "on_Bof40mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

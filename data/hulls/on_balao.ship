@@ -1,0 +1,159 @@
+{
+  "hullName": "Balao",
+  "hullId": "on_balao",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/USNC/Balaoclass.png",
+  "style": "NAVALSHIP",
+  "height": 186,
+  "width": 16,
+  "center": [8, 93],
+  "collisionRadius": 96,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull"
+  ],
+  "builtInWeapons": {
+    "WS0001": "on_Oer20mm",
+    "WS0002": "on_Oer20mm",
+    "WS0003": "on_Bof40mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "Main",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [38, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 314,
+      "angle": 0,
+      "locations": [28, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 314,
+      "angle": 180,
+      "locations": [9, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [19, -0],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [70, -3]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [70, 3]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [81, 2]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [81, -2]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [88, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61.5, 0],
+      "length": 0.5,
+      "width": 1,
+      "angle": 180,
+      "contrailSize": 1,
+      "style": "CUSTOM",
+      "styleSpec": {
+        "type": "SMOKE",
+        "engineColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "engineCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "",
+        "contrailColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailCampaignColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailParticleDuration": 0
+      }
+    }
+  ],
+  "bounds": [
+    -87, 1,
+    -35, 6,
+    31, 6,
+    92, -0,
+    31, -6,
+    -35, -6,
+    -87, -1
+  ]
+}
