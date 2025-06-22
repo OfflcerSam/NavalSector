@@ -1,7 +1,7 @@
 {
   "variantId": "on_balao_standard",
   "hullId": "on_balao",
-  "displayName": "Standard",
+  "displayName": "Submarine",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 20,
