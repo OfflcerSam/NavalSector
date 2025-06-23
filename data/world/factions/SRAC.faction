@@ -87,12 +87,12 @@
 	},	
 	"factionDoctrine":{
 		"warships":5,
-		"carriers":2,
+		"carriers":1,
 		"phaseShips":0,
 		
 		"officerQuality":3,
-		"shipQuality":2,
-		"numShips":2,
+		"shipQuality":3,
+		"numShips":1,
 		
 		"shipSize":3,
 		
