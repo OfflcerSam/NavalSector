@@ -32,8 +32,6 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
-			"on_lst_support":5,
-			"on_lst_standard":5,
 			"on_lst_strike":5,
 			
 	},
@@ -63,6 +61,7 @@
 	# phase ships
 	"phaseSmall":{
 		"on_balao_standard":5,
+		
 	},
 	"phaseMedium":{
 
@@ -82,6 +81,8 @@
 	"utility":{
 	},
 	"civilianRandom":{
+			"on_lst_support":5,
+			"on_lst_standard":5,
 			"on_liberty_passenger":5,
 			"on_liberty_cargo":5,
 			"on_victory_passenger":5,
@@ -91,7 +92,7 @@
 	
 	# freighters
 	"freighterSmall":{
-			"on_lst_support":5,
+			"on_lst_standard":5,
 			
 	},
 	"freighterMedium":{
@@ -117,7 +118,7 @@
 	
 	#liner
 	"linerSmall":{
-			"on_lst_support":5,
+			"on_lst_strike":5,
 			"on_lst_standard":5,
 			
 	},
@@ -132,6 +133,7 @@
 	
 	#personnel
 	"personnelSmall":{
+			"on_lst_strike":5,
 			"on_lst_support":5,
 			"on_lst_standard":5,
 

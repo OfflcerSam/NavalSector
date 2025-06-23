@@ -9,61 +9,48 @@
   "permaMods": [],
   "hullMods": [
     "on_defaultarmor",
-    "additional_berthing"
+    "on_freight",
+    "on_pdgunner",
+    "on_sensor"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "OerCL1": "on_Oer20mm",
-        "OerCR1": "on_Oer20mm",
-        "OerFL": "on_Oer20mm",
-        "OerFL2": "on_Oer20mm",
-        "OerFR": "on_Oer20mm",
-        "OerFR2": "on_Oer20mm"
+        "WS0001": "on_Oer20mm",
+        "WS0002": "on_Oer20mm",
+        "WS0003": "on_Oer20mm",
+        "WS0004": "on_Oer20mm",
+        "WS0005": "on_Oer20mm",
+        "WS0006": "on_Oer20mm",
+        "WS0007": "on_Oer20mm",
+        "WS0008": "on_Oer20mm",
+        "WS0009": "on_Oer20mm"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "BofCL": "on_Oer20mm",
-        "BofCR": "on_Oer20mm",
-        "OerRL1": "on_Oer20mm",
-        "OerRL2": "on_Oer20mm",
-        "OerRL3": "on_Oer20mm",
-        "OerRR1": "on_Oer20mm",
-        "OerRR2": "on_Oer20mm",
-        "OerRR3": "on_Oer20mm"
+        "WS0010": "on_Bof40mm",
+        "WS0011": "on_Bof40mm"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "ALTERNATING",
-      "weapons": {
-        "BofC": "on_BofD40mm",
-        "BofFC": "on_Bof40mm"
-      }
+      "weapons": {}
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "ALTERNATING",
-      "weapons": {
-        "BofC1": "on_Bof40mm",
-        "BofC2": "on_Bof40mm",
-        "BofRC": "on_Bof40mm"
-      }
+      "weapons": {}
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "50CL": "on_Twin50cal",
-        "50CL2": "on_Twin50cal",
-        "50CR": "on_Twin50cal",
-        "50CR2": "on_Twin50cal"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],
