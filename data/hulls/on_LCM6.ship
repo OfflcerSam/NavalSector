@@ -16,7 +16,7 @@
     "pointdefenseai"
   ],
   "builtInWeapons": {
-    "WS0001": "on_AN50cal",
+    "WS0001": "on_Bof40mm",
     "WS0002": "on_Oer20mm",
     "WS0003": "on_Oer20mm",
     "WS0004": "on_OerD20mm"
