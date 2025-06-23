@@ -2,9 +2,9 @@ package officersam.navy.scripts;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import org.apache.log4j.Logger;
 import officersam.navy.scripts.world.Naval_gen;
 import org.dark.shaders.light.LightData;
+import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
 import exerelin.campaign.SectorManager;
 
@@ -18,19 +18,18 @@ public class NavalmodPlugin extends BaseModPlugin {
         }
     }
 
-    private static Logger log = Global.getLogger(NavalmodPlugin.class);
-    public static boolean hasGraphicsLib = false;
+    public static boolean hasGraphicsLib;
+
     @Override
-    public void onApplicationLoad() throws Exception {
-        super.onApplicationLoad();
+    public void onApplicationLoad() {
         hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
-        // Test that the .jar is loaded and working, using the most obnoxious way possible.
-        //throw new RuntimeException("Template mod loaded! Remove this crash in TemplateModPlugin.");
+
         if (hasGraphicsLib) {
-            TextureData.readTextureDataCSV("data/lights/on_texture_data.csv");
+            ShaderLib.init();
             LightData.readLightDataCSV("data/lights/on_light_data.csv");
+            TextureData.readTextureDataCSV("data/lights/on_texture_data.csv");
         }
     }
 }
-	
+
 

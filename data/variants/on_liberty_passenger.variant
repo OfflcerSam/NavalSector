@@ -1,23 +1,23 @@
 {
-  "variantId": "on_liberty_standard",
+  "variantId": "on_liberty_passenger",
   "hullId": "on_liberty",
-  "displayName": "Standard",
+  "displayName": "Passenger",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 15,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "on_noarmor",
-    "expanded_cargo_holds",
-    "insulatedengine"
+    "insulatedengine",
+    "on_passenger",
+    "on_defaultarmor"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "Turret": "mininglaser"
+        "Turret": "on_5inch_flak"
       }
     },
     {

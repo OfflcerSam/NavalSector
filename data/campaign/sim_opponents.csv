@@ -1,5 +1,6 @@
 variant id
-on_liberty_standard
+on_liberty_passenger
+on_liberty_cargo
 on_cimarron_standard
 on_lst_support
 on_monitorold_standard

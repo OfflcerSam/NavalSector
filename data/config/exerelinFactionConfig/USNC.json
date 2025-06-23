@@ -83,21 +83,23 @@
     ],
 	
 	"startShipsTradeSmall":[
-		["on_butler_screen", "on_liberty_standard", "on_liberty_standard"],
-		["on_fletcher_escort", "on_lst_support", "on_liberty_standard"]
+		["on_butler_screen", "on_liberty_cargo", "on_liberty_cargo"],
+		["on_fletcher_escort", "on_lst_support", "on_liberty_passenger"],
+		["on_liberty_passenger", "on_liberty_cargo", "on_liberty_cargo"]
     ],
     "startShipsTradeLarge":[
 		["on_cimarron_standard", "on_cimarron_standard", "on_lst_support"],
-		["on_liberty_standard", "on_liberty_standard", "on_lst_support"]
+		["on_victory_cargo", "on_victory_cargo", "on_lst_support"],
+		["on_atlanta_support", "on_victory_cargo", "on_victory_cargo"]
     ],
 	
 	
 	"startShipsExplorerSmall":[
 		["on_fletcher_escort", "on_sampson_strike", "on_lst_support"],
-		["on_fletcher_light", "on_liberty_standard", "on_lst_support"]
+		["on_fletcher_light", "on_liberty_passenger", "on_lst_support"]
     ],
     "startShipsExplorerLarge":[
-		["on_atlanta_support", "on_fletcher_escort", "on_liberty_standard"],
+		["on_atlanta_support", "on_fletcher_escort", "on_victory_passenger"],
 		["on_atlanta_support", "on_fletcher_light", "on_lst_support"]
     ],
 	

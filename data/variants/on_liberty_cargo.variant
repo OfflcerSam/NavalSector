@@ -1,16 +1,16 @@
 {
-  "variantId": "on_victory_standard",
-  "hullId": "on_victory",
-  "displayName": "Standard",
+  "variantId": "on_liberty_cargo",
+  "hullId": "on_liberty",
+  "displayName": "Freighter",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 15,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "on_noarmor",
-    "expanded_cargo_holds",
-    "insulatedengine"
+    "insulatedengine",
+    "on_defaultarmor",
+    "on_freight"
   ],
   "weaponGroups": [
     {

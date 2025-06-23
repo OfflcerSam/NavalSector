@@ -1,0 +1,51 @@
+{
+  "variantId": "on_victory_cargo",
+  "hullId": "on_victory",
+  "displayName": "Freighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "on_defaultarmor",
+    "on_freight"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Turret": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "OerFL1": "on_Oer20mm",
+        "OerFR1": "on_Oer20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "BofCR": "on_Bof40mm",
+        "BofRL": "on_Bof40mm",
+        "BofRR": "on_Bof40mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "50CL": "on_Twin50cal",
+        "50CR": "on_Twin50cal"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

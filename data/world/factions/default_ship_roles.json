@@ -43,8 +43,8 @@
 
 	# carriers
 	"carrierSmall":{
-			"on_liberty_standard":1,
 			"on_lst_support":5,
+			
 	},
 	"carrierMedium":{
 
@@ -77,16 +77,21 @@
 	"utility":{
 	},
 	"civilianRandom":{
-			"on_liberty_standard":5,
+			"on_liberty_passenger":5,
+			"on_liberty_cargo":5,
+			"on_victory_passenger":5,
+			"on_victory_cargo":5,
 			"on_cimarron_standard":5,
 	},
 	
 	# freighters
 	"freighterSmall":{
-			"on_liberty_standard":5,
 			"on_lst_support":5,
+			
 	},
 	"freighterMedium":{
+			"on_liberty_cargo":10,
+			"on_victory_cargo":5,
 
 	},
 	"freighterLarge":{
@@ -99,7 +104,7 @@
 	},
 	"tankerMedium":{
 			"on_cimarron_standard":5,
-			"on_liberty_standard":2,
+			
 	},
 	"tankerLarge":{
 		
@@ -110,6 +115,8 @@
 			"on_lst_support":5,
 	},
 	"linerMedium":{
+			"on_liberty_passenger":10,
+			"on_victory_passenger":5,
 
 	},
 	"linerLarge":{
@@ -119,11 +126,15 @@
 	#personnel
 	"personnelSmall":{
 			"on_lst_support":2,
-			"on_liberty_standard":2,
-			"on_cimarron_standard":2,
+
 	},
 	"personnelMedium":{
-
+			"on_liberty_passenger":2,
+			"on_liberty_cargo":2,
+			"on_victory_passenger":2,
+			"on_victory_cargo":2,
+			"on_cimarron_standard":2,
+			
 	},
 	"personnelLarge":{
 
