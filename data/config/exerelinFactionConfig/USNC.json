@@ -128,8 +128,8 @@
 		
 		[["modspec","on_defaultarmor"]],
 		
-		[["modspec","ballistic_rangefinder"],["modspec","magazines"],["modspec","turretgyros"],["modspec","on_pdgunner"]],
-		[["modspec","on_mobility"],["modspec","on_insulatedhull"],["modspec","on_armorpack"]]
+		[["modspec","on_mobility"],["modspec","on_insulatedhull"],["modspec","on_armorpack"],["modspec","on_pdgunner"]],
+		[["modspec","on_freight"],["modspec","on_passenger"]]
     ],
     
     "defenceStations":[
