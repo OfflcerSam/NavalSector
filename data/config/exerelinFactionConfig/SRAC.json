@@ -7,6 +7,7 @@
     "marketSpawnWeight":1.0,
 
 	"startRelationships":{
+		"USNC":0.4,
 		"independent":0.5,
 		"pirates":-1.0,
 		"tritachyon":0.0,

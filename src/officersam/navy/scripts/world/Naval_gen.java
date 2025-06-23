@@ -23,6 +23,10 @@ public class Naval_gen implements SectorGeneratorPlugin {
         FactionAPI usnc = sector.getFaction("USNC");
         FactionAPI srac = sector.getFaction("SRAC");
 
+        usnc.setRelationship(srac.getId(), 0.5f);
+        srac.setRelationship(usnc.getId(), 0.5f);
+
+
         FactionAPI player = sector.getFaction(Factions.PLAYER);
         FactionAPI hegemony = sector.getFaction(Factions.HEGEMONY);
         FactionAPI tritachyon = sector.getFaction(Factions.TRITACHYON);
@@ -39,7 +43,7 @@ public class Naval_gen implements SectorGeneratorPlugin {
         usnc.setRelationship(hegemony.getId(), 0.0f);
         usnc.setRelationship(tritachyon.getId(), 0.2f);
         usnc.setRelationship(pirates.getId(), -1.0f);
-        usnc.setRelationship(independent.getId(), 0.5f);
+        usnc.setRelationship(independent.getId(), 0.4f);
         usnc.setRelationship(persean.getId(), 0.2f);
         usnc.setRelationship(church.getId(), -0.3f);
         usnc.setRelationship(path.getId(), -1.0f);
@@ -51,7 +55,7 @@ public class Naval_gen implements SectorGeneratorPlugin {
         srac.setRelationship(hegemony.getId(), 0.0f);
         srac.setRelationship(tritachyon.getId(), 0.0f);
         srac.setRelationship(pirates.getId(), -1.0f);
-        srac.setRelationship(independent.getId(), 0.4f);
+        srac.setRelationship(independent.getId(), 0.3f);
         srac.setRelationship(persean.getId(), 0.2f);
         srac.setRelationship(church.getId(), -0.3f);
         srac.setRelationship(path.getId(), -1.0f);
