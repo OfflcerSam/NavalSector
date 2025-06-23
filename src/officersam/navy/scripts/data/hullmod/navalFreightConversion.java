@@ -55,11 +55,11 @@ public class navalFreightConversion extends BaseHullMod {
         tooltip.addSectionHeading("Logistics Modification", Alignment.MID, pad);
         tooltip.addPara("Hull: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) HULL_BONUS));
-        tooltip.addPara("Max Crew: %s", pad, Misc.getPositiveHighlightColor(),
+        tooltip.addPara("Max Crew: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) MAX_CREW_BONUS));
-        tooltip.addPara("Cargo Capacity: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Cargo Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
-        tooltip.addPara("Fuel Capacity: %s", pad, Misc.getNegativeHighlightColor(),
+        tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
 
     }
