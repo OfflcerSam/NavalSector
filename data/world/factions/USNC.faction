@@ -44,69 +44,24 @@
   
   "knownShips": {
     "tags": ["USNC"],
-		"hulls":[
-			"on_liberty",
-			"on_cimarron",
-			"on_lst",
-			
-			"on_butler",
-			"on_fletcher",
-			
-			"on_atlanta",
-			"on_yorktown",
-			"on_portland",
-			
-			"on_ncarolina",
-	],
+		"hulls":[],
   },
   # listing ships here will make the faction mostly use them even if other hulls become available
   "priorityShips": {
     "tags": ["USNC"],
-    "hulls": [
-			"on_liberty",
-			"on_cimarron",
-			"on_lst",
-			
-			"on_butler",
-			"on_fletcher",
-			
-			"on_atlanta",
-			"on_yorktown",
-			"on_portland",
-			
-			"on_ncarolina",
-			
-      ],		
+    "hulls": [],		
   },
 	"knownFighters":{
-		"tags":["USNC"],
-		"fighters":[
-			"on_elcopt_wing",
-
-			"on_devastator_100_wing",
-			"on_devastator_torp_wing",
-
-			"on_avenger_1000_wing",
-			"on_avenger_1600_wing",
-			"on_avenger_torp_wing",
-
-			"on_dauntless_1600_wing",
-			"on_dauntless_torp_wing",
-			"on_dauntless_mine_wing",
-
-			"on_wildcat_wing",
-		],
+		"tags":["USNC","base_bp"],
+		"fighters":[],
 	},
 	"priorityFighters":{
 		"tags":["USNC"],
 		"fighters":[],
   },
   "knownWeapons": {
-		"tags": ["USNC"],
-		"weapons": [
-			"mininglaser"
-			
-        ],
+		"tags": ["USNC","base_bp"],
+		"weapons": [],
   },
   "priorityWeapons": {
 		"tags": ["USNC"],
@@ -120,17 +75,6 @@
 		],
 	},
 	"weaponSellFrequency":{
-			"on_5inch":10,
-			"on_5inch_flak":10,
-			"on_5inch_dual":10,
-			"on_5inch_dual_flak":10,
-			
-			"on_8inch_triple":5,
-			
-			"on_16inch_quad":2,
-			
-			"on_21Mk15_rack":2,
-
 
 	},
 	"fighterSellFrequency":{

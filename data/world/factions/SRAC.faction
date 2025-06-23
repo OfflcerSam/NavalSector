@@ -54,20 +54,18 @@
     "hulls": [],		
   },
 	"knownFighters":{
-		"tags":["SRAC"],
+		"tags":["SRAC","base_bp"],
 		"fighters":[],
 	},
 	"priorityFighters":{
 		"tags":["SRAC"],
 		"fighters":[],
   },
-  "knownWeapons": {
-		"tags": ["SRAC"],
-		"weapons": [
-				"mininglaser"
-		],
+	"knownWeapons": {
+		"tags": ["SRAC","base_bp"],
+		"weapons": [],
   },
-  "priorityWeapons": {
+	"priorityWeapons": {
 		"tags": ["SRAC"],
 		"weapons": [],
 	},
