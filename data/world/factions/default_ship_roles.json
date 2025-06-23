@@ -2,7 +2,7 @@
 	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"on_fletcher_light":5,
+			"on_fletcher_light":10,
 			"on_fletcher_escort":5,
 			"on_butler_screen":5,
 	},
@@ -10,20 +10,20 @@
 			"on_NFP29_patrol":5,
 			"on_ND31_light":10,
 			
-			"on_monitorold_standard":2,
+			"on_monitorold_standard":1,
 			"on_sampson_strike":5,
 			"on_butler_screen":5,
 			"on_fletcher_light":10,
 			"on_fletcher_escort":5,
 	},
 	"combatMedium":{
-			"on_atlanta_flotilla":5,
+			"on_atlanta_flotilla":10,
 			"on_atlanta_support":5,
 			
 	},
 	"combatLarge":{
 			"on_portland_support":5,
-			"on_portland_attack":5,
+			"on_portland_attack":10,
 	},
 	"combatCapital":{
 			"on_ncarolina_fast":5,

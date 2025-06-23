@@ -1,31 +1,74 @@
 id,type,text1,text2,text3,notes
 #USNC,,,,,
-USNC,FACTION,"United States Naval Command
+USNC,FACTION,"United States Naval Command.
+
 A faction cut off from the rest of their nation due to unfortante circumstance, the senior leadership decided to consolidated power into a new command council and continue the traditions of the USN as their own entity or if one day they can be reunited.",,,
 ,,,,,
 #Ships,,,,,
-on_elcopt,SHIP,A patrol torpedo boat.,,,
-on_LCM6,SHIP,A space river patrol boat.,,,
-on_devastator,SHIP,A torpedo bomber,,,
-on_avenger,SHIP,A torpedo bomber,,,
-on_dauntless,SHIP,A torpedo bomber,,,
-on_wildcat,SHIP,A fighter,,,
+on_elcopt,SHIP,"Elco Patrol Torpedo Boat.
+
+This is a small craft armed with a decent armament of torpedoes used to take on bigger targets and then manuever away at speed.",,,
+on_LCM6,SHIP,"Modified LCM-6.
+
+This is a modified Landing Craft, uparmored and given a decent armament not really meant to fight ships head but fill more of a support/escort role.",,,
+on_devastator,SHIP,"TBD-1 Devastator.
+
+This is an early war naval bomber, usually armed with torpedoes or other bombs mounted on it's underside.",,,
+on_avenger,SHIP,"TBF-1C Avenger.
+
+This is an early to mid war naval bomber, usually armed with torpedoes or other bombs mounted on it's underside.",,,
+on_dauntless,SHIP,"SBD-3 Dauntless.
+
+This is an early to late war naval bomber, usually armed with torpedoes or other bombs mounted on it's underside.",,,
+on_wildcat,SHIP,"F4F-3 Wildcat.
+
+This is an early war naval fighter, sometimes armed with small bombs to deal with light targets.",,,
 ,,,,,
-on_cimarron,SHIP,A standard fuel tanker vessel.,,,
-on_liberty,SHIP,"A standard cargo merchant vessel, needs to be configured using it's designated hullmod.",,,
-on_victory,SHIP,"An upgraded liberty merchant vessel, needs to be configured using it's designated hullmod.",,,
-on_lst,SHIP,"A military transport ship, designed for naval landing invasions.",,,
-on_monitorold,SHIP,An ancient space river patrol frigate.,,,
-on_sampson,SHIP,An early destroyer,,,
-on_butler,SHIP,A destroyer that escorts destroyers or something.,,,
-on_balao,SHIP,"A destroyer sized submarine, that uses phase stuff",,,
-on_fletcher,SHIP,A decent all rounder in terms of destroyers in USNC lineup.,,,
-on_atlanta,SHIP,A light cruiser that usually leads destroyer groups.,,,
-on_portland,SHIP,A heavy cruiser that cruises heavily.,,,
-on_lexington,SHIP,A battlecruiser that cruises to battle.,,,
-on_yorktown,SHIP,A carrier converted from a heavy cruiser.,,,
-on_ncarolina,SHIP,A battleship used for relatively faster warfare.,,,
-on_iowa,SHIP,A battleship used for marginally faster warfare.,,,
+on_liberty,SHIP,"Liberty Ship, Multi-purpose Ship.
+
+This is an early to late war merchant ship, commissioned as part of a program to bolster supply line capability.",,,
+on_victory,SHIP,"Victory Ship class, Multi-purpose Ship.
+
+This is an early to late war merchant ship, this is an upgrade to the Liberty to improve it's engines and hull.",,,
+on_cimarron,SHIP,"Cimarron class, Tanker.
+
+This is an early to late war fuel tanker ship, commissioned as part of a program to bolster supply line capability.",,,
+on_lst,SHIP,"Landing Ship, Tank class, Troope Transport.
+
+This is an early to late war landing ship, usually used to support ground invasions or as very fragile light carriers.",,,
+on_monitorold,SHIP,"Ironclad Monitor class, Monitor.
+
+This is an ancient piece, most likely from a muesum but brought into service as a light gunship. There are some rumors of upgunning and automating the ship to better fit the role of a system patrol vessel.",,,
+on_sampson,SHIP,"Sampson class, Destroyer.
+
+This is a pre-war torpedo destroyer, commissioned long ago but still in service due to it's decent torpedo count and relatively cheap cost.",,,
+on_butler,SHIP,"Butler class, Destroyer Escort.
+
+This is a late war destroyer escort, it was meant to act as a screen compliment to various size formations.",,,
+on_balao,SHIP,"Balao class, Phase Destroyer.
+
+This is an mid to late war phase submarine, it packs a decent punch with it's torpedoes but has little in terms of other armament as it's meant to hit and run.",,,
+on_fletcher,SHIP,"Fletcher class, Destroyer.
+
+This is a early to late war destroyer, it sports a decent armament making it good as a core all-rounder.",,,
+on_atlanta,SHIP,"Atlanta class, Light Cruiser.
+
+This is an early to late war light cruiser, it was originally designed with the intent to either lead destroyer groups or provide good screening capability to larger fleets.",,,
+on_portland,SHIP,"Portland class, Heavy Cruiser.
+
+This is a pre-war to later war heavy cruiser, it has a decent bit of armor and an upgrade to armament in comparison to the Atlanta.",,,
+on_lexington,SHIP,"Lexington class, Battlecruiser.
+
+This is a pre-war battlecruiser, and is the only one of it's class in the USN's ship database.",,,
+on_yorktown,SHIP,"Yorktown class Carrier.
+
+This is a pre-war to late war carrier, it has a decent amount of aircraft and point defense with reserve craft beneth the deck inwhich elevators can be used to retrieve them.",,,
+on_ncarolina,SHIP,"North Carolina class, Battleship.
+
+This is a early to late war battleship, it has a good amount of armament and point defense while also somewhat retaining a decent bit of manuervability.",,,
+on_iowa,SHIP,"Iowa class, Battleship.
+
+This is a early to late war battleship, it has a good amount of armament and point defense while also somewhat retaining a decent bit of manuervability.",,,
 ,,,,,
 #Weapons,,,,,
 on_Twin50cal,WEAPON,"Twin 50cal AA Mount, you might see this for many built-in weapons. The loading mechanism has been automated, it feeds in one 105 round belt at a time while holding 210 rounds in reserve total.",,,
@@ -73,12 +116,13 @@ usnc_starofhope_east,CUSTOM,USNC Industrial Operations,,,
 usnc_starofhope_ice,CUSTOM,Frozen gas station,,,
 ,,,,,
 #SRAC,,,,,
-SRAC,FACTION,"Sampstonial Republic Admiralty Council
+SRAC,FACTION,"Sampstonial Republic Admiralty Council.
+
 A faction cut off from the rest of their nation due to unfortante circumstance, the senior leadership decided to consolidated power into a new command council and continue the traditions of the SRN as their own entity or if one day they can be reunited.",,,
 ,,,,,
 #Ships,,,,,
-on_NFP29,SHIP,A light patrol frigate,,,
-on_ND31,SHIP,A destroyer,,,
+on_NFP29,SHIP,Naval Frigate Pattern 1029.,,,
+on_ND31,SHIP,Naval Destroyer Pattern 1031.,,,
 ,,,,,
 #Weapons,,,,,
 on_6pounder_dual,WEAPON,"Dual 6 pounder (57mm) Gun turret. The loading mechanism has been semi-automated, it feeds in 2 rounds at a time while holding 10 rounds in reserve total.",,,
