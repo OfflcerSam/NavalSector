@@ -13,12 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "surveying_equipment",
-	"on_navalhull",
+    "on_navalhull",
     "ground_support"
-  ],
-  "builtInWings": [
-    "on_elcopt_wing",
-    "on_elcopt_wing"
   ],
   "builtInWeapons": {
     "50CL": "on_Twin50cal",

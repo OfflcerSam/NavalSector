@@ -104,12 +104,13 @@
     ],
 	
     "startShipsCarrierSmall":[
-		["on_fletcher_escort", "on_lst_support", "on_lst_support"],
-		["on_fletcher_light", "on_lst_support", "on_lst_support"]
+		["on_fletcher_escort", "on_lst_strike", "on_lst_strike"],
+		["on_fletcher_light", "on_lst_standard", "on_lst_strike"]
     ],
     "startShipsCarrierLarge":[
 		["on_yorktown_escort", "on_yorktown_strike", "on_fletcher_escort"],
-		["on_yorktown_strike", "on_yorktown_strike", "on_atlanta_support"]
+		["on_yorktown_strike", "on_yorktown_strike", "on_atlanta_support"],
+		["on_yorktown_strike", "on_lst_standard", "on_lst_support"]
     ],
 	
     

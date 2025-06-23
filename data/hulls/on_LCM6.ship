@@ -1,0 +1,95 @@
+{
+  "hullName": "LCM-6",
+  "hullId": "on_LCM6",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/USNC/LCM6Boat.png",
+  "style": "NAVALSHIP",
+  "height": 72,
+  "width": 24,
+  "center": [12, 36],
+  "collisionRadius": 38,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 38,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "on_AN50cal",
+    "WS0002": "on_Oer20mm",
+    "WS0003": "on_Oer20mm",
+    "WS0004": "on_OerD20mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "Main",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 299,
+      "angle": 0,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [-13, -4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [-13, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, 0],
+      "length": 1,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "NAVALSTEAM"
+    }
+  ],
+  "bounds": [
+    -34, 7,
+    -35, 10,
+    -24, 10,
+    23, 10,
+    28, 10,
+    35, 3,
+    35, -3,
+    28, -10,
+    23, -10,
+    -24, -10,
+    -35, -10,
+    -34, -7
+  ]
+}

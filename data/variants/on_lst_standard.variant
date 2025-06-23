@@ -1,7 +1,7 @@
 {
-  "variantId": "on_lst_support",
+  "variantId": "on_lst_standard",
   "hullId": "on_lst",
-  "displayName": "Support",
+  "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 10,
@@ -68,7 +68,7 @@
   ],
   "modules": [],
   "wings": [
-    "on_LCM6_PD_wing",
-    "on_LCM6_PD_wing"
+    "on_LCM6_M_wing",
+    "on_LCM6_M_wing"
   ]
 }

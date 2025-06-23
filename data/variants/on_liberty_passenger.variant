@@ -47,5 +47,7 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "on_LCM6_PD_wing"
+  ]
 }

@@ -32,7 +32,10 @@
 	
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
-			"on_lst_support":1,
+			"on_lst_support":5,
+			"on_lst_standard":5,
+			"on_lst_strike":5,
+			
 	},
 	"combatFreighterMedium":{
 
@@ -44,6 +47,8 @@
 	# carriers
 	"carrierSmall":{
 			"on_lst_support":5,
+			"on_lst_standard":5,
+			"on_lst_strike":5,
 			
 	},
 	"carrierMedium":{
@@ -113,6 +118,8 @@
 	#liner
 	"linerSmall":{
 			"on_lst_support":5,
+			"on_lst_standard":5,
+			
 	},
 	"linerMedium":{
 			"on_liberty_passenger":10,
@@ -125,7 +132,8 @@
 	
 	#personnel
 	"personnelSmall":{
-			"on_lst_support":2,
+			"on_lst_support":5,
+			"on_lst_standard":5,
 
 	},
 	"personnelMedium":{

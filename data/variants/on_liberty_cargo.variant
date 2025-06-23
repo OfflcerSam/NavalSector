@@ -47,5 +47,7 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "mining_drone_wing"
+  ]
 }

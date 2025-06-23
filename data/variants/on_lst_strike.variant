@@ -1,7 +1,7 @@
 {
-  "variantId": "on_lst_support",
+  "variantId": "on_lst_strike",
   "hullId": "on_lst",
-  "displayName": "Support",
+  "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 10,
@@ -68,7 +68,7 @@
   ],
   "modules": [],
   "wings": [
-    "on_LCM6_PD_wing",
-    "on_LCM6_PD_wing"
+    "on_elcopt_wing",
+    "on_elcopt_wing"
   ]
 }

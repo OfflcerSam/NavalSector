@@ -3,6 +3,8 @@ on_liberty_passenger
 on_liberty_cargo
 on_cimarron_standard
 on_lst_support
+on_lst_standard
+on_lst_strike
 on_monitorold_standard
 on_sampson_strike
 on_butler_screen
