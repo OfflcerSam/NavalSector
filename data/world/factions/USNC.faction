@@ -157,15 +157,24 @@
 		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
 		"autofitRandomizeProbability":0.25,
 
-		"commanderSkillsShuffleProbability":0.5,
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"damage_control",
+			"impact_mitigation",
+			"gunnery_implants",
+			"ballistic_mastery",
+			"point_defense",
+		],
+		
+		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[
+			"tactical_drills",
 			"fighter_uplink",
 			"carrier_group",
+			"support_doctrine",
 			"crew_training",
 			"officer_training",
 			"coordinated_maneuvers",
-			"electronic_warfare",
-			"flux_regulation",
 		],
 	},
 	"illegalCommodities":[
