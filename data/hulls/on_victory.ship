@@ -1,0 +1,138 @@
+{
+  "hullName": "Victory",
+  "hullId": "on_victory",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/USNC/Libertyship.png",
+  "style": "NAVALSHIP",
+  "height": 268,
+  "width": 34,
+  "center": [17, 134],
+  "collisionRadius": 138,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 138,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "mining_drone_wing"
+  ],
+  "builtInWeapons": {
+    "50CL": "on_Twin50cal",
+    "50CR": "on_Twin50cal",
+    "BofCR": "on_Bof40mm",
+    "BofRL": "on_Bof40mm",
+    "BofRR": "on_Bof40mm",
+    "OerFL1": "on_Oer20mm",
+    "OerFR1": "on_Oer20mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "Turret",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 347,
+      "angle": 0,
+      "locations": [123, -0]
+    },
+    {
+      "id": "OerFR1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [115, -8]
+    },
+    {
+      "id": "OerFL1",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [115, 8]
+    },
+    {
+      "id": "BofRR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-107, -7]
+    },
+    {
+      "id": "BofRL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-107, 7]
+    },
+    {
+      "id": "BofCR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 350,
+      "angle": 180,
+      "locations": [-126, -0]
+    },
+    {
+      "id": "50CR",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [27, -8]
+    },
+    {
+      "id": "50CL",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [27, 8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [13, -0],
+      "length": 2,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "NAVALSTEAM"
+    }
+  ],
+  "bounds": [
+    -132, 1,
+    -131, 2,
+    -128, 4,
+    -125, 5,
+    -116, 9,
+    -105, 11,
+    -93, 12,
+    108, 12,
+    118, 10,
+    125, 7,
+    132, 1,
+    132, -1,
+    125, -7,
+    118, -10,
+    108, -12,
+    -93, -12,
+    -105, -11,
+    -116, -9,
+    -125, -5,
+    -128, -4,
+    -131, -2,
+    -132, -1
+  ]
+}
