@@ -1,7 +1,7 @@
 {
   "variantId": "on_devastator_100",
   "hullId": "on_devastator",
-  "displayName": "Bomber",
+  "displayName": "Bomber (100lb)",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 2,

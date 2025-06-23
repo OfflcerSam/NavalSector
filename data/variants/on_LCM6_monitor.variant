@@ -1,7 +1,7 @@
 {
   "variantId": "on_LCM6_monitor",
   "hullId": "on_LCM6",
-  "displayName": "LCM-6 Monitor",
+  "displayName": "Monitor",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 5,

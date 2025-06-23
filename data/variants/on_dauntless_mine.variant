@@ -1,7 +1,7 @@
 {
   "variantId": "on_dauntless_mine",
   "hullId": "on_dauntless",
-  "displayName": "Bomber",
+  "displayName": "Bomber (Minelayer)",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 2,
