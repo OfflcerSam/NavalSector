@@ -13,9 +13,10 @@ import java.util.Set;
 public class navalPassengerConversion extends BaseHullMod {
 
     public static final float HULL_BONUS = -25f;
-    public static final float MAX_CREW_BONUS = 100f;
+    public static final float MAX_CREW_BONUS = 200f;
 
     public static final float CARGO_BONUS = -50f;
+    public static final float SUPPLY_BONUS = 50f;
     public static final float FUEL_BONUS = -25f;
 
     @Override
@@ -35,7 +36,8 @@ public class navalPassengerConversion extends BaseHullMod {
         stats.getMaxCrewMod().modifyPercent(id, MAX_CREW_BONUS);
         stats.getCargoMod().modifyPercent(id, CARGO_BONUS);
         stats.getFuelMod().modifyPercent(id, FUEL_BONUS);
-
+        //stats.getSuppliesToRecover().modifyPercent(id, SUPPLY_BONUS);
+        stats.getSuppliesPerMonth().modifyPercent(id, SUPPLY_BONUS);
 
         for (String blocked : BLOCKED_HULLMODS) {
             stats.getVariant().removeMod(blocked);
@@ -59,6 +61,8 @@ public class navalPassengerConversion extends BaseHullMod {
                 String.format("%d%%", (int) MAX_CREW_BONUS));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
+        tooltip.addPara("Supply Usage: %s", pad, Misc.getNegativeHighlightColor(),
+                String.format("%d%%", (int) SUPPLY_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getNegativeHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
 

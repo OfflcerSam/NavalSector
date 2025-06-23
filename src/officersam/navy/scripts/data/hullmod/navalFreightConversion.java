@@ -15,7 +15,8 @@ public class navalFreightConversion extends BaseHullMod {
     public static final float HULL_BONUS = -25f;
     public static final float MAX_CREW_BONUS = -50f;
 
-    public static final float CARGO_BONUS = 100f;
+    public static final float CARGO_BONUS = 200f;
+    public static final float SUPPLY_BONUS = -25f;
     public static final float FUEL_BONUS = 50f;
 
     @Override
@@ -34,6 +35,7 @@ public class navalFreightConversion extends BaseHullMod {
         stats.getHullBonus().modifyPercent(id, HULL_BONUS);
         stats.getMaxCrewMod().modifyPercent(id, MAX_CREW_BONUS);
         stats.getCargoMod().modifyPercent(id, CARGO_BONUS);
+        stats.getSuppliesPerMonth().modifyPercent(id, SUPPLY_BONUS);
         stats.getFuelMod().modifyPercent(id, FUEL_BONUS);
 
 
@@ -59,6 +61,8 @@ public class navalFreightConversion extends BaseHullMod {
                 String.format("%d%%", (int) MAX_CREW_BONUS));
         tooltip.addPara("Cargo Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) CARGO_BONUS));
+        tooltip.addPara("Supply Usage: %s", pad, Misc.getPositiveHighlightColor(),
+                String.format("%d%%", (int) SUPPLY_BONUS));
         tooltip.addPara("Fuel Capacity: %s", pad, Misc.getPositiveHighlightColor(),
                 String.format("%d%%", (int) FUEL_BONUS));
 
