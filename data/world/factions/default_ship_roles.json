@@ -20,6 +20,8 @@
 			"on_atlanta_flotilla":10,
 			"on_atlanta_support":5,
 			
+			"on_NC40_attack":10,
+			
 	},
 	"combatLarge":{
 			"on_portland_support":5,

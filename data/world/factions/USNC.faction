@@ -105,6 +105,8 @@
 		"officerSkills":[
 			"damage_control",
 			"impact_mitigation",
+			"combat_endurance",
+			"helmsmannship",
 			"gunnery_implants",
 			"ballistic_mastery",
 			"point_defense",

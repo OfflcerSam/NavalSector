@@ -71,9 +71,9 @@
 		["on_ND31_light", "on_NFP29_patrol", "on_NFP29_patrol"]
     ],
     "startShipsCombatLarge":[
-		["on_NFP29_patrol", "on_ND31_light", "on_ND31_light"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_ND31_light"],
-		["on_NFP29_patrol", "on_NFP29_patrol", "on_ND31_light"]
+		["on_NC40_attack", "on_ND31_light", "on_ND31_light"],
+		["on_NC40_attack", "on_NC40_attack", "on_ND31_light"],
+		["on_NC40_attack", "on_NFP29_patrol", "on_ND31_light"]
     ],
 	"startShipsGrandFleet":[
  		["on_NFP29_patrol", "on_NFP29_patrol", "on_NFP29_patrol"],
