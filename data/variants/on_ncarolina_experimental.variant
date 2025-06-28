@@ -3,7 +3,7 @@
   "hullId": "on_ncarolina",
   "displayName": "Experimental",
   "goalVariant": true,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 25,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -13,7 +13,8 @@
     "magazines",
     "on_insulatedhull",
     "on_defaultarmor",
-    "on_shield"
+    "on_shield",
+    "blast_doors"
   ],
   "weaponGroups": [
     {
@@ -22,7 +23,7 @@
       "weapons": {
         "MainF1": "on_420mmAE_dual",
         "MainF2": "on_420mmAE_dual",
-        "MainR1": "on_420mmAE_dual"
+        "MainR1": "on_16inch_quad"
       }
     },
     {
