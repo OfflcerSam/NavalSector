@@ -24,11 +24,14 @@
 			
 	},
 	"combatLarge":{
+			"on_portland_experimental":1,
 			"on_portland_support":5,
 			"on_portland_attack":10,
+			
 	},
 	"combatCapital":{
-			"on_ncarolina_fast":5,
+			"on_ncarolina_fast":10,
+			"on_ncarolina_experimental":1,
 	},
 	
 	
