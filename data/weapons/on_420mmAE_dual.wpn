@@ -3,7 +3,8 @@
   "specClass": "beam",
   "type": "HYBRID",
   "size": "LARGE",
-  "beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
+  #"beamEffect": "com.fs.starfarer.api.impl.combat.IonBeamEffect",
+  "pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/USNC/406mmAE.png",
@@ -46,8 +47,8 @@
   ],
   "width": 15,
   "textureType": LASER,
-  "textureScrollSpeed": 64,
-  "pixelsPerTexel": 1,
+  "textureScrollSpeed":260.0,
+  "pixelsPerTexel":5.0,
   "fireSoundOne": "on_sound_wave_charge",
   "fireSoundTwo": "on_sound_wave_loop"
 }
