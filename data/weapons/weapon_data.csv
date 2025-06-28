@@ -23,17 +23,21 @@ Bofor Quad 40mm Mount,on_BofQ40mm,1,,600,500,,35,,6,60,15,16,20,4,FRAGMENTATION,
 1600 lb AN-Mk 1 AP Bomb,on_1600lb,0,,600,200,,1200,,50,0,8,1,,,HIGH_EXPLOSIVE,0,,0,0.5,1,,5,5,0,0,,160,50,30,650,,,"STRIKE, BOMB, SYSTEM, SHOW_IN_CODEX","no_sell, no_drop, no_drop_salvage",,Naval Ordnance Department,,Strike,,,,,,,,,TRUE,1600
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bofors 57 mm Naval Automatic Gun L/70 dual gun Mount,on_57mm_mdual,1,,650,650,,70,,6,180,8,10,0.5,2,HIGH_EXPLOSIVE,35,,0,1,1,,0,5,1,2,,750,,,95,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he5, SR, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,57
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 5-inch/25-caliber Flak gun Mount,on_5inchS_flak,1,,700,700,,80,,8,60,6,5,0.14,1,FRAGMENTATION,40,,0,3,1,0,0,5,1,2,,650,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE, SYSTEM, SHOW_IN_CODEX","pd10, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 5-inch/38-caliber gun Mount,on_5inch,1,,950,700,,150,,15,55,10,5,0.14,1,HIGH_EXPLOSIVE,100,,0,3.5,1,0,0,5,1,2,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10, usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
 5-inch/38-caliber Flak gun Mount,on_5inch_flak,1,,850,700,,150,,10,55,8,5,0.14,1,FRAGMENTATION,90,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
 Dual 5-inch/38-caliber dual gun Mount,on_5inch_dual,1,,1150,700,,150,,15,55,13,10,0.29,2,HIGH_EXPLOSIVE,50,,0,3.5,1,0,0,5,1,2,,800,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he10,  usncws_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,127
 Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,700,,150,,10,55,15,10,0.29,2,FRAGMENTATION,45,,0,3.5,1,0,0,5,1,2,,800,,,150,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, usncws_bp, USNC",,Naval Ordnance Department,,Point Defense (Area),,,,,,,,,,127
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 5-inch/54-caliber Mark 45 gun Mount,on_5inch_m,2,,1250,800,,200,,15,90,17,10,0.25,10,HIGH_EXPLOSIVE,50,,0,2.5,1,0,0,5,1,2,,820,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"he12, usncws_bp, USNC",,Naval Ordnance Department,,Anti Shield,,,,,,,,,,
 5-inch/54-caliber Mark 50 Coilgun Mount,on_5inchCoil_m,2,,1250,1000,,350,1,20,90,19,10,0.25,10,KINETIC,250,,0.55,2,1,0,0,5,1,2,,2500,,,150,,,NO_TURN_RATE_BOOST_WHEN_IDLE,"kinetic12, usncws_bp, USNC",,Naval Ordnance Department,,Anti Shield,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # USNC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8-inch/55-caliber Mark 71 gun Mount,on_8inch_m,2,0.5,3850,850,,650,,25,55,25,5,0.12,5,HIGH_EXPLOSIVE,150,,0,4.5,1,0,0,6,2,4,,860,,,200,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 8-inch/55-caliber Mark 71 Coilgun Mount,on_8inchCoil_m,2,0.5,3850,1250,,650,,25,55,25,5,0.12,5,KINETIC,150,,0.55,4,1,0,0,6,2,4,,3000,,,200,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","kinetic20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Shield,,,,,,,,,,200
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8-inch/55-caliber triple gun Mount,on_8inch_triple,2,0.5,3500,800,,600,,25,35,25,30,0.05,3,HIGH_EXPLOSIVE,50,,0,8,3,0.4,0,6,2,4,,850,,,200,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 10-inch/40-caliber dual gun Mount,on_10inch_dual,2,0.5,4250,850,,850,,30,30,30,20,0.03,2,HIGH_EXPLOSIVE,70,,0,10,2,0.6,0,6,2,4,,850,,,250,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
 11-Inch Dahlgren dual gun Mount,on_11inchDahl_dual,2,0.5,3950,700,,900,,30,25,30,20,0.03,2,HIGH_EXPLOSIVE,80,,0,12,2,0.6,0,12,4,4,,500,,,225,,,"STRIKE, USE_VS_FRIGATES, NO_TURN_RATE_BOOST_WHEN_IDLE","he20, LR, usncwm_bp, USNC",,Naval Ordnance Department,,Anti Armor,,,,,,,,,,200
@@ -50,10 +54,10 @@ Dual 5-inch/38-caliber dual Flak gun Mount,on_5inch_dual_flak,1,,1050,700,,150,,
 420mm Experimental Positron gun Mount,on_420mmAE_dual,4,0.2,85000,1500,2420,,150,90,20,100,,,,HIGH_EXPLOSIVE,,3000,4,3,5,,,,,,10000,,,,,,,,"he30, LR, usncwe_bp, USNC",,Naval Research and Development Department,,Anti Armor,,,,,,,,,,400
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # SRAC Small,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncws_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
-QF 6-Pounder dual gun Mount,on_6pounder_dual,1,,600,600,,70,,6,60,6,10,0.5,2,HIGH_EXPLOSIVE,35,,0,2.5,2,0.1,0,5,1,2,,695,,,95,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he5, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,57
-100mm Flak gun Mount,on_100mm_flak,1,,800,650,,100,,10,60,6,5,0.17,1,FRAGMENTATION,80,,0,3,1,0,0,5,1,2,,825,,,200,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Point Defense (Area),,,,,,,,,,135
-100mm gun Mount,on_100mm,1,,800,650,,100,,10,60,9,5,0.17,1,HIGH_EXPLOSIVE,90,,0,3,1,0,0,5,1,2,,825,,,200,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he7, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,135
-135mm gun Mount,on_135mm,1,,1000,750,,300,,15,55,12,5,0.17,1,HIGH_EXPLOSIVE,110,,0,3.5,1,0,0,5,1,2,,800,,,200,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he12, LR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,135
+QF 6-Pounder dual gun Mount,on_6pounder_dual,1,,600,600,,70,,6,60,6,10,0.5,2,HIGH_EXPLOSIVE,35,,0,2.5,2,0.1,0,5,1,2,,695,,,95,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he5, SR, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,57
+100mm Flak gun Mount,on_100mm_flak,1,,800,650,,100,,10,60,6,5,0.17,1,FRAGMENTATION,80,,0,3,1,0,0,5,1,2,,825,,,200,,,"PD, PD_ALSO, ANTI_FTR, NO_TURN_RATE_BOOST_WHEN_IDLE","pd10, srncws_bp, SRAC",,Arsenal de la Republique,,Point Defense (Area),,,,,,,,,,135
+100mm gun Mount,on_100mm,1,,800,650,,100,,10,60,9,5,0.17,1,HIGH_EXPLOSIVE,90,,0,3,1,0,0,5,1,2,,825,,,200,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he7, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,135
+135mm gun Mount,on_135mm,1,,1000,750,,300,,15,55,12,5,0.17,1,HIGH_EXPLOSIVE,110,,0,3.5,1,0,0,5,1,2,,800,,,200,,,"CONSERVE_FOR_ANTI_ARMOR, NO_TURN_RATE_BOOST_WHEN_IDLE","he12, srncws_bp, SRAC",,Arsenal de la Republique,,Anti Armor,,,,,,,,,,135
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # SRAC Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"srncwm_bp, SRAC",,Arsenal de la Republique,,,,,,,,,,,,
