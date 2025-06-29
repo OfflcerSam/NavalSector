@@ -51,6 +51,9 @@ This is an mid to late war phase submarine, it packs a decent punch with it's to
 on_fletcher,SHIP,"Fletcher class, Destroyer.
 
 This is a early to late war destroyer, it sports a decent armament making it good as a core all-rounder.",,,
+on_fletcher_m,SHIP,"Fletcher (Modernized) class, Destroyer.
+
+This is a post-war destroyer modernization, it is equipped with vast arrays of missiles to take on targets at range.",,,
 on_atlanta,SHIP,"Atlanta class, Light Cruiser.
 
 This is an early to late war light cruiser, it was originally designed with the intent to either lead destroyer groups or provide good screening capability to larger fleets.",,,
