@@ -1,7 +1,7 @@
 {
   "id": "on_Pha20mm",
   "specClass": "projectile",
-  "projectileSpecId": "on_heavymg_red",
+  "projectileSpecId": "on_smallerHE",
   "type": "BALLISTIC",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/USNC/SAA_Main.PNG",
