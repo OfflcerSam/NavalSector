@@ -7,7 +7,7 @@
   "displayArcRadius": 300,
   "turretSprite": "graphics/weapons/USNC/VLS_Small.PNG",
   "turretUnderSprite": "graphics/weapons/USNC/5inch_TurretUnder.PNG",
-  "hardpointSprite": "graphics/weapons/USNC/VLS_Small.png",
+  "hardpointSprite": "graphics/weapons/USNC/VLS_Small_Hard.png",
   "turretOffsets": [
     -1,
     -1,
@@ -40,7 +40,7 @@
     0
   ],
   "hardpointOffsets": [
-   -1,
+    -1,
     -1,
     -1,
     0,

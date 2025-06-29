@@ -67,7 +67,7 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 15,
       "angle": 0,
       "locations": [5, -0]
     },
@@ -151,9 +151,9 @@
       "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 15,
       "angle": -90,
-      "locations": [-35, -0]
+      "locations": [-35, 3]
     }
   ],
   "engineSlots": [
