@@ -15,6 +15,7 @@
 			"on_butler_screen":5,
 			"on_fletcher_light":10,
 			"on_fletcher_escort":5,
+			"on_fletcher_m_missile":2,
 	},
 	"combatMedium":{
 			"on_atlanta_flotilla":10,
