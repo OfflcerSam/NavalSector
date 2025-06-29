@@ -55,10 +55,10 @@
 		{"file":"sounds/sfx_wpn_guns/AA/Bof40_fire_03.ogg","pitch":1.0,"volume":0.1},
 	],
 	"on_sound_m61_fire":[
-		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_1.ogg","pitch":1.0,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_2.ogg","pitch":1.0,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_3.ogg","pitch":1.0,"volume":0.1},
-		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_4.ogg","pitch":1.0,"volume":0.1},
+		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_1.ogg","pitch":1.0,"volume":0.09},
+		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_2.ogg","pitch":1.0,"volume":0.09},
+		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_3.ogg","pitch":1.0,"volume":0.09},
+		{"file":"sounds/sfx_wpn_guns/AA/m61_shot_4.ogg","pitch":1.0,"volume":0.09},
 	],
 	
 	#Cannons
