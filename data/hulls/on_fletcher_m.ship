@@ -1,0 +1,196 @@
+{
+  "hullName": "Fletcher (M)",
+  "hullId": "on_fletcher_m",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/USNC/FletcherClassModernized.png",
+  "style": "NAVALSHIP",
+  "height": 224,
+  "width": 26,
+  "center": [13, 112],
+  "collisionRadius": 119,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 119,
+  "viewOffset": 0,
+  "builtInMods": [
+    "on_navalhull",
+    "escort_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "on_Twin50cal",
+    "WS0002": "on_Twin50cal",
+    "WS0004": "on_RGM85",
+    "WS0005": "on_Pha20mm",
+    "WS0006": "on_Pha20mm",
+    "WS0008": "on_Pha20mm",
+    "WS0009": "on_Pha20mm",
+    "WS0020": "on_BofD40mm"
+  },
+  "weaponSlots": [
+    {
+      "id": "MainF1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [72, -0]
+    },
+    {
+      "id": "MainF2",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [59, -0]
+    },
+    {
+      "id": "MainR2",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-60, -0]
+    },
+    {
+      "id": "MainR1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-76, -0]
+    },
+    {
+      "id": "Torpedo2",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [49, -6]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [49, 6]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-9, -8]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-9, 8]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 302,
+      "angle": 180,
+      "locations": [-50, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -19.5, -0,
+        -20.5, -0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": -90,
+      "locations": [20.5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": 90,
+      "locations": [20.5, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-35, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [18, -0],
+      "length": 2,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "NAVALSTEAM"
+    },
+    {
+      "location": [-9, -0],
+      "length": 2,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "NAVALSTEAM"
+    }
+  ],
+  "bounds": [
+    -110, 5,
+    -102, 8,
+    -90, 9,
+    -49, 11,
+    25, 11,
+    48, 10,
+    72, 8,
+    99, 4,
+    110, -0,
+    99, -4,
+    72, -8,
+    48, -10,
+    25, -11,
+    -49, -11,
+    -90, -9,
+    -102, -8,
+    -110, -5
+  ]
+}

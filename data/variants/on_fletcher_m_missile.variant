@@ -1,0 +1,73 @@
+{
+  "variantId": "on_fletcher_m_missile",
+  "hullId": "on_fletcher_m",
+  "displayName": "Missile",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "on_shield",
+    "on_sensor",
+    "on_mobility",
+    "on_missileloader",
+    "on_insulatedhull",
+    "on_defaultarmor",
+    "on_ashe1"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MainF1": "on_5inchCoil_m",
+        "MainR1": "on_5inch_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MainF2": "on_RIM116",
+        "MainR2": "on_RIM116"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Torpedo2": "on_TomahawkVLS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "on_RGM85"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "on_Twin50cal",
+        "WS0002": "on_Twin50cal",
+        "WS0005": "on_Pha20mm",
+        "WS0006": "on_Pha20mm",
+        "WS0008": "on_Pha20mm",
+        "WS0009": "on_Pha20mm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "on_BofD40mm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

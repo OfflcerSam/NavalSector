@@ -1,0 +1,16 @@
+{
+	"id":"on_RIM116_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/21InchTorpedo.png",
+	"size":[1,6],	
+	"center":[0.5,3],
+	"collisionRadius":3.25,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,50,50,0],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":5, # purely visual
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":300,
+				  "acc":1000,
+				  "dec":800},
+}

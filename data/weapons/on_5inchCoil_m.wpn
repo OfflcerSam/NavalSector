@@ -1,8 +1,8 @@
 {
   "id": "on_5inchCoil_m",
   "specClass": "projectile",
-  "projectileSpecId": "on_smallHE",
-  "type": "BALLISTIC",
+  "projectileSpecId": "on_mediumCoil_shot",
+  "type": "HYBRID",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/USNC/5inch_Turret.PNG",
   "turretGunSprite": "graphics/weapons/USNC/5inch_Gun.PNG",

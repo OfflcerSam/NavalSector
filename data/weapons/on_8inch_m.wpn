@@ -4,23 +4,19 @@
   "projectileSpecId": "on_mediumHE",
   "type": "BALLISTIC",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/USNC/8InchT_Main.PNG",
-  "turretGunSprite": "graphics/weapons/USNC/8InchT_Gun.PNG",
+  "turretSprite": "graphics/weapons/USNC/8inchM_Main.png",
+  "turretGunSprite": "graphics/weapons/USNC/8inchM_Gun.png",
   "turretUnderSprite": "graphics/weapons/USNC/8inch_under.PNG",
   "hardpointSprite": "",
   "visualRecoil": 5,
-  "renderHints": [RENDER_BARREL_BELOW],
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
   "turretOffsets": [
     23,
-    3,
-    23,
-    0,
-    23,
-    -3
+    0
   ],
   "turretAngleOffsets": [
-    0,
-    0,
     0
   ],
   "hardpointOffsets": [

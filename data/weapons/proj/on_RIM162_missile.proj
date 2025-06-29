@@ -1,0 +1,36 @@
+{
+	"id":"on_RIM162_missile",
+	"specClass":"missile",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/missiles/21InchTorpedo.png",
+	"size":[2,12],	
+	"center":[1,6],
+	"collisionRadius":6.5,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":270,
+				  "acc":2500,
+				  "dec":1500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    #"style":"MISSILE_LOW_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,145,75,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":40.0,
+				    "angle":180.0}]
+}
