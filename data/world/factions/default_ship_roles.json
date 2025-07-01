@@ -2,9 +2,14 @@
 	# should be a copy of "combatSmall", minus standards that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-			"on_fletcher_light":10,
-			"on_fletcher_escort":5,
-			"on_butler_screen":5,
+			"on_NFP29_patrol":5,
+			"on_ND31_light":10,
+			
+			"on_monitorold_standard":1,
+			"on_sampson_strike":5,
+			"on_butler_screen":10,
+			"on_fletcher_light":20,
+			"on_fletcher_escort":10,
 	},
 	"combatSmall":{
 			"on_NFP29_patrol":5,
@@ -12,27 +17,27 @@
 			
 			"on_monitorold_standard":1,
 			"on_sampson_strike":5,
-			"on_butler_screen":5,
-			"on_fletcher_light":10,
-			"on_fletcher_escort":5,
-			"on_fletcher_m_missile":2,
+			"on_butler_screen":10,
+			"on_fletcher_light":20,
+			"on_fletcher_escort":10,
+			"on_fletcher_m_missile":1,
 	},
 	"combatMedium":{
-			"on_atlanta_flotilla":10,
-			"on_atlanta_support":5,
+			"on_atlanta_flotilla":20,
+			"on_atlanta_support":10,
 			
 			"on_NC40_attack":10,
 			
 	},
 	"combatLarge":{
 			"on_portland_experimental":1,
-			"on_portland_support":5,
-			"on_portland_attack":10,
+			"on_portland_support":10,
+			"on_portland_attack":20,
 			
 	},
 	"combatCapital":{
-			"on_ncarolina_fast":10,
-			"on_ncarolina_experimental":1,
+			"on_ncarolina_fast":20,
+			#"on_ncarolina_experimental":1,
 	},
 	
 	

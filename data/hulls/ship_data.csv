@@ -11,7 +11,7 @@ Sampson,on_sampson,Destroyer,Naval Maritime Commission,,8,7650,150,3000,,150,50,
 Butler,on_butler,Destroyer Escort,Naval Maritime Commission,,10,8750,250,5000,,250,65,,160,50,125,10,7,550,NONE,,,,,,,150,195,25,40,1,25,9,24500,15,10,540,0.25,7,7,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1943
 Balao,on_balao,Phase Destroyer,Naval Maritime Commission,,12,10500,200,5000,,300,65,,150,50,115,10,7,525,PHASE,phasecloak,90,,,0.08,0.06,65,80,15,30,1,30,9,30500,15,15,540,0.25,12,12,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1942
 Fletcher,on_fletcher,Destroyer,Naval Maritime Commission,,15,11250,550,7000,,300,100,,150,50,115,10,7,1000,NONE,,,,,,,250,330,30,50,1,30,9,32500,15,15,540,0.25,9,9,,,,,,,,"usncs_bp, USNC",,0.5,2,5,,1941
-Fletcher (M),on_fletcher_m,Destroyer,Naval Maritime Commission,,16,12000,600,7000,,300,110,1,160,60,125,10,7,1100,NONE,,,,,,,240,320,30,60,1,50,9,33500,15,15,720,0.25,9,9,,,,,,,CARRIER,"usncs_bp, USNC",,0.5,2,5,,2000
+Fletcher (M),on_fletcher_m,Destroyer,Naval Maritime Commission,,18,12000,600,7000,,300,110,1,160,60,125,10,7,1100,NONE,,,,,,,240,320,30,60,1,50,9,33500,15,15,720,0.25,12,12,,,,,,,CARRIER,"usncs_bp, USNC",,0.5,2,5,,2000
 Atlanta,on_atlanta,Light Cruiser,Naval Maritime Commission,,20,25000,700,8500,,500,225,,140,50,105,9,6,2300,NONE,,,,,,,505,670,35,60,1,45,9,75500,25,20,720,0.25,14,14,,,,,,,,"usncs_bp, USNC",,0.4,3,8,,1934
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #USNC Interstellar Fleet,,,Naval Maritime Commission,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

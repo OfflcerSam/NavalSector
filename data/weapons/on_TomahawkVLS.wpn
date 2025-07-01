@@ -71,6 +71,23 @@
     0
   ],
   "barrelMode": "ALTERNATING",
-  "animationType": "NONE",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 5,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 15,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
   "fireSoundTwo": "salamander_fire"
 }
