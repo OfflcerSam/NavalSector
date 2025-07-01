@@ -22,7 +22,7 @@ public class navalMissileAutoloader extends BaseHullMod {
     public static String MR_DATA_KEY = "core_reload_data_key";
 
     public static class PeriodicMissileReloadData {
-        IntervalUtil interval = new IntervalUtil(15f, 30f);
+        IntervalUtil interval = new IntervalUtil(60f, 120f);
     }
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
