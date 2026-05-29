@@ -160,7 +160,6 @@ public class USNC_StarofHope {
                         Conditions.COLD,
                         Conditions.HABITABLE,
                         Conditions.RUINS_SCATTERED,
-
                         Conditions.POPULATION_8,
                         Conditions.REGIONAL_CAPITAL,
 

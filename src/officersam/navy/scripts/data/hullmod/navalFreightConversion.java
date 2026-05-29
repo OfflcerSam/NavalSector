@@ -38,12 +38,11 @@ public class navalFreightConversion extends BaseHullMod {
         stats.getSuppliesPerMonth().modifyPercent(id, SUPPLY_BONUS);
         stats.getFuelMod().modifyPercent(id, FUEL_BONUS);
 
-
         for (String blocked : BLOCKED_HULLMODS) {
             stats.getVariant().removeMod(blocked);
         }
     }
-
+ 
     @Override
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
         return null;
